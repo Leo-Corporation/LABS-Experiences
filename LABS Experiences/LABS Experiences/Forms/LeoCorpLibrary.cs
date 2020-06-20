@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LeoCorpLibrary;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -19,7 +20,17 @@ namespace LABS_Experiences.Forms
 
         private void button1_Click(object sender, EventArgs e)
         {
+            MessageBox.Show(Env.GetTotalDriveSpace(@"C:\", UnitType.Gigabyte).ToString()); // Obtenir l'espace total du lecteur
+        }
 
+        private void button2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(Env.GetDriveAvailableFreeSpace(@"C:\", UnitType.Gigabyte).ToString()); // Obtenir l'espace disponible du lecteur
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(Env.GetOccupiedDriveSpace(@"C:\", UnitType.Gigabyte).ToString()); // Obtenir l'espace occupé du lecteur
         }
     }
 }
