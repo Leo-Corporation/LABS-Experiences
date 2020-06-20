@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LABS_Experiences.Forms;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,11 @@ namespace LABS_Experiences
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            new LeoCorpLibrary().Show(); // Ouvrir la fenêtre de l'expérience
         }
     }
 }
