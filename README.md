@@ -12,4 +12,4 @@ Si vous souhaitez contribuer au projet, vous devez avoir les prérequis suivants
 - .NET Framework 4.7.2
 
 ## License
-Le projet est sous la license [MIT]().
+Le projet est sous la license [MIT](https://github.com/Leo-Corporation/LABS-Experiences/blob/master/LICENSE.md).
