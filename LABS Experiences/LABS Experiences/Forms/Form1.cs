@@ -22,5 +22,10 @@ namespace LABS_Experiences
         {
             new Forms.LeoCorpLibrary().Show(); // Ouvrir la fenêtre de l'expérience
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            label4.Text = string.Format("© {0} Léo Corporation", DateTime.Now.Year.ToString()); // Mettre à jour le copyright
+        }
     }
 }
