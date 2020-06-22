@@ -36,6 +36,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label4 = new System.Windows.Forms.Label();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -116,12 +117,26 @@
             this.label4.TabIndex = 2;
             this.label4.Text = "© 2020 Léo Corporation";
             // 
+            // linkLabel1
+            // 
+            this.linkLabel1.AutoSize = true;
+            this.linkLabel1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabel1.LinkColor = System.Drawing.Color.MediumSlateBlue;
+            this.linkLabel1.Location = new System.Drawing.Point(575, 399);
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.Size = new System.Drawing.Size(78, 21);
+            this.linkLabel1.TabIndex = 6;
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.Text = "A propos";
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(665, 429);
+            this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label3);
@@ -150,6 +165,7 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.LinkLabel linkLabel1;
     }
 }
 

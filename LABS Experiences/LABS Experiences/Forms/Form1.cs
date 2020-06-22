@@ -27,5 +27,10 @@ namespace LABS_Experiences
         {
             label4.Text = string.Format("© {0} Léo Corporation", DateTime.Now.Year.ToString()); // Mettre à jour le copyright
         }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            new AboutForm().Show(); // Ouvrir la fenêtre "A propos"
+        }
     }
 }
