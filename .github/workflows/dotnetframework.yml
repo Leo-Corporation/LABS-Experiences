@@ -1,0 +1,22 @@
+name: .NET Framework
+on: [push]
+
+jobs:
+  build:
+    
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v1
+        name: Checkout Code
+        
+      - name: Setup MSBuild Path
+        uses: warrenbuckley/Setup-MSBuild@v1
+       
+      - name: Setup NuGet
+        uses: NuGet/setup-nuget@v1.0.2
+     
+      - name: Restore NuGet Packages
+        run: nuget restore "LABS Experiences\LABS Experiences.sln"
+ 
+      - name: Build and Publish App
+        run: msbuild "LABS Experiences\LABS Experiences.sln" /p:Configuration=Release
