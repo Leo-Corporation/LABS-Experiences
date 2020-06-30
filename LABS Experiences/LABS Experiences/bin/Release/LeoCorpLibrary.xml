@@ -273,6 +273,33 @@
             <param name="innerException">Exception à l'origine de l'exception actuelle, ou une référence null (Nothing
             en Visual Basic) si aucune exception interne n'est spécifiée.</param>
         </member>
+        <member name="T:LeoCorpLibrary.Load">
+            <summary>
+            Classe regroupant des méthodes sur le chargement de fichiers dans des contrôles.
+            </summary>
+        </member>
+        <member name="M:LeoCorpLibrary.Load.ListViewContent(System.Windows.Forms.ListView,System.String)">
+            <summary>
+            Permet de charger un fichier de sauvegarde dans une <see cref="T:System.Windows.Forms.ListView"/>.
+            </summary>
+            <exception cref="T:System.ArgumentNullException"></exception>
+            <exception cref="T:System.Exception"></exception>
+            <exception cref="T:System.IO.FileNotFoundException"></exception>
+            <param name="listView"><see cref="T:System.Windows.Forms.ListView"/>.</param>
+            <param name="filePath">Emplacement du fichier à charger dans la <see cref="T:System.Windows.Forms.ListView"/>.</param>
+        </member>
+        <member name="M:LeoCorpLibrary.Load.ListViewContent(System.Windows.Forms.ListView,System.String,System.String,System.String)">
+            <summary>
+            Permet de charger un fichier de sauvegarde dans une <see cref="T:System.Windows.Forms.ListView"/>.
+            </summary>
+            <exception cref="T:System.ArgumentNullException"></exception>
+            <exception cref="T:System.Exception"></exception>
+            <exception cref="T:System.IO.FileNotFoundException"></exception>
+            <param name="listView"><see cref="T:System.Windows.Forms.ListView"/>.</param>
+            <param name="filePath">Emplacement du fichier à charger dans la <see cref="T:System.Windows.Forms.ListView"/>.</param>
+            <param name="itemSplit">Séparateur d'éléments utilisé lors de la sauvegarde.</param>
+            <param name="columnSplit">Séparateur de colonnes utilisé lors de la sauvegarde.</param>
+        </member>
         <member name="T:LeoCorpLibrary.Maths">
             <summary>
             Classe regroupant des méthodes liées aux mathématiques.
@@ -384,6 +411,31 @@
             <param name="separator">Séparateur.</param>
             <exception cref="T:System.Exception"></exception>
             <returns>Valeur de type <see cref="T:System.String"/>.</returns>
+        </member>
+        <member name="T:LeoCorpLibrary.Save">
+            <summary>
+            Classe regroupant des méthodes sur la sauvegarde de contrôles dans des fichiers.
+            </summary>
+        </member>
+        <member name="M:LeoCorpLibrary.Save.ListViewContent(System.Windows.Forms.ListView,System.String)">
+            <summary>
+            Permet de sauvegarder le contenu d'une <see cref="T:System.Windows.Forms.ListView"/>.
+            </summary>
+            <exception cref="T:System.ArgumentNullException"></exception>
+            <exception cref="T:System.Exception"></exception>
+            <param name="listView"><see cref="T:System.Windows.Forms.ListView"/>.</param>
+            <param name="filePath">Emplacement où enregistrer le contenu d'une <see cref="T:System.Windows.Forms.ListView"/>.</param>
+        </member>
+        <member name="M:LeoCorpLibrary.Save.ListViewContent(System.Windows.Forms.ListView,System.String,System.String,System.String)">
+            <summary>
+            Permet de sauvegarder le contenu d'une <see cref="T:System.Windows.Forms.ListView"/>.
+            </summary>
+            <exception cref="T:System.ArgumentNullException"></exception>
+            <exception cref="T:System.Exception"></exception>
+            <param name="listView"><see cref="T:System.Windows.Forms.ListView"/>.</param>
+            <param name="filePath">Emplacement où enregistrer le contenu d'une <see cref="T:System.Windows.Forms.ListView"/>.</param>
+            <param name="itemSplit">Séprateur d'éléments (ex: /*E*/).</param>
+            <param name="columnSplit">Séparateur de colonnes (ex: /*C*/)</param>
         </member>
         <member name="T:LeoCorpLibrary.Update">
             <summary>

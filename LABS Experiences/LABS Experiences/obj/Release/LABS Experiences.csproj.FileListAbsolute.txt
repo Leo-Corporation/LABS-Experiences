@@ -6,10 +6,11 @@ C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\LABS Expe
 C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\LABS Experiences\obj\Release\LABS Experiences.csprojAssemblyReference.cache
 C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\LABS Experiences\obj\Release\LABS_Experiences.Forms.AboutForm.resources
 C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\LABS Experiences\obj\Release\LABS_Experiences.Form1.resources
-C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\LABS Experiences\obj\Release\LABS_Experiences.Forms.LeoCorpLibrary.resources
 C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\LABS Experiences\obj\Release\LABS_Experiences.Properties.Resources.resources
 C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\LABS Experiences\obj\Release\LABS Experiences.csproj.GenerateResource.cache
 C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\LABS Experiences\obj\Release\LABS Experiences.csproj.CoreCompileInputs.cache
 C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\LABS Experiences\obj\Release\LABS Experiences.csproj.CopyComplete
 C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\LABS Experiences\obj\Release\LABS Experiences.exe
 C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\LABS Experiences\obj\Release\LABS Experiences.pdb
+C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\LABS Experiences\obj\Release\LABS_Experiences.Forms.LeoCorpLibraryForm.resources
+C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\LABS Experiences\obj\Release\LABS_Experiences.Forms.ListViewSaveLoad.resources
