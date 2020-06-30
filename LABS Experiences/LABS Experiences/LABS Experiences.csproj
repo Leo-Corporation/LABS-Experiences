@@ -64,11 +64,11 @@
     <Compile Include="Forms\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\LeoCorpLibrary.cs">
+    <Compile Include="Forms\LeoCorpLibraryForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\LeoCorpLibrary.Designer.cs">
-      <DependentUpon>LeoCorpLibrary.cs</DependentUpon>
+    <Compile Include="Forms\LeoCorpLibraryForm.Designer.cs">
+      <DependentUpon>LeoCorpLibraryForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\ListViewSaveLoad.cs">
       <SubType>Form</SubType>
@@ -84,8 +84,8 @@
     <EmbeddedResource Include="Forms\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\LeoCorpLibrary.resx">
-      <DependentUpon>LeoCorpLibrary.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\LeoCorpLibraryForm.resx">
+      <DependentUpon>LeoCorpLibraryForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\ListViewSaveLoad.resx">
       <DependentUpon>ListViewSaveLoad.cs</DependentUpon>
