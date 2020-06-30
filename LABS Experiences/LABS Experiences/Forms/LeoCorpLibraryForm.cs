@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace LABS_Experiences.Forms
 {
-    public partial class LeoCorpLibrary : Form
+    public partial class LeoCorpLibraryForm : Form
     {
-        public LeoCorpLibrary()
+        public LeoCorpLibraryForm()
         {
             InitializeComponent();
         }

@@ -20,7 +20,7 @@ namespace LABS_Experiences
 
         private void button1_Click(object sender, EventArgs e)
         {
-            new Forms.LeoCorpLibrary().Show(); // Ouvrir la fenêtre de l'expérience
+            new Forms.LeoCorpLibraryForm().Show(); // Ouvrir la fenêtre de l'expérience
         }
 
         private void Form1_Load(object sender, EventArgs e)
