@@ -434,7 +434,7 @@
             <exception cref="T:System.Exception"></exception>
             <param name="listView"><see cref="T:System.Windows.Forms.ListView"/>.</param>
             <param name="filePath">Emplacement où enregistrer le contenu d'une <see cref="T:System.Windows.Forms.ListView"/>.</param>
-            <param name="itemSplit">Séprateur d'éléments (ex: /*E*/).</param>
+            <param name="itemSplit">Séparateur d'éléments (ex: /*E*/).</param>
             <param name="columnSplit">Séparateur de colonnes (ex: /*C*/)</param>
         </member>
         <member name="T:LeoCorpLibrary.Update">
