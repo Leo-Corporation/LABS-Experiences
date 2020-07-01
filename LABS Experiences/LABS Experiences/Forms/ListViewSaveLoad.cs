@@ -25,7 +25,7 @@ namespace LABS_Experiences.Forms
 
         private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            LeoCorpLibrary.Load.ListViewContent(listView1, Application.StartupPath + "/test.txt") ;
+            LeoCorpLibrary.Load.ListViewContent(listView1, Application.StartupPath + "/test.txt");
         }
 
         private void linkLabel3_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
