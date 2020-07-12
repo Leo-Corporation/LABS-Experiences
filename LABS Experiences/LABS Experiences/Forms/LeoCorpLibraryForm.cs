@@ -37,5 +37,15 @@ namespace LABS_Experiences.Forms
         {
             new ListViewSaveLoad().Show();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(Maths.Cube.GetVolume(2, 2).ToString());
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(Maths.Cylinder.GetVolume(4, 5).ToString());
+        }
     }
 }
