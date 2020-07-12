@@ -376,6 +376,32 @@
             <param name="side3">Côté du triangle.</param>
             <returns>Valeur de type <see cref="T:System.Boolean"/>.</returns>
         </member>
+        <member name="T:LeoCorpLibrary.Maths.Cube">
+            <summary>
+            Classe regroupant des méthodes liées au cube.
+            </summary>
+        </member>
+        <member name="M:LeoCorpLibrary.Maths.Cube.GetVolume(System.Double,System.Double)">
+            <summary>
+            Permet d'obtenir le volume d'un cube.
+            </summary>
+            <param name="side">Longueur du côté.</param>
+            <param name="height">Hauteur.</param>
+            <returns>Valeur de type <see cref="T:System.Double"/>.</returns>
+        </member>
+        <member name="T:LeoCorpLibrary.Maths.Cylinder">
+            <summary>
+            Classe regroupant des méthodes liées au cylindre
+            </summary>
+        </member>
+        <member name="M:LeoCorpLibrary.Maths.Cylinder.GetVolume(System.Double,System.Double)">
+            <summary>
+            Permet d'obtenir le volume d'un cylindre.
+            </summary>
+            <param name="radius">Rayon.</param>
+            <param name="height">Hauteur.</param>
+            <returns>Valeur de type <see cref="T:System.Double"/>.</returns>
+        </member>
         <member name="T:LeoCorpLibrary.NetworkConnection">
             <summary>
             Classe regroupant des méthodes pour vérifier la connexion Internet de l'utilisateur.
