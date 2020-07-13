@@ -47,5 +47,10 @@ namespace LABS_Experiences.Forms
         {
             MessageBox.Show(Maths.Cylinder.GetVolume(4, 5).ToString());
         }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(Maths.Pyramid.GetVolume(5, 6, 7).ToString());
+        }
     }
 }
