@@ -32,5 +32,10 @@ namespace LABS_Experiences
         {
             new AboutForm().Show(); // Ouvrir la fenêtre "A propos"
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            new ClearRamCache().Show(); // Afficher l'expérience
+        }
     }
 }

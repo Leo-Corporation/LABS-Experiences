@@ -14,3 +14,5 @@ C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\LABS Expe
 C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\LABS Experiences\obj\Release\LABS Experiences.pdb
 C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\LABS Experiences\obj\Release\LABS_Experiences.Forms.LeoCorpLibraryForm.resources
 C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\LABS Experiences\obj\Release\LABS_Experiences.Forms.ListViewSaveLoad.resources
+C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\LABS Experiences\obj\Release\LABS_Experiences.Forms.ClearRamCache.resources
+C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\LABS Experiences\obj\Release\LABS_Experiences.Forms.UseRam.resources
