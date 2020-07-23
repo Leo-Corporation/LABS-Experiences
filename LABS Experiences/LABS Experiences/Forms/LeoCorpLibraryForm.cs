@@ -52,5 +52,25 @@ namespace LABS_Experiences.Forms
         {
             MessageBox.Show(Maths.Pyramid.GetVolume(5, 6, 7).ToString());
         }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(Maths.Pyramid.GetHeight(10, 10, 100).ToString());
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(Maths.Pyramid.GetWidthBase(100, 10).ToString());
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(Maths.Pyramid.GetLenghtBase(100, 10).ToString());
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(Maths.Cube.GetEdge(100).ToString());
+        }
     }
 }
