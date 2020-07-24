@@ -75,7 +75,12 @@ namespace LABS_Experiences.Forms
 
         private void button12_Click(object sender, EventArgs e)
         {
+            MessageBox.Show(Maths.Cylinder.GetHeight(1000, 3).ToString());
+        }
 
+        private void button13_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(Maths.Cylinder.GetBaseArea(10).ToString());
         }
     }
 }
