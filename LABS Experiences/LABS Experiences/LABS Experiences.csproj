@@ -37,7 +37,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="LeoCorpLibrary, Version=1.8.1.2007, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\LeoCorpLibrary.1.8.1.2007-pre1\lib\net472\LeoCorpLibrary.dll</HintPath>
+      <HintPath>..\packages\LeoCorpLibrary.1.8.1.2007-rc1\lib\net472\LeoCorpLibrary.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />

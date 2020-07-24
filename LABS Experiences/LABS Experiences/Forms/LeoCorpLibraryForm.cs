@@ -72,5 +72,10 @@ namespace LABS_Experiences.Forms
         {
             MessageBox.Show(Maths.Cube.GetEdge(100).ToString());
         }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
