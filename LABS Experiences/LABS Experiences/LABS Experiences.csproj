@@ -58,6 +58,12 @@
     <Compile Include="Forms\AboutForm.Designer.cs">
       <DependentUpon>AboutForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\AsyncAwait.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AsyncAwait.Designer.cs">
+      <DependentUpon>AsyncAwait.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\ClearRamCache.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -88,6 +94,12 @@
     <Compile Include="Forms\TestForm.Designer.cs">
       <DependentUpon>TestForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\TextDownloader.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\TextDownloader.Designer.cs">
+      <DependentUpon>TextDownloader.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\UseRam.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -101,6 +113,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Forms\AboutForm.resx">
       <DependentUpon>AboutForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AsyncAwait.resx">
+      <DependentUpon>AsyncAwait.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\ClearRamCache.resx">
       <DependentUpon>ClearRamCache.cs</DependentUpon>
@@ -116,6 +131,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\TestForm.resx">
       <DependentUpon>TestForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TextDownloader.resx">
+      <DependentUpon>TextDownloader.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\UseRam.resx">
       <DependentUpon>UseRam.cs</DependentUpon>

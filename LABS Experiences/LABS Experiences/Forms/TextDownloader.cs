@@ -21,49 +21,36 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE. 
 */
-using LABS_Experiences.Forms;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace LABS_Experiences
+namespace LABS_Experiences.Forms
 {
-    public partial class Form1 : Form
+    public partial class TextDownloader : LABSForm
     {
-        public Form1()
+        public TextDownloader()
         {
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private async void button2_Click(object sender, EventArgs e)
         {
-            new Forms.LeoCorpLibraryForm().Show(); // Ouvrir la fenêtre de l'expérience
+            Task<string> task = new Task<string>(DownloadString);
+            task.Start();
+            label3.Text = await task;
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private string DownloadString()
         {
-            label4.Text = string.Format("© {0} Léo Corporation", DateTime.Now.Year.ToString()); // Mettre à jour le copyright
-        }
-
-        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            new AboutForm().Show(); // Ouvrir la fenêtre "A propos"
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            new ClearRamCache().Show(); // Afficher l'expérience
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            new AsyncAwait().Show();
+            return new WebClient().DownloadString("https://raw.githubusercontent.com/Leo-Corporation/LeoCorp-Docs/master/Liens/Update%20System/Educ'Maths%204.0/Dev/Download.txt");
         }
     }
 }
