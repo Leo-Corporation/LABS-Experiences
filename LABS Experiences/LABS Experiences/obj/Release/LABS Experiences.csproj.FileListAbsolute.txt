@@ -18,3 +18,5 @@ C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\LABS Expe
 C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\LABS Experiences\obj\Release\LABS_Experiences.Forms.UseRam.resources
 C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\LABS Experiences\obj\Release\LABS_Experiences.LABSForm.resources
 C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\LABS Experiences\obj\Release\LABS_Experiences.Forms.TestForm.resources
+C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\LABS Experiences\obj\Release\LABS_Experiences.Forms.AsyncAwait.resources
+C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\LABS Experiences\obj\Release\LABS_Experiences.Forms.TextDownloader.resources
