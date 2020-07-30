@@ -44,5 +44,10 @@ namespace LABS_Experiences.Forms
         {
             new TextDownloader().Show();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            new GetLastVersionAsync().Show();
+        }
     }
 }

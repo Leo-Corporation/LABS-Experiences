@@ -76,6 +76,12 @@
     <Compile Include="Forms\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\GetLastVersionAsync.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\GetLastVersionAsync.Designer.cs">
+      <DependentUpon>GetLastVersionAsync.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\LeoCorpLibraryForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -122,6 +128,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\GetLastVersionAsync.resx">
+      <DependentUpon>GetLastVersionAsync.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\LeoCorpLibraryForm.resx">
       <DependentUpon>LeoCorpLibraryForm.cs</DependentUpon>
