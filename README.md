@@ -1,4 +1,4 @@
-# LABS Experiences
+# LABS Experiences ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/Leo-Corporation/LABS-Experiences/.NET%20Framework) ![GitHub](https://img.shields.io/github/license/Leo-Corporation/LABS-Experiences)
 ## Introduction
 "LABS Experiences" est un projet qui contient diverses expériences qui permettent l'ajout de fonctionnalités dans certains de nos logiciels.
 
