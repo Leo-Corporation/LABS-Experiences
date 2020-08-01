@@ -29,6 +29,7 @@ using System.Drawing;
 using System.Linq;
 using System.Net;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -43,14 +44,22 @@ namespace LABS_Experiences.Forms
 
         private async void button2_Click(object sender, EventArgs e)
         {
-            Task<string> task = new Task<string>(DownloadString);
+            /*Task<string> task = new Task<string>(DownloadString);
             task.Start();
-            label3.Text = await task;
+            label3.Text = await task;*/
+            await Task.Run(() => { Invoke(new MethodInvoker(delegate () { DownloadStringVoid(); }));});
         }
 
         private string DownloadString()
         {
+            Thread.Sleep(2000);
             return new WebClient().DownloadString("https://raw.githubusercontent.com/Leo-Corporation/LeoCorp-Docs/master/Liens/Update%20System/Educ'Maths%204.0/Dev/Download.txt");
+        }
+
+        private void DownloadStringVoid()
+        {
+            Thread.Sleep(2000);
+            label3.Text = new WebClient().DownloadString("https://raw.githubusercontent.com/Leo-Corporation/LeoCorp-Docs/master/Liens/Update%20System/Educ'Maths%204.0/Dev/Download.txt");
         }
     }
 }
