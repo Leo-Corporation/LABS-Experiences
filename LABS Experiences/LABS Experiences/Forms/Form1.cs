@@ -29,6 +29,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -64,6 +65,12 @@ namespace LABS_Experiences
         private void button3_Click(object sender, EventArgs e)
         {
             new AsyncAwait().Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            CursorWindow cursorWindow = new CursorWindow();
+            cursorWindow.Show();
         }
     }
 }
