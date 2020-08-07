@@ -4,5 +4,11 @@
         "MIT License",
         "",
         "Copyright (c) Léo Corporation"
+    ],
+
+    "ignore": [
+        "**/*.Designer.cs",
+        "LABS Experiences/LABS Experiences/Properties/AssemblyInfo.cs",
+        "LABS Experiences/LABS Experiences/obj/"
     ]
 }
