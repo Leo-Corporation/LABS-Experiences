@@ -45,12 +45,14 @@ namespace LABS_Experiences.Forms
             return lastVersion;
         }
 
+        public static Task<string> GetLastVerAsync(string link)
+        {
+            return new WebClient().DownloadStringTaskAsync(link);
+        }
+
         private async void button2_Click(object sender, EventArgs e)
         {
-            Task<string> task = GetLastVersionAsyncMethod("https://raw.githubusercontent.com/Leo-Corporation/LeoCorp-Docs/master/Liens/Update%20System/Educ'Maths%204.0/Dev/Version.txt");
-            string lastVersion = await task;
-            MessageBox.Show(lastVersion);
-            Debug.WriteLine("The last version is" + lastVersion);
+            MessageBox.Show(await GetLastVerAsync("https://raw.githubusercontent.com/Leo-Corporation/LeoCorp-Docs/master/Liens/Update%20System/Educ'Maths%204.0/Dev/Version.txt"));
         }
     }
 }
