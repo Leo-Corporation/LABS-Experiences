@@ -9,6 +9,7 @@
     "ignore": [
         "**/*.Designer.cs",
         "LABS Experiences/LABS Experiences/Properties/",
-        "LABS Experiences/LABS Experiences/obj/"
+        "LABS Experiences/LABS Experiences/obj/",
+        "LABS Experiences/TestLib/obj/"
     ]
 }
