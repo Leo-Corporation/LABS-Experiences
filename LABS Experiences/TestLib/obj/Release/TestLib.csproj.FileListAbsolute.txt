@@ -1,0 +1,6 @@
+C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\TestLib\bin\Release\TestLib.dll
+C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\TestLib\bin\Release\TestLib.pdb
+C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\TestLib\obj\Release\TestLib.csprojAssemblyReference.cache
+C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\TestLib\obj\Release\TestLib.csproj.CoreCompileInputs.cache
+C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\TestLib\obj\Release\TestLib.dll
+C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\TestLib\obj\Release\TestLib.pdb
