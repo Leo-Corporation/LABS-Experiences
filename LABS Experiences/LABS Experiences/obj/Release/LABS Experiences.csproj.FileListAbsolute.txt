@@ -22,3 +22,5 @@ C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\LABS Expe
 C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\LABS Experiences\obj\Release\LABS_Experiences.Forms.TextDownloader.resources
 C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\LABS Experiences\obj\Release\LABS_Experiences.Forms.GetLastVersionAsync.resources
 C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\LABS Experiences\obj\Release\LABS_Experiences.Forms.CursorWindow.resources
+C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\LABS Experiences\bin\Release\TestLib.dll
+C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\LABS Experiences\bin\Release\TestLib.pdb

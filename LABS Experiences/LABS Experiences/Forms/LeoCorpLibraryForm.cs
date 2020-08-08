@@ -105,5 +105,10 @@ namespace LABS_Experiences.Forms
         {
             MessageBox.Show(Maths.Cylinder.GetBaseArea(10).ToString());
         }
+
+        private void button14_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(Env.GetWindowsVersion().ToString());
+        }
     }
 }

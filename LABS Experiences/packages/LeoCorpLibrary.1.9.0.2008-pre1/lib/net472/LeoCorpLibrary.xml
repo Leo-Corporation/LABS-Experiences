@@ -190,6 +190,12 @@
             <exception cref="T:System.IO.DriveNotFoundException"></exception>
             <returns>Retourne une valeur de type <see cref="T:System.Double"/>.</returns>
         </member>
+        <member name="M:LeoCorpLibrary.Env.GetWindowsVersion">
+            <summary>
+            Permet d'obtenir la version de Windows.
+            </summary>
+            <returns>Retourne une valeur de type <see cref="T:LeoCorpLibrary.WindowsVersion"/>.</returns>
+        </member>
         <member name="T:LeoCorpLibrary.UnitType">
             <summary>
             Type de taille de fichiers/répertoires.
@@ -223,6 +229,36 @@
         <member name="F:LeoCorpLibrary.UnitType.Petabyte">
             <summary>
             Unité Petabyte.
+            </summary>
+        </member>
+        <member name="T:LeoCorpLibrary.WindowsVersion">
+            <summary>
+            Systèmes d'exploitations Windows.
+            </summary>
+        </member>
+        <member name="F:LeoCorpLibrary.WindowsVersion.Windows7">
+            <summary>
+            Windows 7 (Version 6.1).
+            </summary>
+        </member>
+        <member name="F:LeoCorpLibrary.WindowsVersion.Windows8">
+            <summary>
+            Windows 8 (Version 6.2).
+            </summary>
+        </member>
+        <member name="F:LeoCorpLibrary.WindowsVersion.Windows81">
+            <summary>
+            Windows 8.1 (Version 6.3).
+            </summary>
+        </member>
+        <member name="F:LeoCorpLibrary.WindowsVersion.Windows10">
+            <summary>
+            Windows 10 (Version 10.0)
+            </summary>
+        </member>
+        <member name="F:LeoCorpLibrary.WindowsVersion.Unknown">
+            <summary>
+            Système d'exploitation inconnu.
             </summary>
         </member>
         <member name="T:LeoCorpLibrary.Exceptions.HEXInvalidValueException">

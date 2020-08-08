@@ -35,9 +35,12 @@
   <PropertyGroup>
     <ApplicationIcon>Logo.ico</ApplicationIcon>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
   <ItemGroup>
-    <Reference Include="LeoCorpLibrary, Version=1.8.1.2007, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\LeoCorpLibrary.1.8.1.2007-rc1\lib\net472\LeoCorpLibrary.dll</HintPath>
+    <Reference Include="LeoCorpLibrary, Version=1.9.0.2008, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\LeoCorpLibrary.1.9.0.2008-pre1\lib\net472\LeoCorpLibrary.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -172,6 +175,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="app.manifest" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

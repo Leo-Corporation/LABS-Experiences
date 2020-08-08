@@ -69,6 +69,7 @@ namespace LABS_Experiences.Forms
             this.button11 = new System.Windows.Forms.Button();
             this.button12 = new System.Windows.Forms.Button();
             this.button13 = new System.Windows.Forms.Button();
+            this.button14 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -80,16 +81,18 @@ namespace LABS_Experiences.Forms
             this.panel1.Controls.Add(this.label1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(640, 82);
+            this.panel1.Size = new System.Drawing.Size(853, 101);
             this.panel1.TabIndex = 1;
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::LABS_Experiences.Properties.Resources.Logo;
-            this.pictureBox1.Location = new System.Drawing.Point(7, 6);
+            this.pictureBox1.Location = new System.Drawing.Point(9, 7);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(70, 70);
+            this.pictureBox1.Size = new System.Drawing.Size(93, 86);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
@@ -98,9 +101,10 @@ namespace LABS_Experiences.Forms
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.label2.Location = new System.Drawing.Point(84, 50);
+            this.label2.Location = new System.Drawing.Point(112, 62);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(163, 19);
+            this.label2.Size = new System.Drawing.Size(198, 23);
             this.label2.TabIndex = 0;
             this.label2.Text = "Tests sur LeoCorpLibrary.";
             // 
@@ -108,9 +112,10 @@ namespace LABS_Experiences.Forms
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Bold);
-            this.label1.Location = new System.Drawing.Point(81, 13);
+            this.label1.Location = new System.Drawing.Point(108, 16);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(217, 37);
+            this.label1.Size = new System.Drawing.Size(266, 46);
             this.label1.TabIndex = 0;
             this.label1.Text = "LeoCorpLibrary";
             // 
@@ -121,9 +126,10 @@ namespace LABS_Experiences.Forms
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(31, 101);
+            this.button1.Location = new System.Drawing.Point(41, 124);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(189, 42);
+            this.button1.Size = new System.Drawing.Size(252, 52);
             this.button1.TabIndex = 2;
             this.button1.Text = "GetTotalSpace";
             this.button1.UseVisualStyleBackColor = false;
@@ -136,9 +142,10 @@ namespace LABS_Experiences.Forms
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(226, 101);
+            this.button2.Location = new System.Drawing.Point(301, 124);
+            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(189, 42);
+            this.button2.Size = new System.Drawing.Size(252, 52);
             this.button2.TabIndex = 2;
             this.button2.Text = "GetFreeSpace";
             this.button2.UseVisualStyleBackColor = false;
@@ -151,9 +158,10 @@ namespace LABS_Experiences.Forms
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(421, 101);
+            this.button3.Location = new System.Drawing.Point(561, 124);
+            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(189, 42);
+            this.button3.Size = new System.Drawing.Size(252, 52);
             this.button3.TabIndex = 2;
             this.button3.Text = "GetOccupiedSpace";
             this.button3.UseVisualStyleBackColor = false;
@@ -166,9 +174,10 @@ namespace LABS_Experiences.Forms
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(31, 149);
+            this.button4.Location = new System.Drawing.Point(41, 183);
+            this.button4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(189, 42);
+            this.button4.Size = new System.Drawing.Size(252, 52);
             this.button4.TabIndex = 3;
             this.button4.Text = "ListViewSaveLoad";
             this.button4.UseVisualStyleBackColor = false;
@@ -181,9 +190,10 @@ namespace LABS_Experiences.Forms
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.button5.ForeColor = System.Drawing.Color.White;
-            this.button5.Location = new System.Drawing.Point(226, 149);
+            this.button5.Location = new System.Drawing.Point(301, 183);
+            this.button5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(189, 42);
+            this.button5.Size = new System.Drawing.Size(252, 52);
             this.button5.TabIndex = 4;
             this.button5.Text = "GetVolumeCube";
             this.button5.UseVisualStyleBackColor = false;
@@ -196,9 +206,10 @@ namespace LABS_Experiences.Forms
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button6.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.button6.ForeColor = System.Drawing.Color.White;
-            this.button6.Location = new System.Drawing.Point(421, 149);
+            this.button6.Location = new System.Drawing.Point(561, 183);
+            this.button6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(189, 42);
+            this.button6.Size = new System.Drawing.Size(252, 52);
             this.button6.TabIndex = 5;
             this.button6.Text = "GetVolumeCylinder";
             this.button6.UseVisualStyleBackColor = false;
@@ -211,9 +222,10 @@ namespace LABS_Experiences.Forms
             this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button7.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.button7.ForeColor = System.Drawing.Color.White;
-            this.button7.Location = new System.Drawing.Point(31, 195);
+            this.button7.Location = new System.Drawing.Point(41, 240);
+            this.button7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(189, 42);
+            this.button7.Size = new System.Drawing.Size(252, 52);
             this.button7.TabIndex = 6;
             this.button7.Text = "GetVolumePyramid";
             this.button7.UseVisualStyleBackColor = false;
@@ -226,9 +238,10 @@ namespace LABS_Experiences.Forms
             this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button8.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.button8.ForeColor = System.Drawing.Color.White;
-            this.button8.Location = new System.Drawing.Point(226, 195);
+            this.button8.Location = new System.Drawing.Point(301, 240);
+            this.button8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(189, 42);
+            this.button8.Size = new System.Drawing.Size(252, 52);
             this.button8.TabIndex = 7;
             this.button8.Text = "GetHeightPyramid";
             this.button8.UseVisualStyleBackColor = false;
@@ -241,9 +254,10 @@ namespace LABS_Experiences.Forms
             this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button9.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.button9.ForeColor = System.Drawing.Color.White;
-            this.button9.Location = new System.Drawing.Point(421, 195);
+            this.button9.Location = new System.Drawing.Point(561, 240);
+            this.button9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(189, 42);
+            this.button9.Size = new System.Drawing.Size(252, 52);
             this.button9.TabIndex = 7;
             this.button9.Text = "GetWidthPyramid";
             this.button9.UseVisualStyleBackColor = false;
@@ -256,9 +270,10 @@ namespace LABS_Experiences.Forms
             this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button10.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.button10.ForeColor = System.Drawing.Color.White;
-            this.button10.Location = new System.Drawing.Point(31, 245);
+            this.button10.Location = new System.Drawing.Point(41, 302);
+            this.button10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(189, 42);
+            this.button10.Size = new System.Drawing.Size(252, 52);
             this.button10.TabIndex = 7;
             this.button10.Text = "GetLenghtPyramid";
             this.button10.UseVisualStyleBackColor = false;
@@ -271,9 +286,10 @@ namespace LABS_Experiences.Forms
             this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button11.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.button11.ForeColor = System.Drawing.Color.White;
-            this.button11.Location = new System.Drawing.Point(226, 245);
+            this.button11.Location = new System.Drawing.Point(301, 302);
+            this.button11.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(189, 42);
+            this.button11.Size = new System.Drawing.Size(252, 52);
             this.button11.TabIndex = 8;
             this.button11.Text = "GetEdgeCube";
             this.button11.UseVisualStyleBackColor = false;
@@ -286,9 +302,10 @@ namespace LABS_Experiences.Forms
             this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button12.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.button12.ForeColor = System.Drawing.Color.White;
-            this.button12.Location = new System.Drawing.Point(421, 245);
+            this.button12.Location = new System.Drawing.Point(561, 302);
+            this.button12.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(189, 42);
+            this.button12.Size = new System.Drawing.Size(252, 52);
             this.button12.TabIndex = 9;
             this.button12.Text = "GetHeightCylinder";
             this.button12.UseVisualStyleBackColor = false;
@@ -301,20 +318,38 @@ namespace LABS_Experiences.Forms
             this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button13.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.button13.ForeColor = System.Drawing.Color.White;
-            this.button13.Location = new System.Drawing.Point(31, 293);
+            this.button13.Location = new System.Drawing.Point(41, 361);
+            this.button13.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(189, 42);
+            this.button13.Size = new System.Drawing.Size(252, 52);
             this.button13.TabIndex = 9;
             this.button13.Text = "GetBaseAreaCylinder";
             this.button13.UseVisualStyleBackColor = false;
             this.button13.Click += new System.EventHandler(this.button13_Click);
             // 
+            // button14
+            // 
+            this.button14.BackColor = System.Drawing.Color.MediumSlateBlue;
+            this.button14.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button14.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
+            this.button14.ForeColor = System.Drawing.Color.White;
+            this.button14.Location = new System.Drawing.Point(301, 361);
+            this.button14.Margin = new System.Windows.Forms.Padding(4);
+            this.button14.Name = "button14";
+            this.button14.Size = new System.Drawing.Size(252, 52);
+            this.button14.TabIndex = 10;
+            this.button14.Text = "GetWindowsVersion";
+            this.button14.UseVisualStyleBackColor = false;
+            this.button14.Click += new System.EventHandler(this.button14_Click);
+            // 
             // LeoCorpLibraryForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(640, 433);
+            this.ClientSize = new System.Drawing.Size(853, 533);
+            this.Controls.Add(this.button14);
             this.Controls.Add(this.button13);
             this.Controls.Add(this.button12);
             this.Controls.Add(this.button11);
@@ -331,6 +366,7 @@ namespace LABS_Experiences.Forms
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
             this.Name = "LeoCorpLibraryForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -361,5 +397,6 @@ namespace LABS_Experiences.Forms
         private System.Windows.Forms.Button button11;
         private System.Windows.Forms.Button button12;
         private System.Windows.Forms.Button button13;
+        private System.Windows.Forms.Button button14;
     }
 }

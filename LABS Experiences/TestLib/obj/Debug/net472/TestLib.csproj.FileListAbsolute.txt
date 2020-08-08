@@ -1,0 +1,8 @@
+C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\TestLib\bin\Debug\net472\TestLib.dll
+C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\TestLib\bin\Debug\net472\TestLib.pdb
+C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\TestLib\obj\Debug\net472\TestLib.csprojAssemblyReference.cache
+C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\TestLib\obj\Debug\net472\TestLib.AssemblyInfoInputs.cache
+C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\TestLib\obj\Debug\net472\TestLib.AssemblyInfo.cs
+C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\TestLib\obj\Debug\net472\TestLib.csproj.CoreCompileInputs.cache
+C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\TestLib\obj\Debug\net472\TestLib.dll
+C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\TestLib\obj\Debug\net472\TestLib.pdb
