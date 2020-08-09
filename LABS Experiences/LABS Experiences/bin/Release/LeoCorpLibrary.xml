@@ -196,6 +196,23 @@
             </summary>
             <returns>Retourne une valeur de type <see cref="T:LeoCorpLibrary.WindowsVersion"/>.</returns>
         </member>
+        <member name="M:LeoCorpLibrary.Env.ExecuteAsAdmin(System.Diagnostics.Process)">
+            <summary>
+            Permet de lancer un programme en mode administrateur.
+            </summary>
+            <param name="process">Processus à lancer en mode administrateur.</param>
+            <exception cref="T:System.ArgumentNullException"></exception>
+            <exception cref="T:System.IO.FileNotFoundException"></exception>
+            <remarks>Le paramètre 'process' doit avoir un fichier/programme à lancer en mode administrateur dans la propriété StartInfo.FileName.</remarks>
+        </member>
+        <member name="M:LeoCorpLibrary.Env.ExecuteAsAdmin(System.String)">
+            <summary>
+            Permet de lancer un programme en mode administrateur.
+            </summary>
+            <param name="filename">Programme à lancer en mode administrateur.</param>
+            <exception cref="T:System.ArgumentNullException"></exception>
+            <exception cref="T:System.IO.FileNotFoundException"></exception>
+        </member>
         <member name="T:LeoCorpLibrary.UnitType">
             <summary>
             Type de taille de fichiers/répertoires.
