@@ -110,5 +110,10 @@ namespace LABS_Experiences.Forms
         {
             MessageBox.Show(Env.GetWindowsVersion().ToString());
         }
+
+        private void button15_Click(object sender, EventArgs e)
+        {
+            Env.ExecuteAsAdmin(@"C:\Windows\System32\cmd.exe");
+        }
     }
 }
