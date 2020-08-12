@@ -1,36 +1,24 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{40AD7618-0B10-45BD-8C46-241331B68B21}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>LABS_Experiences</RootNamespace>
-    <AssemblyName>LABS Experiences</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
-    <FileAlignment>512</FileAlignment>
+    <TargetFramework>net472</TargetFramework>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
-    <Deterministic>true</Deterministic>
+    <AssemblyTitle>LABS Experiences</AssemblyTitle>
+    <Company>Léo Corporation</Company>
+    <Product>LABS Experiences</Product>
+    <Description>L'endroit où sont rassemblées nos expériences</Description>
+    <Copyright>Copyright ©  2020</Copyright>
+    <AssemblyVersion>1.4.0.2008</AssemblyVersion>
+    <FileVersion>1.4.0.2008</FileVersion>
+    <OutputPath>bin\$(Configuration)\</OutputPath>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
-    <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
-    <Optimize>false</Optimize>
-    <OutputPath>bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
-    <Optimize>true</Optimize>
-    <OutputPath>bin\Release\</OutputPath>
-    <DefineConstants>TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
     <ApplicationIcon>Logo.ico</ApplicationIcon>
@@ -39,156 +27,144 @@
     <ApplicationManifest>app.manifest</ApplicationManifest>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="LeoCorpLibrary, Version=1.9.0.2008, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\LeoCorpLibrary.1.9.0.2008-rc1\lib\net472\LeoCorpLibrary.dll</HintPath>
-    </Reference>
-    <Reference Include="System" />
-    <Reference Include="System.Core" />
-    <Reference Include="System.Xml.Linq" />
+    <PackageReference Include="LeoCorpLibrary" Version="1.9.0.2008" />
+  </ItemGroup>
+  <ItemGroup>
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
-    <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
-    <Reference Include="System.Drawing" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Windows.Forms" />
-    <Reference Include="System.Xml" />
     <Reference Include="TestLib">
       <HintPath>..\TestLib\bin\Release\net472\TestLib.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Forms\AboutForm.cs">
+    <Compile Update="Forms\AboutForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\AboutForm.Designer.cs">
+    <Compile Update="Forms\AboutForm.Designer.cs">
       <DependentUpon>AboutForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\AsyncAwait.cs">
+    <Compile Update="Forms\AsyncAwait.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\AsyncAwait.Designer.cs">
+    <Compile Update="Forms\AsyncAwait.Designer.cs">
       <DependentUpon>AsyncAwait.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\ClearRamCache.cs">
+    <Compile Update="Forms\ClearRamCache.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\ClearRamCache.Designer.cs">
+    <Compile Update="Forms\ClearRamCache.Designer.cs">
       <DependentUpon>ClearRamCache.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\CursorWindow.cs">
+    <Compile Update="Forms\CursorWindow.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\CursorWindow.Designer.cs">
+    <Compile Update="Forms\CursorWindow.Designer.cs">
       <DependentUpon>CursorWindow.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Form1.cs">
+    <Compile Update="Forms\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Form1.Designer.cs">
+    <Compile Update="Forms\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\GetLastVersionAsync.cs">
+    <Compile Update="Forms\GetLastVersionAsync.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\GetLastVersionAsync.Designer.cs">
+    <Compile Update="Forms\GetLastVersionAsync.Designer.cs">
       <DependentUpon>GetLastVersionAsync.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\LeoCorpLibraryForm.cs">
+    <Compile Update="Forms\LeoCorpLibraryForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\LeoCorpLibraryForm.Designer.cs">
+    <Compile Update="Forms\LeoCorpLibraryForm.Designer.cs">
       <DependentUpon>LeoCorpLibraryForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\ListViewSaveLoad.cs">
+    <Compile Update="Forms\ListViewSaveLoad.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\ListViewSaveLoad.Designer.cs">
+    <Compile Update="Forms\ListViewSaveLoad.Designer.cs">
       <DependentUpon>ListViewSaveLoad.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\TestForm.cs">
+    <Compile Update="Forms\TestForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\TestForm.Designer.cs">
+    <Compile Update="Forms\TestForm.Designer.cs">
       <DependentUpon>TestForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\TextDownloader.cs">
+    <Compile Update="Forms\TextDownloader.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\TextDownloader.Designer.cs">
+    <Compile Update="Forms\TextDownloader.Designer.cs">
       <DependentUpon>TextDownloader.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\UseRam.cs">
+    <Compile Update="Forms\UseRam.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\UseRam.Designer.cs">
+    <Compile Update="Forms\UseRam.Designer.cs">
       <DependentUpon>UseRam.cs</DependentUpon>
     </Compile>
-    <Compile Include="LABSForm.cs">
+    <Compile Update="LABSForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Program.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Forms\AboutForm.resx">
+    <EmbeddedResource Update="Forms\AboutForm.resx">
       <DependentUpon>AboutForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\AsyncAwait.resx">
+    <EmbeddedResource Update="Forms\AsyncAwait.resx">
       <DependentUpon>AsyncAwait.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\ClearRamCache.resx">
+    <EmbeddedResource Update="Forms\ClearRamCache.resx">
       <DependentUpon>ClearRamCache.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\CursorWindow.resx">
+    <EmbeddedResource Update="Forms\CursorWindow.resx">
       <DependentUpon>CursorWindow.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Form1.resx">
+    <EmbeddedResource Update="Forms\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\GetLastVersionAsync.resx">
+    <EmbeddedResource Update="Forms\GetLastVersionAsync.resx">
       <DependentUpon>GetLastVersionAsync.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\LeoCorpLibraryForm.resx">
+    <EmbeddedResource Update="Forms\LeoCorpLibraryForm.resx">
       <DependentUpon>LeoCorpLibraryForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\ListViewSaveLoad.resx">
+    <EmbeddedResource Update="Forms\ListViewSaveLoad.resx">
       <DependentUpon>ListViewSaveLoad.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\TestForm.resx">
+    <EmbeddedResource Update="Forms\TestForm.resx">
       <DependentUpon>TestForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\TextDownloader.resx">
+    <EmbeddedResource Update="Forms\TextDownloader.resx">
       <DependentUpon>TextDownloader.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\UseRam.resx">
+    <EmbeddedResource Update="Forms\UseRam.resx">
       <DependentUpon>UseRam.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="LABSForm.resx">
+    <EmbeddedResource Update="LABSForm.resx">
       <DependentUpon>LABSForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Properties\Resources.resx">
+    <EmbeddedResource Update="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
+    <Compile Update="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
     <None Include="app.manifest" />
-    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
-    <Compile Include="Properties\Settings.Designer.cs">
+    <Compile Update="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Logo.png" />
@@ -196,5 +172,4 @@
   <ItemGroup>
     <Content Include="Logo.ico" />
   </ItemGroup>
-  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
