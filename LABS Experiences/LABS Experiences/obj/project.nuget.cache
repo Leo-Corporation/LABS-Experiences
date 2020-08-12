@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "hH5VRVsDlbTVuvK3QaAz5Joe5UgicSpeygk+INwNL5oriEjSz7dPckNxKoIdYc8661TJodzjx3TtTdp6RMaaIw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Léo Peyronnet\\source\\repos\\LABS-Experiences\\LABS Experiences\\LABS Experiences\\LABS Experiences.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Léo Peyronnet\\.nuget\\packages\\leocorplibrary\\1.9.0.2008\\leocorplibrary.1.9.0.2008.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,107 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.7.2": {
+      "LeoCorpLibrary/1.9.0.2008": {
+        "type": "package",
+        "compile": {
+          "lib/net472/LeoCorpLibrary.dll": {}
+        },
+        "runtime": {
+          "lib/net472/LeoCorpLibrary.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win7-x86": {
+      "LeoCorpLibrary/1.9.0.2008": {
+        "type": "package",
+        "compile": {
+          "lib/net472/LeoCorpLibrary.dll": {}
+        },
+        "runtime": {
+          "lib/net472/LeoCorpLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LeoCorpLibrary/1.9.0.2008": {
+      "sha512": "HbmUnQRnr5tzT0SuVnwWDhsCjjfftPW2JDAc3PTgm11S6OopxQgqr5+NBf3YZyl4+OJtmFPNdaUb26OzTZilcg==",
+      "type": "package",
+      "path": "leocorplibrary/1.9.0.2008",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "images/icon.png",
+        "leocorplibrary.1.9.0.2008.nupkg.sha512",
+        "leocorplibrary.nuspec",
+        "lib/net472/LeoCorpLibrary.dll",
+        "lib/net472/LeoCorpLibrary.xml"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.7.2": [
+      "LeoCorpLibrary >= 1.9.0.2008"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Léo Peyronnet\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Léo Peyronnet\\source\\repos\\LABS-Experiences\\LABS Experiences\\LABS Experiences\\LABS Experiences.csproj",
+      "projectName": "LABS Experiences",
+      "projectPath": "C:\\Users\\Léo Peyronnet\\source\\repos\\LABS-Experiences\\LABS Experiences\\LABS Experiences\\LABS Experiences.csproj",
+      "packagesPath": "C:\\Users\\Léo Peyronnet\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Léo Peyronnet\\source\\repos\\LABS-Experiences\\LABS Experiences\\LABS Experiences\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Léo Peyronnet\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net472"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nuget.pkg.github.com/Leo-Corporation/index.json": {}
+      },
+      "frameworks": {
+        "net472": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net472": {
+        "dependencies": {
+          "LeoCorpLibrary": {
+            "target": "Package",
+            "version": "[1.9.0.2008, )"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.400\\RuntimeIdentifierGraph.json"
+      }
+    },
+    "runtimes": {
+      "win7-x86": {
+        "#import": []
+      }
+    }
+  }
+}
