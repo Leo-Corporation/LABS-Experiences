@@ -2,8 +2,14 @@
   "version": 3,
   "targets": {
     ".NETFramework,Version=v4.7.2": {
-      "LeoCorpLibrary/1.9.0.2008": {
+      "LeoCorpLibrary/2.0.0.2008": {
         "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System.Data.DataSetExtensions",
+          "System.Net.Http",
+          "System.Windows.Forms"
+        ],
         "compile": {
           "lib/net472/LeoCorpLibrary.dll": {}
         },
@@ -13,8 +19,14 @@
       }
     },
     ".NETFramework,Version=v4.7.2/win7-x86": {
-      "LeoCorpLibrary/1.9.0.2008": {
+      "LeoCorpLibrary/2.0.0.2008": {
         "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System.Data.DataSetExtensions",
+          "System.Net.Http",
+          "System.Windows.Forms"
+        ],
         "compile": {
           "lib/net472/LeoCorpLibrary.dll": {}
         },
@@ -25,24 +37,26 @@
     }
   },
   "libraries": {
-    "LeoCorpLibrary/1.9.0.2008": {
-      "sha512": "HbmUnQRnr5tzT0SuVnwWDhsCjjfftPW2JDAc3PTgm11S6OopxQgqr5+NBf3YZyl4+OJtmFPNdaUb26OzTZilcg==",
+    "LeoCorpLibrary/2.0.0.2008": {
+      "sha512": "COSGoVxe3pe6+/IuumUWBqB4sdEzscB0+yCs7scGbCVvdgOwrd88YE2ypn6qOG4YDxYqdtJ9KJwiaXM8wLzSfg==",
       "type": "package",
-      "path": "leocorplibrary/1.9.0.2008",
+      "path": "leocorplibrary/2.0.0.2008",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "images/icon.png",
-        "leocorplibrary.1.9.0.2008.nupkg.sha512",
+        "icon.png",
+        "leocorplibrary.2.0.0.2008.nupkg.sha512",
         "leocorplibrary.nuspec",
         "lib/net472/LeoCorpLibrary.dll",
-        "lib/net472/LeoCorpLibrary.xml"
+        "lib/net472/LeoCorpLibrary.xml",
+        "lib/netcoreapp3.1/LeoCorpLibrary.dll",
+        "lib/netcoreapp3.1/LeoCorpLibrary.xml"
       ]
     }
   },
   "projectFileDependencyGroups": {
     ".NETFramework,Version=v4.7.2": [
-      "LeoCorpLibrary >= 1.9.0.2008"
+      "LeoCorpLibrary >= 2.0.0.2008"
     ]
   },
   "packageFolders": {
@@ -92,7 +106,7 @@
         "dependencies": {
           "LeoCorpLibrary": {
             "target": "Package",
-            "version": "[1.9.0.2008, )"
+            "version": "[2.0.0.2008, )"
           }
         },
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.400\\RuntimeIdentifierGraph.json"
