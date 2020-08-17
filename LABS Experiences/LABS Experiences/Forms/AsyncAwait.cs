@@ -27,7 +27,9 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Net;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -48,6 +50,35 @@ namespace LABS_Experiences.Forms
         private void button1_Click(object sender, EventArgs e)
         {
             new GetLastVersionAsync().Show();
+        }
+
+        private async void button3_Click(object sender, EventArgs e)
+        {
+            bool res = await IsInternetAvailable();
+            MessageBox.Show(res.ToString());
+        }
+
+        internal Task<bool> IsInternetAvailable()
+        {
+            Task<bool> task = new Task<bool>(() => Internet("a"));
+            task.Start();
+            return task;
+        }
+
+        private bool Internet(string a)
+        {
+            try
+            {
+                using (var client = new WebClient()) // Navigateur Internet
+                using (var stream = client.OpenRead("https://www.bing.com")) // Ouvrir bing.com
+                {
+                    return true; // Si la page s'ouvre = connexion OK
+                }
+            }
+            catch
+            {
+                return false; // Si la page ne s'ouvre pas = connexion down
+            }
         }
     }
 }
