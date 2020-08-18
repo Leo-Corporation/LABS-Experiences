@@ -16,7 +16,7 @@ jobs:
         uses: NuGet/setup-nuget@v1.0.2
      
       - name: Restore NuGet Packages
-        run: nuget restore "LABS Experiences\LABS Experiences.sln"
+        run: nuget restore "LABS Experiences\LABS Experiences\LABS Experiences.csproj"
  
       - name: Build and Publish App
-        run: msbuild "LABS Experiences\LABS Experiences.sln" /p:Configuration=Release
+        run: msbuild "LABS Experiences\LABS Experiences\LABS Experiences.csproj" /p:Configuration=Release
