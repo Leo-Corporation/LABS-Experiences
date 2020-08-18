@@ -1,0 +1,10 @@
+obj\Release\split.pri
+obj\Release\split.map.txt
+obj\Release\split.scale-100.pri
+obj\Release\split.scale-100.map.txt
+obj\Release\split.scale-125.pri
+obj\Release\split.scale-125.map.txt
+obj\Release\split.scale-150.pri
+obj\Release\split.scale-150.map.txt
+obj\Release\split.scale-400.pri
+obj\Release\split.scale-400.map.txt

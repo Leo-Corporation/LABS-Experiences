@@ -36,9 +36,6 @@
     <Reference Include="System.Deployment" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Windows.Forms" />
-    <Reference Include="TestLib">
-      <HintPath>..\TestLib\bin\Release\net472\TestLib.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Update="Forms\AboutForm.cs">

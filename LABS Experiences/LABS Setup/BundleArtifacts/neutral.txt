@@ -1,0 +1,6 @@
+MainPackage=C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\LABS Setup\bin\AnyCPU\Release\LABS Setup_1.4.0.0_AnyCPU.appx
+SymbolPackage=C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\LABS Setup\obj\Release\Symbols\LABS Setup_1.4.0.0_AnyCPU.appxsym
+ResourcePack=C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\LABS Setup\bin\AnyCPU\Release\LABS Setup_1.4.0.0_scale-100.appx
+ResourcePack=C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\LABS Setup\bin\AnyCPU\Release\LABS Setup_1.4.0.0_scale-125.appx
+ResourcePack=C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\LABS Setup\bin\AnyCPU\Release\LABS Setup_1.4.0.0_scale-150.appx
+ResourcePack=C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\LABS Setup\bin\AnyCPU\Release\LABS Setup_1.4.0.0_scale-400.appx

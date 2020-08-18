@@ -1,0 +1,27 @@
+C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\LABS Setup\bin\AnyCPU\Release\LABS Experiences\LeoCorpLibrary.dll
+C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\LABS Setup\bin\AnyCPU\Release\LABS Experiences\Logo.ico
+C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\LABS Setup\bin\AnyCPU\Release\LABS Experiences\LABS Experiences.exe
+C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\LABS Setup\bin\AnyCPU\Release\LABS Experiences\LABS Experiences.exe.config
+C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\LABS Setup\bin\AnyCPU\Release\LABS Experiences\LABS Experiences.pdb
+C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\LABS Setup\bin\AnyCPU\Release\resources.pri
+C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\LABS Setup\bin\AnyCPU\Release\AppxManifest.xml
+C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\LABS Setup\bin\AnyCPU\Release\LABS Setup.build.appxrecipe
+C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\LABS Setup\obj\Release\LABS Setup.wapprojAssemblyReference.cache
+C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\LABS Setup\obj\Release\LABS Setup.wapproj.CoreCompileInputs.cache
+C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\LABS Setup\obj\Release\priconfig.xml
+C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\LABS Setup\obj\Release\priconfig.xml.intermediate
+C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\LABS Setup\obj\Release\unfiltered.layout.resfiles
+C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\LABS Setup\obj\Release\unfiltered.layout.resfiles.intermediate
+C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\LABS Setup\obj\Release\filtered.layout.resfiles
+C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\LABS Setup\obj\Release\filtered.layout.resfiles.intermediate
+C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\LABS Setup\obj\Release\excluded.layout.resfiles
+C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\LABS Setup\obj\Release\excluded.layout.resfiles.intermediate
+C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\LABS Setup\obj\Release\resources.resfiles
+C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\LABS Setup\obj\Release\resources.resfiles.intermediate
+C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\LABS Setup\obj\Release\pri.resfiles
+C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\LABS Setup\obj\Release\pri.resfiles.intermediate
+C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\LABS Setup\obj\Release\qualifiers.txt
+C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\LABS Setup\obj\Release\qualifiers.txt.intermediate
+C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\LABS Setup\obj\Release\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\LABS Setup\obj\Release\ProjectArchitectures.txt
+C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\LABS Setup\obj\Release\LABS Setup.wapproj.LastBuild.txt
