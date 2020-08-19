@@ -72,5 +72,10 @@ namespace LABS_Experiences
             CursorWindow cursorWindow = new CursorWindow();
             cursorWindow.Show();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            new LABS_XML().Show();
+        }
     }
 }
