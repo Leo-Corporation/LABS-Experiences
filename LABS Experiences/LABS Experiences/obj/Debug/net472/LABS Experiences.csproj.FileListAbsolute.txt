@@ -13,3 +13,13 @@ C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\LABS Expe
 C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\LABS Experiences\obj\Debug\net472\LABS_Experiences.LABSForm.resources
 C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\LABS Experiences\obj\Debug\net472\LABS_Experiences.Properties.Resources.resources
 C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\LABS Experiences\obj\Debug\net472\LABS Experiences.csproj.GenerateResource.cache
+C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\LABS Experiences\bin\Debug\net472\LABS Experiences.exe.config
+C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\LABS Experiences\bin\Debug\net472\LABS Experiences.exe
+C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\LABS Experiences\bin\Debug\net472\LABS Experiences.pdb
+C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\LABS Experiences\bin\Debug\net472\LeoCorpLibrary.dll
+C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\LABS Experiences\obj\Debug\net472\LABS Experiences.AssemblyInfoInputs.cache
+C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\LABS Experiences\obj\Debug\net472\LABS Experiences.AssemblyInfo.cs
+C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\LABS Experiences\obj\Debug\net472\LABS Experiences.csproj.CoreCompileInputs.cache
+C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\LABS Experiences\obj\Debug\net472\LABS Experiences.csproj.CopyComplete
+C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\LABS Experiences\obj\Debug\net472\LABS Experiences.exe
+C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\LABS Experiences\obj\Debug\net472\LABS Experiences.pdb
