@@ -27,6 +27,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -114,6 +115,43 @@ namespace LABS_Experiences.Forms
         private void button15_Click(object sender, EventArgs e)
         {
             Env.ExecuteAsAdmin(@"C:\Windows\System32\cmd.exe");
+        }
+
+        private async void button16_Click(object sender, EventArgs e)
+        {
+            bool av = await NetworkConnection.IsAvailableAsync();
+            bool av2 = await NetworkConnection.IsAvailableTestSiteAsync("https://leocorp.fr");
+            MessageBox.Show(av.ToString());
+            MessageBox.Show(av2.ToString());
+        }
+
+        private void button17_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(Env.GetUnixTime().ToString());
+            
+            MessageBox.Show(Env.GetUnixTime(new DateTime(2020, 1, 1)).ToString());
+        }
+
+        private async void button18_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(await LeoCorpLibrary.Update.GetLastVersionAsync("https://raw.githubusercontent.com/Leo-Corporation/LeoCorp-Docs/master/Liens/Update%20System/Educ'Maths%204.0/Dev/Version.txt"));
+        }
+
+        private void button19_Click(object sender, EventArgs e)
+        {
+            if (File.Exists(Application.StartupPath + @"\test.labs"))
+            {
+                MessageBox.Show(Env.CountFileCharacters(Application.StartupPath + @"\test.labs").ToString());
+            }
+        }
+
+        private async void button20_Click(object sender, EventArgs e)
+        {
+            if (File.Exists(Application.StartupPath + @"\test.labs"))
+            {
+                int a = await Env.CountFileCharactersAsync(Application.StartupPath + @"\test.labs");
+                MessageBox.Show(a.ToString());
+            }
         }
     }
 }
