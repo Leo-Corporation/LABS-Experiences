@@ -82,5 +82,10 @@ namespace LABS_Experiences
         {
             new ProcessTimeOpened().Show();
         }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            new GetFileIcon().Show();
+        }
     }
 }

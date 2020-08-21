@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     ".NETFramework,Version=v4.7.2": {
-      "LeoCorpLibrary/2.1.0.2008-rc1": {
+      "LeoCorpLibrary/2.1.0.2008": {
         "type": "package",
         "frameworkAssemblies": [
           "Microsoft.CSharp",
@@ -19,7 +19,7 @@
       }
     },
     ".NETFramework,Version=v4.7.2/win7-x86": {
-      "LeoCorpLibrary/2.1.0.2008-rc1": {
+      "LeoCorpLibrary/2.1.0.2008": {
         "type": "package",
         "frameworkAssemblies": [
           "Microsoft.CSharp",
@@ -37,14 +37,15 @@
     }
   },
   "libraries": {
-    "LeoCorpLibrary/2.1.0.2008-rc1": {
-      "sha512": "87hDrzVC7K47S2OE6r/9RLasqiF8LsDcLbH17RAUcu8QWMVaM22N6cIo0itKlpIuzTT0i77+I/kTITH3KfdBAQ==",
+    "LeoCorpLibrary/2.1.0.2008": {
+      "sha512": "D6tUZYD7QAosxHnQrNKi3l25yhPVqee7BbFhP2wiNRX6oG6BijFE/iQcnWBF9KYe1bAnL71+wdMyQazUmOA7xg==",
       "type": "package",
-      "path": "leocorplibrary/2.1.0.2008-rc1",
+      "path": "leocorplibrary/2.1.0.2008",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "icon.png",
-        "leocorplibrary.2.1.0.2008-rc1.nupkg.sha512",
+        "leocorplibrary.2.1.0.2008.nupkg.sha512",
         "leocorplibrary.nuspec",
         "lib/net472/LeoCorpLibrary.dll",
         "lib/net472/LeoCorpLibrary.xml",
@@ -55,7 +56,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETFramework,Version=v4.7.2": [
-      "LeoCorpLibrary >= 2.1.0.2008-rc1"
+      "LeoCorpLibrary >= 2.1.0.2008"
     ]
   },
   "packageFolders": {
@@ -105,7 +106,7 @@
         "dependencies": {
           "LeoCorpLibrary": {
             "target": "Package",
-            "version": "[2.1.0.2008-rc1, )"
+            "version": "[2.1.0.2008, )"
           }
         },
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
