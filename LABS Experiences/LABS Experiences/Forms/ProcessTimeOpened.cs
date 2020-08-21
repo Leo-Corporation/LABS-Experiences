@@ -21,66 +21,52 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE. 
 */
-using LABS_Experiences.Forms;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
-using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace LABS_Experiences
+namespace LABS_Experiences.Forms
 {
-    public partial class Form1 : Form
+    public partial class ProcessTimeOpened : LABSForm
     {
-        public Form1()
+        int secondsRunned = 0;
+        public ProcessTimeOpened()
         {
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void timer1_Tick(object sender, EventArgs e)
         {
-            new Forms.LeoCorpLibraryForm().Show(); // Ouvrir la fenêtre de l'expérience
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-            label4.Text = string.Format("© {0} Léo Corporation", DateTime.Now.Year.ToString()); // Mettre à jour le copyright
-        }
-
-        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            new AboutForm().Show(); // Ouvrir la fenêtre "A propos"
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            new ClearRamCache().Show(); // Afficher l'expérience
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            new AsyncAwait().Show();
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-            CursorWindow cursorWindow = new CursorWindow();
-            cursorWindow.Show();
+            if (IsProcessRunning(textBox1.Text))
+            {
+                secondsRunned++;
+                label3.Text = $"Time Opened (s): {secondsRunned}";
+            }
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
-            new LABS_XML().Show();
+            timer1.Start();
         }
 
-        private void button6_Click(object sender, EventArgs e)
+        static bool IsProcessRunning(string procName)
         {
-            new ProcessTimeOpened().Show();
+            Process[] pName = Process.GetProcessesByName(procName);
+            if (pName.Length == 0)
+            {
+                return false;
+            }
+            else
+            {
+                return true;
+            }
         }
     }
 }
