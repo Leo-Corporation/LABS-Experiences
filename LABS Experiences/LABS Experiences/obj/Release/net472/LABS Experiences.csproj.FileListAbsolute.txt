@@ -26,3 +26,4 @@ C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\LABS Expe
 C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\LABS Experiences\obj\Release\net472\LABS_Experiences.Forms.LABSXML.resources
 C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\LABS Experiences\obj\Release\net472\LABS_Experiences.Forms.ProcessTimeOpened.resources
 C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\LABS Experiences\obj\Release\net472\LABS_Experiences.Forms.GetFileIcon.resources
+C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\LABS Experiences\obj\Release\net472\LABS_Experiences.Forms.HasFilePermission.resources
