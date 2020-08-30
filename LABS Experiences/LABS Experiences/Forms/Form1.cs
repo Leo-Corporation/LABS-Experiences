@@ -87,5 +87,10 @@ namespace LABS_Experiences
         {
             new GetFileIcon().Show();
         }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            new HasFilePermission().Show();
+        }
     }
 }
