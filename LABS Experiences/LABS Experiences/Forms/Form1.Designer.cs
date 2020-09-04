@@ -84,7 +84,7 @@ namespace LABS_Experiences
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::LABS_Experiences.Properties.Resources.Logo;
+            this.pictureBox1.Image = global::LABS_Experiences.Properties.Resources.LABS_Logo;
             this.pictureBox1.Location = new System.Drawing.Point(7, 6);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(70, 70);
