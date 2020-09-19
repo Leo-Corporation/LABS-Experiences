@@ -153,5 +153,13 @@ namespace LABS_Experiences.Forms
                 MessageBox.Show(a.ToString());
             }
         }
+
+        private void button21_Click(object sender, EventArgs e)
+        {
+            string guid = GuidGenerator.Generate();
+            string guidLenght = GuidGenerator.Generate(10);
+            string guidFromString = GuidGenerator.Generate("Test");
+            MessageBox.Show($"Guid: {guid}{Environment.NewLine}Guid Lenght: {guidLenght}{ Environment.NewLine}Guid From String: {guidFromString}");
+        }
     }
 }
