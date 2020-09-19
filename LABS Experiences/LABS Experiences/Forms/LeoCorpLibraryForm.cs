@@ -161,5 +161,10 @@ namespace LABS_Experiences.Forms
             string guidFromString = GuidGenerator.Generate("Test");
             MessageBox.Show($"Guid: {guid}{Environment.NewLine}Guid Lenght: {guidLenght}{ Environment.NewLine}Guid From String: {guidFromString}");
         }
+
+        private void button22_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show($"AppData path: {Env.GetAppDataPath()}");
+        }
     }
 }
