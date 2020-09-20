@@ -159,7 +159,13 @@ namespace LABS_Experiences.Forms
             string guid = GuidGenerator.Generate();
             string guidLenght = GuidGenerator.Generate(10);
             string guidFromString = GuidGenerator.Generate("Test");
-            MessageBox.Show($"Guid: {guid}{Environment.NewLine}Guid Lenght: {guidLenght}{ Environment.NewLine}Guid From String: {guidFromString}");
+            string guidParameters = GuidGenerator.Generate("LABS",new GuidGeneratorParameters
+            {
+                WithHyphens = true,
+                Lenght = 10,
+                WithBraces = true
+            }); ;
+            MessageBox.Show($"Guid: {guid}{Environment.NewLine}Guid Lenght: {guidLenght}{ Environment.NewLine}Guid From String: {guidFromString}{Environment.NewLine}Guid Parameters: {guidParameters}");
         }
 
         private void button22_Click(object sender, EventArgs e)
