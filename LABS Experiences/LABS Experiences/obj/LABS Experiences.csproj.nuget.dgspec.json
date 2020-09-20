@@ -46,7 +46,7 @@
           "dependencies": {
             "LeoCorpLibrary": {
               "target": "Package",
-              "version": "[2.2.0.2009-rc2, )"
+              "version": "[2.2.0.2009, )"
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
