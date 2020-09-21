@@ -1,38 +1,34 @@
 ---
-name: Reporter un bug
-about: Rapporter un bug pour nous améliorer
+name: Report a bug
+about: Report a bug to help us
 title: "[Bug] "
 labels: bug
 assignees: ''
 
 ---
+<!---You can remove all the sections that aren't needed--->
 
-**Description du bug :**
+<!---A precise description of the bug--->
+**Description of the bug:**
 
-Une description claire du bug.
+<!---Steps to reproduce the bug :
+1. Go to "..."
+2. Click on "..."
+3. Open "..."
+4. The problème is here.--->
+**How to reproduce the bug:**
 
-**Comment reproduire le bug :**
+<!---A precise description of the expected behaviour--->
+**Expected behaviour:**
 
-Etapes pour reproduire le bug :
-1. Allez à '...'
-2. Cliquez sur '....'
-3. Déscendez jusqu'à '....'
-4. Le problème est là.
+<!---If you can, join screenshots.--->
+**Screenshots:**
 
-**Comportement attendu :**
+<!---Computer's configuration--->
+**Computer:**
+ - OS:
+ - OS Version:
+ - Software's Version:
 
-Une description claire de ce qui est censé ce produire.
-
-**Captures d'écrans :**
-
-Si vous pouvez, joignez des captures d'écrans.
-
-**Ordinateur :**
- - OS: [ex: Windows 10]
- - Version de l'OS [ex: Windows 10 18362]
- - Version du programme [ex: 1.2.0.0]
-
-
-**Autres informations :**
-
-Ajoutez si nécessaire, des informations supplémentaires.
+<!---If needed, add other informations.--->
+**Other:**
