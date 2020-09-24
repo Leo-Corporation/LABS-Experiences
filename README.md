@@ -1,15 +1,16 @@
 # LABS Experiences ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/Leo-Corporation/LABS-Experiences/.NET%20Framework) ![GitHub](https://img.shields.io/github/license/Leo-Corporation/LABS-Experiences)
 ## Introduction
-"LABS Experiences" est un projet qui contient diverses expériences qui permettent l'ajout de fonctionnalités dans certains de nos logiciels.
+"LABS Experiences" is a software that contains various experiences that might help implements new features in our softwares..
 
-Dans ce projet, nous faisons et effectuons des tests, comme par exemple sur [LeoCorpLibrary](https://github.com/Leo-Corporation/LeoCorpLibrary) pour savoir si tout fonctionne bien comme prévu.
+In this project we make tests, for example, we are making tests on [LeoCorpLibrary](https://github.com/Leo-Corporation/LeoCorpLibrary) to see if the new additions of LeoCorpLibrary works as expected.
 
-## Contribuer
-Si vous souhaitez contribuer au projet, vous devez avoir les prérequis suivants :
-- Visual Studio 2019
-  - Développement en .NET Desktop
-  - Git
-- .NET Framework 4.7.2 + .NET Core 3.1
+## Contribute
+You will also need to have the following tools:
+- Microsoft Visual Studio 2019
+  - .NET Desktop Developpement
+- Git
+- (*optionnal*) Microsoft Visual Studio Code
+- .NET Framework 4.7.2 or + and .NET Core 3.1
 
 ## License
-Le projet est sous la license [MIT](https://github.com/Leo-Corporation/LABS-Experiences/blob/master/LICENSE.md).
+Project under the [MIT](https://github.com/Leo-Corporation/LABS-Experiences/blob/master/LICENSE.md) license.
