@@ -65,9 +65,9 @@ namespace LABS_Experiences.Forms
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(12, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(51, 21);
+            this.label1.Size = new System.Drawing.Size(42, 21);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Texte";
+            this.label1.Text = "Text";
             // 
             // label2
             // 
@@ -76,9 +76,9 @@ namespace LABS_Experiences.Forms
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(12, 30);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(44, 21);
+            this.label2.Size = new System.Drawing.Size(36, 21);
             this.label2.TabIndex = 0;
-            this.label2.Text = "Texte";
+            this.label2.Text = "Text";
             // 
             // timer1
             // 

@@ -63,10 +63,9 @@ namespace LABS_Experiences.Forms
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(16, 122);
-            this.button2.Margin = new System.Windows.Forms.Padding(4);
+            this.button2.Location = new System.Drawing.Point(12, 99);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(252, 64);
+            this.button2.Size = new System.Drawing.Size(189, 52);
             this.button2.TabIndex = 4;
             this.button2.Text = "TextDownloader";
             this.button2.UseVisualStyleBackColor = false;
@@ -79,10 +78,9 @@ namespace LABS_Experiences.Forms
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(276, 122);
-            this.button1.Margin = new System.Windows.Forms.Padding(4);
+            this.button1.Location = new System.Drawing.Point(207, 99);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(252, 64);
+            this.button1.Size = new System.Drawing.Size(189, 52);
             this.button1.TabIndex = 5;
             this.button1.Text = "GetLastVersionAsync";
             this.button1.UseVisualStyleBackColor = false;
@@ -95,10 +93,9 @@ namespace LABS_Experiences.Forms
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(16, 194);
-            this.button3.Margin = new System.Windows.Forms.Padding(4);
+            this.button3.Location = new System.Drawing.Point(12, 158);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(286, 64);
+            this.button3.Size = new System.Drawing.Size(214, 52);
             this.button3.TabIndex = 6;
             this.button3.Text = "InternetConnectionAsync";
             this.button3.UseVisualStyleBackColor = false;
@@ -106,14 +103,13 @@ namespace LABS_Experiences.Forms
             // 
             // AsyncAwait
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 474);
+            this.ClientSize = new System.Drawing.Size(600, 385);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.button2);
-            this.Description = "Tests sur Async et Await";
-            this.Margin = new System.Windows.Forms.Padding(4);
+            this.Description = "Async/Await tests";
             this.Name = "AsyncAwait";
             this.Text = "Async Await - LABS Experiences";
             this.Title = "Async Await";

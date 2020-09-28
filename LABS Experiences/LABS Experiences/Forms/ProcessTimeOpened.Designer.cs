@@ -104,7 +104,7 @@ namespace LABS_Experiences.Forms
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.label3);
-            this.Description = "Test sur les processus";
+            this.Description = "Tests on processes";
             this.Name = "ProcessTimeOpened";
             this.Text = "ProcessTimeOpened - LABS Experiences";
             this.Title = "ProcessTimeOpened";

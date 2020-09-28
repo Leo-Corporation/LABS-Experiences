@@ -81,7 +81,7 @@ namespace LABS_Experiences.Forms
             this.ClientSize = new System.Drawing.Size(455, 285);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.textBox1);
-            this.Description = "Permet d\'obtenir l\'icône d\'un fichier d\'application";
+            this.Description = "Allows you to get the icon a file";
             this.Name = "GetFileIcon";
             this.Text = "GetFileIcon - LABS Experiences";
             this.Title = "GetFileIcon";

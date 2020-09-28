@@ -64,10 +64,9 @@ namespace LABS_Experiences.Forms
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(13, 89);
-            this.button2.Margin = new System.Windows.Forms.Padding(4);
+            this.button2.Location = new System.Drawing.Point(10, 72);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(151, 52);
+            this.button2.Size = new System.Drawing.Size(113, 42);
             this.button2.TabIndex = 6;
             this.button2.Text = "Serialized";
             this.button2.UseVisualStyleBackColor = false;
@@ -80,10 +79,9 @@ namespace LABS_Experiences.Forms
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(172, 89);
-            this.button1.Margin = new System.Windows.Forms.Padding(4);
+            this.button1.Location = new System.Drawing.Point(129, 72);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(151, 52);
+            this.button1.Size = new System.Drawing.Size(113, 42);
             this.button1.TabIndex = 6;
             this.button1.Text = "Deserialized";
             this.button1.UseVisualStyleBackColor = false;
@@ -92,11 +90,12 @@ namespace LABS_Experiences.Forms
             // textBox1
             // 
             this.textBox1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.textBox1.Location = new System.Drawing.Point(0, 302);
+            this.textBox1.Location = new System.Drawing.Point(0, 245);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.textBox1.Size = new System.Drawing.Size(800, 148);
+            this.textBox1.Size = new System.Drawing.Size(600, 121);
             this.textBox1.TabIndex = 7;
             // 
             // button3
@@ -106,10 +105,9 @@ namespace LABS_Experiences.Forms
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(13, 149);
-            this.button3.Margin = new System.Windows.Forms.Padding(4);
+            this.button3.Location = new System.Drawing.Point(10, 121);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(151, 52);
+            this.button3.Size = new System.Drawing.Size(113, 42);
             this.button3.TabIndex = 8;
             this.button3.Text = "Sort";
             this.button3.UseVisualStyleBackColor = false;
@@ -117,14 +115,15 @@ namespace LABS_Experiences.Forms
             // 
             // LABS_XML
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(600, 366);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.button2);
-            this.Description = "Expériences sur XML";
+            this.Description = "XML Experiecnes";
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "LABS_XML";
             this.Text = "LABS XML - LABS Experiences";
             this.Title = "LABS XML";

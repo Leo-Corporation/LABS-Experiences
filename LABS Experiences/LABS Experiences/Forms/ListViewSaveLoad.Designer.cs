@@ -172,17 +172,17 @@ namespace LABS_Experiences.Forms
             // 
             // columnHeader1
             // 
-            this.columnHeader1.Text = "Colonne 1";
+            this.columnHeader1.Text = "Column 1";
             this.columnHeader1.Width = 173;
             // 
             // columnHeader2
             // 
-            this.columnHeader2.Text = "Colonne 2";
+            this.columnHeader2.Text = "Column 2";
             this.columnHeader2.Width = 189;
             // 
             // columnHeader3
             // 
-            this.columnHeader3.Text = "Colonne 3";
+            this.columnHeader3.Text = "Column 3";
             this.columnHeader3.Width = 176;
             // 
             // ListViewSaveLoad

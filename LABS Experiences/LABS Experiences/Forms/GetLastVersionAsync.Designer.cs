@@ -75,7 +75,7 @@ namespace LABS_Experiences.Forms
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(407, 204);
             this.Controls.Add(this.button2);
-            this.Description = "Test sur la fonction GetLastVersion";
+            this.Description = "Test on the GetLastVersion method";
             this.Name = "GetLastVersionAsync";
             this.Text = "GetLastVersionAsync - LABS Experiences";
             this.Title = "GetLastVersionAsync";

@@ -94,9 +94,9 @@ namespace LABS_Experiences.Forms
             this.label2.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.label2.Location = new System.Drawing.Point(84, 50);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(116, 19);
+            this.label2.Size = new System.Drawing.Size(72, 19);
             this.label2.TabIndex = 0;
-            this.label2.Text = "Utilise de la RAM.";
+            this.label2.Text = "Uses RAM";
             // 
             // label1
             // 
@@ -122,21 +122,21 @@ namespace LABS_Experiences.Forms
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
-            this.label3.Location = new System.Drawing.Point(204, 123);
+            this.label3.Location = new System.Drawing.Point(221, 123);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(100, 21);
+            this.label3.Size = new System.Drawing.Size(67, 21);
             this.label3.TabIndex = 0;
-            this.label3.Text = "Je compte : ";
+            this.label3.Text = "I count:";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
-            this.label4.Location = new System.Drawing.Point(161, 144);
+            this.label4.Location = new System.Drawing.Point(203, 144);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(186, 21);
+            this.label4.Size = new System.Drawing.Size(102, 21);
             this.label4.TabIndex = 0;
-            this.label4.Text = "Je compte également : ";
+            this.label4.Text = "I also count:";
             // 
             // pictureBox2
             // 

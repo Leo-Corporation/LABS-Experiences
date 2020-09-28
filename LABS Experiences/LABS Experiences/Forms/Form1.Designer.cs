@@ -98,9 +98,9 @@ namespace LABS_Experiences
             this.label2.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.label2.Location = new System.Drawing.Point(84, 50);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(475, 19);
+            this.label2.Size = new System.Drawing.Size(422, 19);
             this.label2.TabIndex = 0;
-            this.label2.Text = "LABS Experiences est l\'endroit où sont rassemblées nos diverses expériences.";
+            this.label2.Text = "LABS Experience is the place where all our experiences are gathered.";
             // 
             // label1
             // 
@@ -108,9 +108,9 @@ namespace LABS_Experiences
             this.label1.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Bold);
             this.label1.Location = new System.Drawing.Point(81, 13);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(150, 37);
+            this.label1.Size = new System.Drawing.Size(136, 37);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Bienvenue";
+            this.label1.Text = "Welcome";
             // 
             // button1
             // 
@@ -152,12 +152,12 @@ namespace LABS_Experiences
             this.linkLabel1.AutoSize = true;
             this.linkLabel1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linkLabel1.LinkColor = System.Drawing.Color.MediumSlateBlue;
-            this.linkLabel1.Location = new System.Drawing.Point(575, 399);
+            this.linkLabel1.Location = new System.Drawing.Point(596, 399);
             this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(78, 21);
+            this.linkLabel1.Size = new System.Drawing.Size(57, 21);
             this.linkLabel1.TabIndex = 6;
             this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "A propos";
+            this.linkLabel1.Text = "About";
             this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
             // button2

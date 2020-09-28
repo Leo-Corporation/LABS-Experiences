@@ -58,7 +58,7 @@ namespace LABS_Experiences.Forms
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(596, 450);
-            this.Description = "Ceci est une fenêtre de test";
+            this.Description = "This is a test form";
             this.Name = "TestForm";
             this.Text = "Test Form - LABS Experiences";
             this.Title = "Test Form";

@@ -66,7 +66,7 @@ namespace LABS_Experiences.Forms
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(189, 42);
             this.button2.TabIndex = 4;
-            this.button2.Text = "Télécharger";
+            this.button2.Text = "Download";
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
@@ -74,11 +74,11 @@ namespace LABS_Experiences.Forms
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.label3.Location = new System.Drawing.Point(154, 204);
+            this.label3.Location = new System.Drawing.Point(166, 204);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(175, 19);
+            this.label3.Size = new System.Drawing.Size(151, 19);
             this.label3.TabIndex = 5;
-            this.label3.Text = "Tests sur GarbageCollector.";
+            this.label3.Text = "GarbageCollector tests.";
             // 
             // TextDownloader
             // 
@@ -87,7 +87,7 @@ namespace LABS_Experiences.Forms
             this.ClientSize = new System.Drawing.Size(483, 361);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.button2);
-            this.Description = "Télécharger du texte de manière asynchrone";
+            this.Description = "Download text asynchronously";
             this.Name = "TextDownloader";
             this.Text = "TextDownloader - LABS Experiences";
             this.Title = "TextDownloader";

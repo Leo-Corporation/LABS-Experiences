@@ -45,7 +45,7 @@ namespace LABS_Experiences.Forms
         private void timer1_Tick(object sender, EventArgs e)
         {
             counter++;
-            label3.Text = string.Format("Je compte : {0}", counter.ToString());
+            label3.Text = string.Format("I count: {0}", counter.ToString());
             if (pictureBox2.Image == Properties.Resources.Logo) // Si le logo est présent
             {
                 pictureBox2.Image = null; // Pas d'image
@@ -59,7 +59,7 @@ namespace LABS_Experiences.Forms
         private void timer2_Tick(object sender, EventArgs e)
         {
             counter1++;
-            label4.Text = string.Format("Je compte également : {0}", counter1.ToString());
+            label4.Text = string.Format("I also count: {0}", counter1.ToString());
             label3.Left = (ClientSize.Width - label3.Width) / 2;
             label4.Left = (ClientSize.Width - label4.Width) / 2;
         }

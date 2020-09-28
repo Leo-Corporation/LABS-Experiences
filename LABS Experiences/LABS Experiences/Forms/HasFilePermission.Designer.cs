@@ -85,7 +85,7 @@ namespace LABS_Experiences.Forms
             this.ClientSize = new System.Drawing.Size(467, 265);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.textBox1);
-            this.Description = "Une expériencee pour tester si un répertoire a la permission";
+            this.Description = "An experience to check if a directory has perms";
             this.Name = "HasFilePermission";
             this.Text = "HasFilePermission - LABS Experiences";
             this.Title = "HasFilePermission";
