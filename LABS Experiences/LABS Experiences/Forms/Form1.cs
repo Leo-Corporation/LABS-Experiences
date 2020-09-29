@@ -92,5 +92,10 @@ namespace LABS_Experiences
         {
             new HasFilePermission().Show();
         }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            new LeoCorpLibraryUI().Show();
+        }
     }
 }
