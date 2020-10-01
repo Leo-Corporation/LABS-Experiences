@@ -28,7 +28,7 @@
     <ApplicationManifest>app.manifest</ApplicationManifest>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="LeoCorpLibrary" Version="2.3.0.2010-rc1" />
+    <PackageReference Include="LeoCorpLibrary" Version="2.3.0.2010" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System.Data.DataSetExtensions" />
