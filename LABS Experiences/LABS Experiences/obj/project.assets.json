@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     ".NETFramework,Version=v4.7.2": {
-      "LeoCorpLibrary/2.3.0.2010-rc1": {
+      "LeoCorpLibrary/2.3.0.2010": {
         "type": "package",
         "frameworkAssemblies": [
           "Microsoft.CSharp",
@@ -19,7 +19,7 @@
       }
     },
     ".NETFramework,Version=v4.7.2/win7-x86": {
-      "LeoCorpLibrary/2.3.0.2010-rc1": {
+      "LeoCorpLibrary/2.3.0.2010": {
         "type": "package",
         "frameworkAssemblies": [
           "Microsoft.CSharp",
@@ -37,15 +37,15 @@
     }
   },
   "libraries": {
-    "LeoCorpLibrary/2.3.0.2010-rc1": {
-      "sha512": "maXhN/CMQUK8V4smGQkAdL4KR48fxiqRb4JEeviHH79P8kEMjxZIWKlmd9sybE9vNYk9Yaghoo50nYHuT0iN2g==",
+    "LeoCorpLibrary/2.3.0.2010": {
+      "sha512": "o2/eBHT31Nbrj56YbhnROxzs5LQ6O4IR+hbTt1Mj9sHL5S4jmSr/GAacVfQyDxB6c2/mGUVD/+t+4UGWriyaNQ==",
       "type": "package",
-      "path": "leocorplibrary/2.3.0.2010-rc1",
+      "path": "leocorplibrary/2.3.0.2010",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "icon.png",
-        "leocorplibrary.2.3.0.2010-rc1.nupkg.sha512",
+        "leocorplibrary.2.3.0.2010.nupkg.sha512",
         "leocorplibrary.nuspec",
         "lib/net472/LeoCorpLibrary.dll",
         "lib/net472/LeoCorpLibrary.xml",
@@ -56,7 +56,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETFramework,Version=v4.7.2": [
-      "LeoCorpLibrary >= 2.3.0.2010-rc1"
+      "LeoCorpLibrary >= 2.3.0.2010"
     ]
   },
   "packageFolders": {
@@ -65,7 +65,7 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
-    "version": "1.0.0",
+    "version": "1.6.0.2010",
     "restore": {
       "projectUniqueName": "C:\\Users\\Léo Peyronnet\\source\\repos\\LABS-Experiences\\LABS Experiences\\LABS Experiences\\LABS Experiences.csproj",
       "projectName": "LABS Experiences",
@@ -106,7 +106,7 @@
         "dependencies": {
           "LeoCorpLibrary": {
             "target": "Package",
-            "version": "[2.3.0.2010-rc1, )"
+            "version": "[2.3.0.2010, )"
           }
         },
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"

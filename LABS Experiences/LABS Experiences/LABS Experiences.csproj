@@ -10,8 +10,8 @@
     <Product>LABS Experiences</Product>
     <Description>L'endroit où sont rassemblées nos expériences</Description>
     <Copyright>Copyright ©  2020</Copyright>
-    <AssemblyVersion>1.4.0.2008</AssemblyVersion>
-    <FileVersion>1.4.0.2008</FileVersion>
+    <AssemblyVersion>1.6.0.2010</AssemblyVersion>
+    <FileVersion>1.6.0.2010</FileVersion>
     <UseWindowsForms>true</UseWindowsForms>
     <OutputPath>bin\$(Configuration)\</OutputPath>
   </PropertyGroup>
@@ -26,6 +26,7 @@
   </PropertyGroup>
   <PropertyGroup>
     <ApplicationManifest>app.manifest</ApplicationManifest>
+    <Version>1.6.0.2010</Version>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="LeoCorpLibrary" Version="2.3.0.2010" />

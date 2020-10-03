@@ -134,9 +134,9 @@ namespace LABS_Experiences
             this.label3.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Bold);
             this.label3.Location = new System.Drawing.Point(8, 89);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(123, 25);
+            this.label3.Size = new System.Drawing.Size(118, 25);
             this.label3.TabIndex = 0;
-            this.label3.Text = "Experiences :";
+            this.label3.Text = "Experiences:";
             // 
             // label4
             // 

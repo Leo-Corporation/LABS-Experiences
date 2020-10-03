@@ -15,11 +15,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyCopyrightAttribute("Copyright ©  2020")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("L\'endroit où sont rassemblées nos expériences")]
-[assembly: System.Reflection.AssemblyFileVersionAttribute("1.4.0.2008")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyFileVersionAttribute("1.6.0.2010")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.6.0.2010")]
 [assembly: System.Reflection.AssemblyProductAttribute("LABS Experiences")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LABS Experiences")]
-[assembly: System.Reflection.AssemblyVersionAttribute("1.4.0.2008")]
+[assembly: System.Reflection.AssemblyVersionAttribute("1.6.0.2010")]
 
 // Généré par la classe MSBuild WriteCodeFragment.
 
