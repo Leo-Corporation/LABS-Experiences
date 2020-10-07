@@ -21,6 +21,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE. 
 */
+using LeoCorpLibrary;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -79,6 +80,18 @@ namespace LABS_Experiences.Forms
             {
                 return false; // Si la page ne s'ouvre pas = connexion down
             }
+        }
+
+        private async void button4_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(await GeneratePassword(10000, "a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,1,2,3,4,5,6,7,8,9,0", ","));
+        }
+
+        private Task<string> GeneratePassword(int lenght, string chars, string separator)
+        {
+            Task<string> task = new Task<string>(() => Password.Generate(lenght, chars, separator));
+            task.Start();
+            return task;
         }
     }
 }
