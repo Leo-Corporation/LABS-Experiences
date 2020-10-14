@@ -172,5 +172,10 @@ namespace LABS_Experiences.Forms
         {
             MessageBox.Show($"AppData path: {Env.GetAppDataPath()}");
         }
+
+        private void button23_Click(object sender, EventArgs e)
+        {
+            new GenerateAsync().Show();
+        }
     }
 }
