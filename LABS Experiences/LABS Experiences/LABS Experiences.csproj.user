@@ -20,5 +20,8 @@
     <Compile Update="Forms\ProcessTimeOpened.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Forms\SearchFiles.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 </Project>

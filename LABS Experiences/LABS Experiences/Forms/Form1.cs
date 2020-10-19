@@ -97,5 +97,10 @@ namespace LABS_Experiences
         {
             new LeoCorpLibraryUI().Show();
         }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            new SearchFiles().Show();
+        }
     }
 }
