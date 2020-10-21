@@ -22,6 +22,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE. 
 */
 using LeoCorpLibrary;
+using LeoCorpLibrary.Extensions;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -176,6 +177,16 @@ namespace LABS_Experiences.Forms
         private void button23_Click(object sender, EventArgs e)
         {
             new GenerateAsync().Show();
+        }
+
+        private void button24_Click(object sender, EventArgs e)
+        {
+            int number = 1;
+            double div = number.ToDouble() / 2;
+            string sentence = "Hello, this is a test sentence to see if the word counter in LeoCorpLibrary is working properly!!";
+            MessageBox.Show($"{div.ToString()}\n{number / 2}");
+            MessageBox.Show(number.IsEven().ToString());
+            MessageBox.Show(sentence.CountWords().ToString());
         }
     }
 }
