@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     ".NETFramework,Version=v4.7.2": {
-      "LeoCorpLibrary/2.4.0.2010": {
+      "LeoCorpLibrary/2.5.0.2010-pre1": {
         "type": "package",
         "frameworkAssemblies": [
           "Microsoft.CSharp",
@@ -19,7 +19,7 @@
       }
     },
     ".NETFramework,Version=v4.7.2/win7-x86": {
-      "LeoCorpLibrary/2.4.0.2010": {
+      "LeoCorpLibrary/2.5.0.2010-pre1": {
         "type": "package",
         "frameworkAssemblies": [
           "Microsoft.CSharp",
@@ -37,15 +37,14 @@
     }
   },
   "libraries": {
-    "LeoCorpLibrary/2.4.0.2010": {
-      "sha512": "NnRJQzT58iTQzasnFTExHJwG53SBC5nm3XxLnwpYzr4KUz3IFzM5bjKm/LjKq4xJkT/0wR05Pa51TzEvfS9zBw==",
+    "LeoCorpLibrary/2.5.0.2010-pre1": {
+      "sha512": "Y31pfsj1abEijUjWuYQEv8EBiF7uYgCf4pmu867PdKzmAD52d8Mm4h4yjNRput0yXioQH4N2LdzZhJCdLPti9Q==",
       "type": "package",
-      "path": "leocorplibrary/2.4.0.2010",
+      "path": "leocorplibrary/2.5.0.2010-pre1",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "icon.png",
-        "leocorplibrary.2.4.0.2010.nupkg.sha512",
+        "leocorplibrary.2.5.0.2010-pre1.nupkg.sha512",
         "leocorplibrary.nuspec",
         "lib/net472/LeoCorpLibrary.dll",
         "lib/net472/LeoCorpLibrary.xml",
@@ -56,7 +55,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETFramework,Version=v4.7.2": [
-      "LeoCorpLibrary >= 2.4.0.2010"
+      "LeoCorpLibrary >= 2.5.0.2010-pre1"
     ]
   },
   "packageFolders": {
@@ -106,7 +105,7 @@
         "dependencies": {
           "LeoCorpLibrary": {
             "target": "Package",
-            "version": "[2.4.0.2010, )"
+            "version": "[2.5.0.2010-pre1, )"
           }
         },
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
@@ -117,5 +116,13 @@
         "#import": []
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Please use the --api-key and --source options when publishing to GitHub Packages"
+    }
+  ]
 }

@@ -1,10 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "R0EFzx3U7q5JrTkXCLn0WjMyaPC2IFZGdP3x08SXmGKMyLg4E/oLGeqSm+lmfkVzxjRugmy9p+zF1hUPJj+uHg==",
+  "dgSpecHash": "p3m0cCiDoeXF6/4bHymAO0k+9GXk2BzodnkzU4IU8hJojPrhJeYuAA68G62XSTSUTkk382aFQ5mKJJ5RXWBMng==",
   "success": true,
   "projectFilePath": "C:\\Users\\Léo Peyronnet\\source\\repos\\LABS-Experiences\\LABS Experiences\\LABS Experiences\\LABS Experiences.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Léo Peyronnet\\.nuget\\packages\\leocorplibrary\\2.4.0.2010\\leocorplibrary.2.4.0.2010.nupkg.sha512"
+    "C:\\Users\\Léo Peyronnet\\.nuget\\packages\\leocorplibrary\\2.5.0.2010-pre1\\leocorplibrary.2.5.0.2010-pre1.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Please use the --api-key and --source options when publishing to GitHub Packages"
+    }
+  ]
 }
