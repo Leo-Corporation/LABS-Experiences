@@ -184,9 +184,40 @@ namespace LABS_Experiences.Forms
             int number = 1;
             double div = number.ToDouble() / 2;
             string sentence = "Hello, this is a test sentence to see if the word counter in LeoCorpLibrary is working properly!!";
+
+            int[] numbers = { 1, 5, 6, 4, 8 };
+            int[] append = numbers.Append(10, 8, 9);
+            string strNumbers = "";
+            string strAppend = "";
+            for (int i = 0; i < numbers.Length; i++)
+            {
+                strNumbers += numbers[i] + " ";
+            }
+
+            for (int i = 0; i < append.Length; i++)
+            {
+                strAppend += append[i] + " ";
+            }
+
+            int[] numbers1 = { 1, 2, 5, 6, 7, 8 };
+            int[] remove = numbers1.RemoveItem(7, 2, 3);
+            string strNumbers1 = "";
+            string strRemove = "";
+
+            for (int i = 0; i < numbers1.Length; i++)
+            {
+                strNumbers1 += numbers1[i] + " ";
+            }
+
+            for (int i = 0; i < remove.Length; i++)
+            {
+                strRemove += remove[i] + " ";
+            }            
             MessageBox.Show($"{div.ToString()}\n{number / 2}");
             MessageBox.Show(number.IsEven().ToString());
             MessageBox.Show(sentence.CountWords().ToString());
+            MessageBox.Show($"Numbers: {strNumbers}\nAppend numbers: {strAppend}");
+            MessageBox.Show($"Numbers: {strNumbers1}\nRemove numbers: {strRemove}");
         }
     }
 }
