@@ -43,17 +43,27 @@ namespace LABS_Experiences.Forms
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Save.ListViewContent(listView1, Application.StartupPath + "/test.txt");
+            Save.ListViewContentCustom(listView1, Application.StartupPath + "/test.txt");
         }
 
         private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            LeoCorpLibrary.Load.ListViewContent(listView1, Application.StartupPath + "/test.txt");
+            LeoCorpLibrary.Load.ListViewContentCustom(listView1, Application.StartupPath + "/test.txt");
         }
 
         private void linkLabel3_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             listView1.Items.Clear();
+        }
+
+        private void linkLabel5_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Save.ListViewContentXML(listView1, Application.StartupPath + "/test.xml");
+        }
+
+        private void linkLabel4_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            LeoCorpLibrary.Load.ListViewContentXML(listView1, Application.StartupPath + "/test.xml");
         }
     }
 }

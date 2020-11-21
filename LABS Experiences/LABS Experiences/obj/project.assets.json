@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     ".NETFramework,Version=v4.7.2": {
-      "LeoCorpLibrary/2.5.0.2010-rc1": {
+      "LeoCorpLibrary/2.7.0.2011-rc1": {
         "type": "package",
         "frameworkAssemblies": [
           "Microsoft.CSharp",
@@ -19,7 +19,7 @@
       }
     },
     ".NETFramework,Version=v4.7.2/win7-x86": {
-      "LeoCorpLibrary/2.5.0.2010-rc1": {
+      "LeoCorpLibrary/2.7.0.2011-rc1": {
         "type": "package",
         "frameworkAssemblies": [
           "Microsoft.CSharp",
@@ -37,15 +37,15 @@
     }
   },
   "libraries": {
-    "LeoCorpLibrary/2.5.0.2010-rc1": {
-      "sha512": "ww1co7UvYSU90E/dwLHANQrfQkCjhRugTUjx6oUnA4TAAuanbNca9q3oOgtQcAp52T04ThWvfL2nqrwi8PeJ6Q==",
+    "LeoCorpLibrary/2.7.0.2011-rc1": {
+      "sha512": "ElyGTUeWuAiGs0F8p7N6cVlWiY8hOtDqka4a0TTnoSUbYzWPjWNR4Nt/JaYrZePvqNEhLuu9si87hBXMqtiV3A==",
       "type": "package",
-      "path": "leocorplibrary/2.5.0.2010-rc1",
+      "path": "leocorplibrary/2.7.0.2011-rc1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "icon.png",
-        "leocorplibrary.2.5.0.2010-rc1.nupkg.sha512",
+        "leocorplibrary.2.7.0.2011-rc1.nupkg.sha512",
         "leocorplibrary.nuspec",
         "lib/net472/LeoCorpLibrary.dll",
         "lib/net472/LeoCorpLibrary.xml",
@@ -56,7 +56,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETFramework,Version=v4.7.2": [
-      "LeoCorpLibrary >= 2.5.0.2010-rc1"
+      "LeoCorpLibrary >= 2.7.0.2011-rc1"
     ]
   },
   "packageFolders": {
@@ -92,6 +92,7 @@
       },
       "frameworks": {
         "net472": {
+          "targetAlias": "net472",
           "projectReferences": {}
         }
       },
@@ -103,13 +104,14 @@
     },
     "frameworks": {
       "net472": {
+        "targetAlias": "net472",
         "dependencies": {
           "LeoCorpLibrary": {
             "target": "Package",
-            "version": "[2.5.0.2010-rc1, )"
+            "version": "[2.7.0.2011-rc1, )"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {
@@ -117,13 +119,5 @@
         "#import": []
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Please use the --api-key and --source options when publishing to GitHub Packages"
-    }
-  ]
+  }
 }
