@@ -1,38 +1,18 @@
 {
   "version": 3,
   "targets": {
-    ".NETFramework,Version=v4.7.2": {
+    "net5.0-windows7.0": {
       "LeoCorpLibrary/2.7.0.2011-rc1": {
         "type": "package",
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "System.Data.DataSetExtensions",
-          "System.Net.Http",
-          "System.Windows.Forms"
-        ],
         "compile": {
-          "lib/net472/LeoCorpLibrary.dll": {}
+          "lib/netcoreapp3.1/LeoCorpLibrary.dll": {}
         },
         "runtime": {
-          "lib/net472/LeoCorpLibrary.dll": {}
-        }
-      }
-    },
-    ".NETFramework,Version=v4.7.2/win7-x86": {
-      "LeoCorpLibrary/2.7.0.2011-rc1": {
-        "type": "package",
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "System.Data.DataSetExtensions",
-          "System.Net.Http",
-          "System.Windows.Forms"
-        ],
-        "compile": {
-          "lib/net472/LeoCorpLibrary.dll": {}
+          "lib/netcoreapp3.1/LeoCorpLibrary.dll": {}
         },
-        "runtime": {
-          "lib/net472/LeoCorpLibrary.dll": {}
-        }
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App"
+        ]
       }
     }
   },
@@ -55,7 +35,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    ".NETFramework,Version=v4.7.2": [
+    "net5.0-windows7.0": [
       "LeoCorpLibrary >= 2.7.0.2011-rc1"
     ]
   },
@@ -83,7 +63,7 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net472"
+        "net5.0-windows7.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -91,8 +71,8 @@
         "https://nuget.pkg.github.com/Leo-Corporation/index.json": {}
       },
       "frameworks": {
-        "net472": {
-          "targetAlias": "net472",
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
           "projectReferences": {}
         }
       },
@@ -103,20 +83,36 @@
       }
     },
     "frameworks": {
-      "net472": {
-        "targetAlias": "net472",
+      "net5.0-windows7.0": {
+        "targetAlias": "net5.0-windows",
         "dependencies": {
           "LeoCorpLibrary": {
             "target": "Package",
             "version": "[2.7.0.2011-rc1, )"
           }
         },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
-      }
-    },
-    "runtimes": {
-      "win7-x86": {
-        "#import": []
       }
     }
   }

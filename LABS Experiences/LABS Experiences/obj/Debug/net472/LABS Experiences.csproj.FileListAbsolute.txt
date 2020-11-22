@@ -23,3 +23,10 @@ C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\LABS Expe
 C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\LABS Experiences\obj\Debug\net472\LABS Experiences.csproj.CopyComplete
 C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\LABS Experiences\obj\Debug\net472\LABS Experiences.exe
 C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\LABS Experiences\obj\Debug\net472\LABS Experiences.pdb
+C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\LABS Experiences\obj\Debug\net472\LABS_Experiences.Forms.GenerateAsync.resources
+C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\LABS Experiences\obj\Debug\net472\LABS_Experiences.Forms.GetFileIcon.resources
+C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\LABS Experiences\obj\Debug\net472\LABS_Experiences.Forms.HasFilePermission.resources
+C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\LABS Experiences\obj\Debug\net472\LABS_Experiences.Forms.LABSXML.resources
+C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\LABS Experiences\obj\Debug\net472\LABS_Experiences.Forms.LeoCorpLibraryUI.resources
+C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\LABS Experiences\obj\Debug\net472\LABS_Experiences.Forms.ProcessTimeOpened.resources
+C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\LABS Experiences\obj\Debug\net472\LABS_Experiences.Forms.SearchFiles.resources
