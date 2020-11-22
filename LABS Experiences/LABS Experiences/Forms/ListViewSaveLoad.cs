@@ -67,5 +67,15 @@ namespace LABS_Experiences.Forms
         {
             LeoCorpLibrary.Load.ListViewContentXML(listView1, Application.StartupPath + "/test.xml");
         }
+
+        private void linkLabel7_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Save.ListViewContentJSON(listView1, Application.StartupPath + "/test.json");
+        }
+
+        private void linkLabel6_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            LeoCorpLibrary.Load.ListViewContentJSON(listView1, Application.StartupPath + "/test.json");
+        }
     }
 }
