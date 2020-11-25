@@ -5,7 +5,7 @@
   },
   "projects": {
     "C:\\Users\\Léo Peyronnet\\source\\repos\\LABS-Experiences\\LABS Experiences\\LABS Experiences\\LABS Experiences.csproj": {
-      "version": "1.6.0.2010",
+      "version": "1.7.0.2011",
       "restore": {
         "projectUniqueName": "C:\\Users\\Léo Peyronnet\\source\\repos\\LABS-Experiences\\LABS Experiences\\LABS Experiences\\LABS Experiences.csproj",
         "projectName": "LABS Experiences",
@@ -48,7 +48,7 @@
           "dependencies": {
             "LeoCorpLibrary": {
               "target": "Package",
-              "version": "[2.7.0.2011-rc2, )"
+              "version": "[2.7.0.2011, )"
             }
           },
           "imports": [
