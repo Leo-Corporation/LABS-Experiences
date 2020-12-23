@@ -219,5 +219,10 @@ namespace LABS_Experiences.Forms
             MessageBox.Show($"Numbers: {strNumbers}\nAppend numbers: {strAppend}");
             MessageBox.Show($"Numbers: {strNumbers1}\nRemove numbers: {strRemove}");
         }
+
+        private void button25_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(Env.CurrentOperatingSystem.ToString());
+        }
     }
 }

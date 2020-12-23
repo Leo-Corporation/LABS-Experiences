@@ -80,6 +80,7 @@ namespace LABS_Experiences.Forms
             this.button22 = new System.Windows.Forms.Button();
             this.button23 = new System.Windows.Forms.Button();
             this.button24 = new System.Windows.Forms.Button();
+            this.button25 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -93,7 +94,7 @@ namespace LABS_Experiences.Forms
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(747, 95);
+            this.panel1.Size = new System.Drawing.Size(964, 95);
             this.panel1.TabIndex = 1;
             // 
             // pictureBox1
@@ -136,7 +137,7 @@ namespace LABS_Experiences.Forms
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(36, 117);
+            this.button1.Location = new System.Drawing.Point(31, 115);
             this.button1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(220, 48);
@@ -152,7 +153,7 @@ namespace LABS_Experiences.Forms
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(264, 117);
+            this.button2.Location = new System.Drawing.Point(259, 115);
             this.button2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(220, 48);
@@ -168,7 +169,7 @@ namespace LABS_Experiences.Forms
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(491, 117);
+            this.button3.Location = new System.Drawing.Point(486, 115);
             this.button3.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(220, 48);
@@ -184,7 +185,7 @@ namespace LABS_Experiences.Forms
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(36, 172);
+            this.button4.Location = new System.Drawing.Point(31, 170);
             this.button4.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(220, 48);
@@ -200,7 +201,7 @@ namespace LABS_Experiences.Forms
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button5.ForeColor = System.Drawing.Color.White;
-            this.button5.Location = new System.Drawing.Point(264, 172);
+            this.button5.Location = new System.Drawing.Point(259, 170);
             this.button5.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(220, 48);
@@ -216,7 +217,7 @@ namespace LABS_Experiences.Forms
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button6.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button6.ForeColor = System.Drawing.Color.White;
-            this.button6.Location = new System.Drawing.Point(491, 172);
+            this.button6.Location = new System.Drawing.Point(486, 170);
             this.button6.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(220, 48);
@@ -232,7 +233,7 @@ namespace LABS_Experiences.Forms
             this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button7.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button7.ForeColor = System.Drawing.Color.White;
-            this.button7.Location = new System.Drawing.Point(36, 225);
+            this.button7.Location = new System.Drawing.Point(31, 223);
             this.button7.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(220, 48);
@@ -248,7 +249,7 @@ namespace LABS_Experiences.Forms
             this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button8.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button8.ForeColor = System.Drawing.Color.White;
-            this.button8.Location = new System.Drawing.Point(264, 225);
+            this.button8.Location = new System.Drawing.Point(259, 223);
             this.button8.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(220, 48);
@@ -264,7 +265,7 @@ namespace LABS_Experiences.Forms
             this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button9.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button9.ForeColor = System.Drawing.Color.White;
-            this.button9.Location = new System.Drawing.Point(491, 225);
+            this.button9.Location = new System.Drawing.Point(486, 223);
             this.button9.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(220, 48);
@@ -280,7 +281,7 @@ namespace LABS_Experiences.Forms
             this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button10.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button10.ForeColor = System.Drawing.Color.White;
-            this.button10.Location = new System.Drawing.Point(36, 283);
+            this.button10.Location = new System.Drawing.Point(31, 281);
             this.button10.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(220, 48);
@@ -296,7 +297,7 @@ namespace LABS_Experiences.Forms
             this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button11.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button11.ForeColor = System.Drawing.Color.White;
-            this.button11.Location = new System.Drawing.Point(264, 283);
+            this.button11.Location = new System.Drawing.Point(259, 281);
             this.button11.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(220, 48);
@@ -312,7 +313,7 @@ namespace LABS_Experiences.Forms
             this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button12.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button12.ForeColor = System.Drawing.Color.White;
-            this.button12.Location = new System.Drawing.Point(491, 283);
+            this.button12.Location = new System.Drawing.Point(486, 281);
             this.button12.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.button12.Name = "button12";
             this.button12.Size = new System.Drawing.Size(220, 48);
@@ -328,7 +329,7 @@ namespace LABS_Experiences.Forms
             this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button13.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button13.ForeColor = System.Drawing.Color.White;
-            this.button13.Location = new System.Drawing.Point(36, 338);
+            this.button13.Location = new System.Drawing.Point(31, 336);
             this.button13.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.button13.Name = "button13";
             this.button13.Size = new System.Drawing.Size(220, 48);
@@ -344,7 +345,7 @@ namespace LABS_Experiences.Forms
             this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button14.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button14.ForeColor = System.Drawing.Color.White;
-            this.button14.Location = new System.Drawing.Point(264, 338);
+            this.button14.Location = new System.Drawing.Point(259, 336);
             this.button14.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.button14.Name = "button14";
             this.button14.Size = new System.Drawing.Size(220, 48);
@@ -360,7 +361,7 @@ namespace LABS_Experiences.Forms
             this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button15.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button15.ForeColor = System.Drawing.Color.White;
-            this.button15.Location = new System.Drawing.Point(491, 338);
+            this.button15.Location = new System.Drawing.Point(486, 336);
             this.button15.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.button15.Name = "button15";
             this.button15.Size = new System.Drawing.Size(220, 48);
@@ -376,7 +377,7 @@ namespace LABS_Experiences.Forms
             this.button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button16.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button16.ForeColor = System.Drawing.Color.White;
-            this.button16.Location = new System.Drawing.Point(36, 395);
+            this.button16.Location = new System.Drawing.Point(31, 393);
             this.button16.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.button16.Name = "button16";
             this.button16.Size = new System.Drawing.Size(220, 48);
@@ -392,7 +393,7 @@ namespace LABS_Experiences.Forms
             this.button17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button17.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button17.ForeColor = System.Drawing.Color.White;
-            this.button17.Location = new System.Drawing.Point(264, 395);
+            this.button17.Location = new System.Drawing.Point(259, 393);
             this.button17.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.button17.Name = "button17";
             this.button17.Size = new System.Drawing.Size(220, 48);
@@ -408,7 +409,7 @@ namespace LABS_Experiences.Forms
             this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button18.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button18.ForeColor = System.Drawing.Color.White;
-            this.button18.Location = new System.Drawing.Point(491, 395);
+            this.button18.Location = new System.Drawing.Point(486, 393);
             this.button18.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.button18.Name = "button18";
             this.button18.Size = new System.Drawing.Size(220, 48);
@@ -424,7 +425,7 @@ namespace LABS_Experiences.Forms
             this.button19.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button19.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button19.ForeColor = System.Drawing.Color.White;
-            this.button19.Location = new System.Drawing.Point(36, 451);
+            this.button19.Location = new System.Drawing.Point(31, 449);
             this.button19.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.button19.Name = "button19";
             this.button19.Size = new System.Drawing.Size(220, 48);
@@ -440,7 +441,7 @@ namespace LABS_Experiences.Forms
             this.button20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button20.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button20.ForeColor = System.Drawing.Color.White;
-            this.button20.Location = new System.Drawing.Point(264, 451);
+            this.button20.Location = new System.Drawing.Point(259, 449);
             this.button20.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.button20.Name = "button20";
             this.button20.Size = new System.Drawing.Size(220, 48);
@@ -456,7 +457,7 @@ namespace LABS_Experiences.Forms
             this.button21.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button21.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button21.ForeColor = System.Drawing.Color.White;
-            this.button21.Location = new System.Drawing.Point(491, 450);
+            this.button21.Location = new System.Drawing.Point(486, 448);
             this.button21.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.button21.Name = "button21";
             this.button21.Size = new System.Drawing.Size(220, 48);
@@ -472,7 +473,7 @@ namespace LABS_Experiences.Forms
             this.button22.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button22.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button22.ForeColor = System.Drawing.Color.White;
-            this.button22.Location = new System.Drawing.Point(36, 507);
+            this.button22.Location = new System.Drawing.Point(31, 505);
             this.button22.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.button22.Name = "button22";
             this.button22.Size = new System.Drawing.Size(220, 48);
@@ -488,7 +489,7 @@ namespace LABS_Experiences.Forms
             this.button23.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button23.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button23.ForeColor = System.Drawing.Color.White;
-            this.button23.Location = new System.Drawing.Point(264, 507);
+            this.button23.Location = new System.Drawing.Point(259, 505);
             this.button23.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.button23.Name = "button23";
             this.button23.Size = new System.Drawing.Size(220, 48);
@@ -504,7 +505,7 @@ namespace LABS_Experiences.Forms
             this.button24.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button24.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button24.ForeColor = System.Drawing.Color.White;
-            this.button24.Location = new System.Drawing.Point(491, 505);
+            this.button24.Location = new System.Drawing.Point(486, 503);
             this.button24.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.button24.Name = "button24";
             this.button24.Size = new System.Drawing.Size(220, 48);
@@ -513,12 +514,29 @@ namespace LABS_Experiences.Forms
             this.button24.UseVisualStyleBackColor = false;
             this.button24.Click += new System.EventHandler(this.button24_Click);
             // 
+            // button25
+            // 
+            this.button25.BackColor = System.Drawing.Color.MediumSlateBlue;
+            this.button25.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button25.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button25.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button25.ForeColor = System.Drawing.Color.White;
+            this.button25.Location = new System.Drawing.Point(714, 115);
+            this.button25.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.button25.Name = "button25";
+            this.button25.Size = new System.Drawing.Size(220, 48);
+            this.button25.TabIndex = 21;
+            this.button25.Text = "GetOS";
+            this.button25.UseVisualStyleBackColor = false;
+            this.button25.Click += new System.EventHandler(this.button25_Click);
+            // 
             // LeoCorpLibraryForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(747, 570);
+            this.ClientSize = new System.Drawing.Size(964, 570);
+            this.Controls.Add(this.button25);
             this.Controls.Add(this.button24);
             this.Controls.Add(this.button23);
             this.Controls.Add(this.button22);
@@ -588,5 +606,6 @@ namespace LABS_Experiences.Forms
         private System.Windows.Forms.Button button22;
         private System.Windows.Forms.Button button23;
         private System.Windows.Forms.Button button24;
+        private System.Windows.Forms.Button button25;
     }
 }
