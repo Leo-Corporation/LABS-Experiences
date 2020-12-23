@@ -48,7 +48,7 @@
           "dependencies": {
             "LeoCorpLibrary": {
               "target": "Package",
-              "version": "[3.1.0.2012-pre1, )"
+              "version": "[3.1.0.2012-rc1, )"
             }
           },
           "imports": [

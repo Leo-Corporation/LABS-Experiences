@@ -29,7 +29,7 @@
     <Version>1.7.0.2011</Version>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="LeoCorpLibrary" Version="3.1.0.2012-pre1" />
+    <PackageReference Include="LeoCorpLibrary" Version="3.1.0.2012-rc1" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System.Data.DataSetExtensions" />
