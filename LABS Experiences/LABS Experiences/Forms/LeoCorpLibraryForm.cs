@@ -224,5 +224,10 @@ namespace LABS_Experiences.Forms
         {
             MessageBox.Show(Env.CurrentOperatingSystem.ToString());
         }
+
+        private void button26_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(Env.SystemDrive.Name);
+        }
     }
 }
