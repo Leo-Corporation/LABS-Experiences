@@ -2,13 +2,13 @@
   "version": 3,
   "targets": {
     "net5.0-windows7.0": {
-      "LeoCorpLibrary/2.7.0.2011": {
+      "LeoCorpLibrary/3.1.0.2012-pre1": {
         "type": "package",
         "compile": {
-          "lib/netcoreapp3.1/LeoCorpLibrary.dll": {}
+          "lib/net5.0-windows7.0/LeoCorpLibrary.dll": {}
         },
         "runtime": {
-          "lib/netcoreapp3.1/LeoCorpLibrary.dll": {}
+          "lib/net5.0-windows7.0/LeoCorpLibrary.dll": {}
         },
         "frameworkReferences": [
           "Microsoft.WindowsDesktop.App"
@@ -17,18 +17,20 @@
     }
   },
   "libraries": {
-    "LeoCorpLibrary/2.7.0.2011": {
-      "sha512": "wGn+d86fYcyizMVVsl3iyRkiGNY9KHyNZ4y3tLrSbOMKMZu14Jh30ujfJoM2X4OK61pvucbHTSgWZcCmf8B/Gg==",
+    "LeoCorpLibrary/3.1.0.2012-pre1": {
+      "sha512": "zXhOrv/QhOSScOZJpt/Ieql0eXV+1vT1nlMPjJrfxnIqCpMvAU0srP3CAAf6/qgWGlMRldWNFmSkSihl905E4Q==",
       "type": "package",
-      "path": "leocorplibrary/2.7.0.2011",
+      "path": "leocorplibrary/3.1.0.2012-pre1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "icon.png",
-        "leocorplibrary.2.7.0.2011.nupkg.sha512",
+        "leocorplibrary.3.1.0.2012-pre1.nupkg.sha512",
         "leocorplibrary.nuspec",
         "lib/net472/LeoCorpLibrary.dll",
         "lib/net472/LeoCorpLibrary.xml",
+        "lib/net5.0-windows7.0/LeoCorpLibrary.dll",
+        "lib/net5.0-windows7.0/LeoCorpLibrary.xml",
         "lib/netcoreapp3.1/LeoCorpLibrary.dll",
         "lib/netcoreapp3.1/LeoCorpLibrary.xml"
       ]
@@ -36,7 +38,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0-windows7.0": [
-      "LeoCorpLibrary >= 2.7.0.2011"
+      "LeoCorpLibrary >= 3.1.0.2012-pre1"
     ]
   },
   "packageFolders": {
@@ -88,7 +90,7 @@
         "dependencies": {
           "LeoCorpLibrary": {
             "target": "Package",
-            "version": "[2.7.0.2011, )"
+            "version": "[3.1.0.2012-pre1, )"
           }
         },
         "imports": [
@@ -112,7 +114,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

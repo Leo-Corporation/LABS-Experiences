@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "e5WH87OLUloWWReqcpx4+7+WyNHeOtw0/rf7/dcXATBoNlgUSSF9pNd6HY8sAr+2UkiGzvioPBG4kBX2/Bl2eQ==",
+  "dgSpecHash": "eV+YGzwQ0ITDxBnsomX95UKBl5TuHGsObQhxBcSagy0nPpS7tFU16GKaIV5nYqEQwMoav2AO88OHcwFJzMQtPA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Léo Peyronnet\\source\\repos\\LABS-Experiences\\LABS Experiences\\TestLib\\TestLib.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Léo Peyronnet\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
+  ],
   "logs": []
 }
