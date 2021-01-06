@@ -8,8 +8,8 @@
     <AssemblyTitle>LABS Experiences</AssemblyTitle>
     <Company>Léo Corporation</Company>
     <Product>LABS Experiences</Product>
-    <Description>L'endroit où sont rassemblées nos expériences</Description>
-    <Copyright>Copyright ©  2020</Copyright>
+    <Description>The place where all our experiments are gathered.</Description>
+    <Copyright>Copyright ©  2021</Copyright>
     <AssemblyVersion>1.8.0.2012</AssemblyVersion>
     <FileVersion>1.8.0.2012</FileVersion>
     <UseWindowsForms>true</UseWindowsForms>
