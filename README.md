@@ -2,6 +2,7 @@
 ![GitHub issues](https://img.shields.io/github/issues/Leo-Corporation/LABS-Experiences)
 ![GitHub](https://img.shields.io/github/license/Leo-Corporation/LABS-Experiences)
 ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/Leo-Corporation/LABS-Experiences/.NET%20Framework) 
+![Using LeoCorpLibrary](https://img.shields.io/badge/using-LeoCorpLibrary-blue)
 <br />
 <p align="center">
   <a href="https://github.com/Leo-Corporation/LABS-Experiences">
