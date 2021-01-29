@@ -229,5 +229,15 @@ namespace LABS_Experiences.Forms
         {
             MessageBox.Show(Env.SystemDrive.Name);
         }
+
+        private void button27_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(Maths.Triangle.GetHypotenuse(7, 5).ToString());
+        }
+
+        private void button28_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(Maths.Hexagon.GetArea(5).ToString()); // Get area
+        }
     }
 }

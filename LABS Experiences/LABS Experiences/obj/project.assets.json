@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     "net5.0-windows7.0": {
-      "LeoCorpLibrary/3.1.0.2012": {
+      "LeoCorpLibrary/3.2.0.2101": {
         "type": "package",
         "compile": {
           "lib/net5.0-windows7.0/LeoCorpLibrary.dll": {}
@@ -17,15 +17,15 @@
     }
   },
   "libraries": {
-    "LeoCorpLibrary/3.1.0.2012": {
-      "sha512": "EOzf8/z0tlYjx85dK8GgXtXds4UsaCmZh/r6hx+EV6GHOeD3AD4TfRuq8ftIpREELmIsHLH8LT0eJqfAmfFovQ==",
+    "LeoCorpLibrary/3.2.0.2101": {
+      "sha512": "Gz28Crokk3RTUW8TIl+U44ksPi1pI8BH4h1ilvk+rhYAZxnBJhyhNRVZiemmE1tDX0EiMfa2ZmZAJuBVSKzD9w==",
       "type": "package",
-      "path": "leocorplibrary/3.1.0.2012",
+      "path": "leocorplibrary/3.2.0.2101",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "icon.png",
-        "leocorplibrary.3.1.0.2012.nupkg.sha512",
+        "leocorplibrary.3.2.0.2101.nupkg.sha512",
         "leocorplibrary.nuspec",
         "lib/net472/LeoCorpLibrary.dll",
         "lib/net472/LeoCorpLibrary.xml",
@@ -38,7 +38,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0-windows7.0": [
-      "LeoCorpLibrary >= 3.1.0.2012"
+      "LeoCorpLibrary >= 3.2.0.2101"
     ]
   },
   "packageFolders": {
@@ -62,7 +62,8 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nuget.pkg.github.com/Leo-Corporation/index.json": {}
       },
       "frameworks": {
         "net5.0-windows7.0": {
@@ -82,7 +83,7 @@
         "dependencies": {
           "LeoCorpLibrary": {
             "target": "Package",
-            "version": "[3.1.0.2012, )"
+            "version": "[3.2.0.2101, )"
           }
         },
         "imports": [
