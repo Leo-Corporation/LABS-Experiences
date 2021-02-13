@@ -22,6 +22,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE. 
 */
 using LABS_Experiences.Forms;
+using Microsoft.Win32;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -101,6 +102,21 @@ namespace LABS_Experiences
         private void button10_Click(object sender, EventArgs e)
         {
             new SearchFiles().Show();
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            string RegistryKey = @"HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Themes\Personalize";
+            int theme = (int)Registry.GetValue(RegistryKey, "SystemUsesLightTheme", string.Empty);
+        
+            if (theme != 0)
+            {
+                MessageBox.Show("You use light theme");
+            }
+            else
+            {
+                MessageBox.Show("You use dark theme");
+            }
         }
     }
 }
