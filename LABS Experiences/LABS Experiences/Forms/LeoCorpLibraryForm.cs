@@ -30,6 +30,7 @@ using System.Data;
 using System.Drawing;
 using System.IO;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -242,12 +243,21 @@ namespace LABS_Experiences.Forms
 
         private void button29_Click(object sender, EventArgs e)
         {
-            //RSA
+            RSACryptoServiceProvider cryptoServiceProvider = new RSACryptoServiceProvider();
+            string str = "LeoCorpLibrary";
+            string encrypt = Crypt.EncryptRSA(str, cryptoServiceProvider.ExportParameters(false));
+            string decrypt = Crypt.DecryptRSA(encrypt, cryptoServiceProvider.ExportParameters(true));
+
+            MessageBox.Show($"Raw: {str}\nEncrypted: {encrypt}\nDecrypted: {decrypt}");
         }
 
         private void button30_Click(object sender, EventArgs e)
         {
-            //AES
+            string str = "LeoCorpLibrary";
+            string encrypt = Crypt.EncryptAES(str, "key");
+            string decrypt = Crypt.DecryptAES(encrypt, "key");
+
+            MessageBox.Show($"Raw: {str}\nEncrypted: {encrypt}\nDecrypted: {decrypt}");
         }
     }
 }
