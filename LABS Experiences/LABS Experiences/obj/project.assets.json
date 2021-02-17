@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     "net5.0-windows7.0": {
-      "LeoCorpLibrary/3.2.0.2101": {
+      "LeoCorpLibrary/3.3.0.2102-rc1": {
         "type": "package",
         "compile": {
           "lib/net5.0-windows7.0/LeoCorpLibrary.dll": {}
@@ -17,15 +17,14 @@
     }
   },
   "libraries": {
-    "LeoCorpLibrary/3.2.0.2101": {
-      "sha512": "Gz28Crokk3RTUW8TIl+U44ksPi1pI8BH4h1ilvk+rhYAZxnBJhyhNRVZiemmE1tDX0EiMfa2ZmZAJuBVSKzD9w==",
+    "LeoCorpLibrary/3.3.0.2102-rc1": {
+      "sha512": "FGUkeVN+vYhvGvUDm08Whf0Ihkg2gwe4bkf/3ss5M5eJdeDqfKQsb1ZyfsTW99vhMuXoNxwhVLOhcQOi9qhKlg==",
       "type": "package",
-      "path": "leocorplibrary/3.2.0.2101",
+      "path": "leocorplibrary/3.3.0.2102-rc1",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "icon.png",
-        "leocorplibrary.3.2.0.2101.nupkg.sha512",
+        "leocorplibrary.3.3.0.2102-rc1.nupkg.sha512",
         "leocorplibrary.nuspec",
         "lib/net472/LeoCorpLibrary.dll",
         "lib/net472/LeoCorpLibrary.xml",
@@ -38,31 +37,24 @@
   },
   "projectFileDependencyGroups": {
     "net5.0-windows7.0": [
-      "LeoCorpLibrary >= 3.2.0.2101"
+      "LeoCorpLibrary >= 3.3.0.2102-rc1"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Léo Peyronnet\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Léo Peyronnet\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.9.0.2101",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Léo Peyronnet\\source\\repos\\LABS-Experiences\\LABS Experiences\\LABS Experiences\\LABS Experiences.csproj",
+      "projectUniqueName": "H:\\LABS-Experiences\\LABS Experiences\\LABS Experiences\\LABS Experiences.csproj",
       "projectName": "LABS Experiences",
-      "projectPath": "C:\\Users\\Léo Peyronnet\\source\\repos\\LABS-Experiences\\LABS Experiences\\LABS Experiences\\LABS Experiences.csproj",
+      "projectPath": "H:\\LABS-Experiences\\LABS Experiences\\LABS Experiences\\LABS Experiences.csproj",
       "packagesPath": "C:\\Users\\Léo Peyronnet\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Léo Peyronnet\\source\\repos\\LABS-Experiences\\LABS Experiences\\LABS Experiences\\obj\\",
+      "outputPath": "H:\\LABS-Experiences\\LABS Experiences\\LABS Experiences\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
         "C:\\Users\\Léo Peyronnet\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0-windows7.0"
@@ -90,7 +82,7 @@
         "dependencies": {
           "LeoCorpLibrary": {
             "target": "Package",
-            "version": "[3.2.0.2101, )"
+            "version": "[3.3.0.2102-rc1, )"
           }
         },
         "imports": [
@@ -114,7 +106,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

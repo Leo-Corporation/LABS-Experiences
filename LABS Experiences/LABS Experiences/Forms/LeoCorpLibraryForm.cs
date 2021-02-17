@@ -239,5 +239,15 @@ namespace LABS_Experiences.Forms
         {
             MessageBox.Show(Maths.Hexagon.GetArea(5).ToString()); // Get area
         }
+
+        private void button29_Click(object sender, EventArgs e)
+        {
+            //RSA
+        }
+
+        private void button30_Click(object sender, EventArgs e)
+        {
+            //AES
+        }
     }
 }

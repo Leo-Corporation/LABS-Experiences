@@ -84,6 +84,8 @@ namespace LABS_Experiences.Forms
             this.button26 = new System.Windows.Forms.Button();
             this.button27 = new System.Windows.Forms.Button();
             this.button28 = new System.Windows.Forms.Button();
+            this.button29 = new System.Windows.Forms.Button();
+            this.button30 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -581,12 +583,46 @@ namespace LABS_Experiences.Forms
             this.button28.UseVisualStyleBackColor = false;
             this.button28.Click += new System.EventHandler(this.button28_Click);
             // 
+            // button29
+            // 
+            this.button29.BackColor = System.Drawing.Color.MediumSlateBlue;
+            this.button29.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button29.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button29.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button29.ForeColor = System.Drawing.Color.White;
+            this.button29.Location = new System.Drawing.Point(714, 336);
+            this.button29.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.button29.Name = "button29";
+            this.button29.Size = new System.Drawing.Size(220, 48);
+            this.button29.TabIndex = 25;
+            this.button29.Text = "Crypt RSA";
+            this.button29.UseVisualStyleBackColor = false;
+            this.button29.Click += new System.EventHandler(this.button29_Click);
+            // 
+            // button30
+            // 
+            this.button30.BackColor = System.Drawing.Color.MediumSlateBlue;
+            this.button30.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button30.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button30.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button30.ForeColor = System.Drawing.Color.White;
+            this.button30.Location = new System.Drawing.Point(714, 393);
+            this.button30.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.button30.Name = "button30";
+            this.button30.Size = new System.Drawing.Size(220, 48);
+            this.button30.TabIndex = 26;
+            this.button30.Text = "Crypt AES";
+            this.button30.UseVisualStyleBackColor = false;
+            this.button30.Click += new System.EventHandler(this.button30_Click);
+            // 
             // LeoCorpLibraryForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(964, 570);
+            this.Controls.Add(this.button30);
+            this.Controls.Add(this.button29);
             this.Controls.Add(this.button28);
             this.Controls.Add(this.button27);
             this.Controls.Add(this.button26);
@@ -664,5 +700,7 @@ namespace LABS_Experiences.Forms
         private System.Windows.Forms.Button button26;
         private System.Windows.Forms.Button button27;
         private System.Windows.Forms.Button button28;
+        private System.Windows.Forms.Button button29;
+        private System.Windows.Forms.Button button30;
     }
 }
