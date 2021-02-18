@@ -43,7 +43,7 @@
           "dependencies": {
             "LeoCorpLibrary": {
               "target": "Package",
-              "version": "[3.3.0.2102-rc1, )"
+              "version": "[3.3.0.2102-rc2, )"
             }
           },
           "imports": [
