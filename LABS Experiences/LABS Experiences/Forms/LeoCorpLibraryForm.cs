@@ -245,10 +245,10 @@ namespace LABS_Experiences.Forms
         {
             RSACryptoServiceProvider cryptoServiceProvider = new RSACryptoServiceProvider();
             string str = "LeoCorpLibrary";
-            string encrypt = Crypt.EncryptRSA(str, cryptoServiceProvider.ExportParameters(false));
-            string decrypt = Crypt.DecryptRSA(encrypt, cryptoServiceProvider.ExportParameters(true));
+            byte[] encrypt = Crypt.EncryptRSA(str, cryptoServiceProvider.ExportParameters(false));
+            byte[] decrypt = Crypt.DecryptRSA(encrypt, cryptoServiceProvider.ExportParameters(true));
 
-            MessageBox.Show($"Raw: {str}\nEncrypted: {encrypt}\nDecrypted: {decrypt}");
+            MessageBox.Show($"Raw: {str}\nEncrypted: {Crypt.ConvertBytesToString(encrypt)}\nDecrypted: {Crypt.ConvertBytesToString(decrypt)}");
         }
 
         private void button30_Click(object sender, EventArgs e)
