@@ -31,7 +31,7 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="LeoCorpLibrary" Version="3.3.0.2102-rc2" />
+    <PackageReference Include="LeoCorpLibrary" Version="3.3.0.2102" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System.Data.DataSetExtensions" />
