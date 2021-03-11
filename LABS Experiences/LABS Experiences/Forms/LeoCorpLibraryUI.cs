@@ -21,6 +21,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE. 
 */
+using LeoCorpLibrary;
 using LeoCorpLibrary.UI;
 using System;
 using System.Collections.Generic;
@@ -39,6 +40,7 @@ namespace LABS_Experiences.Forms
         public LeoCorpLibraryUI()
         {
             InitializeComponent();
+            timer1.Start();
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -60,6 +62,11 @@ namespace LABS_Experiences.Forms
         private void button11_Click(object sender, EventArgs e)
         {
             WinFormsHelpers.CenterFormOnScreen(this);
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            label4.Text = $"Mouse position: X: {Env.GetMouseCursorPosition().X}; Y: {Env.GetMouseCursorPosition().Y}";
         }
     }
 }
