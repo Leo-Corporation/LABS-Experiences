@@ -259,5 +259,13 @@ namespace LABS_Experiences.Forms
 
             MessageBox.Show($"Raw: {str}\nEncrypted: {encrypt}\nDecrypted: {decrypt}");
         }
+
+        private void button31_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show($"This is a test sentence! & This is an another sentence!\n" +
+                $"Is same punctuation? {"This is a test sentence!".IsEndingWithSamePunctuation("This is an another sentence!")}\n\n" +
+                $"This is also a test sentence. & This is a sentence!\n" +
+                $"Is same punctuation? {"This is also a test sentence.".IsEndingWithSamePunctuation("This is a sentence!", "!")}");
+        }
     }
 }
