@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     "net5.0-windows7.0": {
-      "LeoCorpLibrary/3.4.0.2103-rc1": {
+      "LeoCorpLibrary/3.4.0.2103": {
         "type": "package",
         "compile": {
           "lib/net5.0-windows7.0/LeoCorpLibrary.dll": {}
@@ -17,14 +17,14 @@
     }
   },
   "libraries": {
-    "LeoCorpLibrary/3.4.0.2103-rc1": {
-      "sha512": "kjvBllDI3vQKwBc6qg9Y0YVJttqn+diYpxEsJOHOTCoWTmbKcbtorlcK9OXBz/MklueIYM8heNj5BUNQjYb4xg==",
+    "LeoCorpLibrary/3.4.0.2103": {
+      "sha512": "mA0pkBU0SqRcYVyHUrEhjCvliDt4akezncrrTrY5mAMqvPcUv+vmmNnpqGQByTrr6Sh0SxZOea1/RBIjiAKYSw==",
       "type": "package",
-      "path": "leocorplibrary/3.4.0.2103-rc1",
+      "path": "leocorplibrary/3.4.0.2103",
       "files": [
         ".nupkg.metadata",
         "icon.png",
-        "leocorplibrary.3.4.0.2103-rc1.nupkg.sha512",
+        "leocorplibrary.3.4.0.2103.nupkg.sha512",
         "leocorplibrary.nuspec",
         "lib/net472/LeoCorpLibrary.dll",
         "lib/net472/LeoCorpLibrary.xml",
@@ -37,12 +37,13 @@
   },
   "projectFileDependencyGroups": {
     "net5.0-windows7.0": [
-      "LeoCorpLibrary >= 3.4.0.2103-rc1"
+      "LeoCorpLibrary >= 3.4.0.2103"
     ]
   },
   "packageFolders": {
     "C:\\Users\\Léo Peyronnet\\.nuget\\packages\\": {},
-    "I:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "I:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.9.0.2101",
@@ -54,12 +55,14 @@
       "outputPath": "H:\\LABS-Experiences\\LABS Experiences\\LABS Experiences\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "I:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "I:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
         "C:\\Users\\Léo Peyronnet\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0-windows7.0"
@@ -87,7 +90,7 @@
         "dependencies": {
           "LeoCorpLibrary": {
             "target": "Package",
-            "version": "[3.4.0.2103-rc1, )"
+            "version": "[3.4.0.2103, )"
           }
         },
         "imports": [

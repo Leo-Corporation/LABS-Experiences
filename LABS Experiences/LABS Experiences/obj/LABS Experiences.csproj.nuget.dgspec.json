@@ -14,12 +14,14 @@
         "outputPath": "H:\\LABS-Experiences\\LABS Experiences\\LABS Experiences\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "I:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "I:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
           "C:\\Users\\Léo Peyronnet\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0-windows7.0"
@@ -47,7 +49,7 @@
           "dependencies": {
             "LeoCorpLibrary": {
               "target": "Package",
-              "version": "[3.4.0.2103-rc1, )"
+              "version": "[3.4.0.2103, )"
             }
           },
           "imports": [

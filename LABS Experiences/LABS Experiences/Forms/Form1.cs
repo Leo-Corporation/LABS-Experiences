@@ -118,5 +118,18 @@ namespace LABS_Experiences
                 MessageBox.Show("You use dark theme");
             }
         }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            float DpiX, DpiY;
+
+            using (Graphics g = CreateGraphics())
+            {
+                DpiX = g.DpiX;
+                DpiY = g.DpiY;
+            }
+
+            MessageBox.Show($"Your screen DPI: ({DpiX}x{DpiY}).");
+        }
     }
 }
