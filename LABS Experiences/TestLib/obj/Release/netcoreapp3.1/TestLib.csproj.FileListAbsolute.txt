@@ -7,3 +7,12 @@ C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\TestLib\b
 C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\TestLib\bin\Release\netcoreapp3.1\TestLib.pdb
 C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\TestLib\obj\Release\netcoreapp3.1\TestLib.dll
 C:\Users\Léo Peyronnet\source\repos\LABS-Experiences\LABS Experiences\TestLib\obj\Release\netcoreapp3.1\TestLib.pdb
+H:\LABS-Experiences\LABS Experiences\TestLib\bin\Release\netcoreapp3.1\TestLib.deps.json
+H:\LABS-Experiences\LABS Experiences\TestLib\bin\Release\netcoreapp3.1\TestLib.dll
+H:\LABS-Experiences\LABS Experiences\TestLib\bin\Release\netcoreapp3.1\TestLib.pdb
+H:\LABS-Experiences\LABS Experiences\TestLib\obj\Release\netcoreapp3.1\TestLib.csprojAssemblyReference.cache
+H:\LABS-Experiences\LABS Experiences\TestLib\obj\Release\netcoreapp3.1\TestLib.AssemblyInfoInputs.cache
+H:\LABS-Experiences\LABS Experiences\TestLib\obj\Release\netcoreapp3.1\TestLib.AssemblyInfo.cs
+H:\LABS-Experiences\LABS Experiences\TestLib\obj\Release\netcoreapp3.1\TestLib.csproj.CoreCompileInputs.cache
+H:\LABS-Experiences\LABS Experiences\TestLib\obj\Release\netcoreapp3.1\TestLib.dll
+H:\LABS-Experiences\LABS Experiences\TestLib\obj\Release\netcoreapp3.1\TestLib.pdb
