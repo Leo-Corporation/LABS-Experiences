@@ -267,5 +267,14 @@ namespace LABS_Experiences.Forms
                 $"This is also a test sentence. & This is a sentence!\n" +
                 $"Is same punctuation? {"This is also a test sentence.".IsEndingWithSamePunctuation("This is a sentence!", "!")}");
         }
+
+		private void button32_Click(object sender, EventArgs e)
+		{
+            double opposedSide = Maths.Trigonometry.GetTriangleOpposedSideFromHypotenuse(1.05, 10);
+            double adjacentSide = Maths.Trigonometry.GetTriangleAdjacentSideFromOpposedSide(1.05, 8.66);
+            double hypotenuse = Maths.Trigonometry.GetTriangleHypotenuseFromAdjacentSide(1.05, 5);
+			MessageBox.Show($"Trigonometry functions:\nExpected output:\n\nAdjacent: 5\nOpposed: 8.66\nHypotenuse: 10\n\n" +
+                $"Actual output:\n\nAdjacent: {adjacentSide}\nOpposed: {opposedSide}\nHypotenuse: {hypotenuse}");
+		}
     }
 }

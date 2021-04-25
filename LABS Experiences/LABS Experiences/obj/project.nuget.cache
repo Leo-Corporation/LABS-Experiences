@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "2rgXO++sCWkSiJozR0OOH5599ClOAtVk8wxvXO9QH0YRu+272aLZtUPw2tbHjBHQe75buD5WC5c2RBZkvW5F7Q==",
+  "dgSpecHash": "cP7wqr+ozZ3hay0u3IDFthSUkKN/wHJBA0F130pCjJOrGjsZQhfmuU5j0/YcrIV6zjle1PJMDNmBdd+5qk26gg==",
   "success": true,
   "projectFilePath": "H:\\LABS-Experiences\\LABS Experiences\\LABS Experiences\\LABS Experiences.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Léo Peyronnet\\.nuget\\packages\\leocorplibrary\\3.4.0.2103\\leocorplibrary.3.4.0.2103.nupkg.sha512"
+    "C:\\Users\\Léo Peyronnet\\.nuget\\packages\\leocorplibrary\\3.5.0.2104\\leocorplibrary.3.5.0.2104.nupkg.sha512"
   ],
   "logs": []
 }
