@@ -1,0 +1,12 @@
+version: 2
+updates:
+- package-ecosystem: nuget
+  directory: "/LABS Experiences/LABS Experiences"
+  schedule:
+    interval: daily
+    time: "04:00"
+  open-pull-requests-limit: 10
+  reviewers:
+  - Leo-Peyronnet
+  assignees:
+  - Leo-Peyronnet
