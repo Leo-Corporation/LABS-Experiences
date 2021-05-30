@@ -284,5 +284,18 @@ namespace LABS_Experiences.Forms
 
 			MessageBox.Show($"Array: [a, b, c, d]\nUnSplit:{unSplit}");
 		}
+
+		private void button34_Click(object sender, EventArgs e)
+		{
+            string text = "Hello,\nWorld!";
+            string[] lines = text.SplitLines();
+
+            string txt = "";
+            for (int i = 0; i < lines.Length; i++)
+			{
+                txt += $"lines[{i}] = {lines[i]}\n";
+			}
+			MessageBox.Show($"Split:\n\n{txt}");
+		}
 	}
 }
