@@ -282,7 +282,7 @@ namespace LABS_Experiences.Forms
             string[] array = { "a", "b", "c", "d" };
             string unSplit = array.UnSplit(";");
 
-			MessageBox.Show($"Array: [a, b, c, d]\nUnSplit:{unSplit}");
+			MessageBox.Show($"Array: [a, b, c, d]\nUnSplit:\n{unSplit}");
 		}
 
 		private void button34_Click(object sender, EventArgs e)
