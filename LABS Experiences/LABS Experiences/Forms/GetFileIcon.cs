@@ -33,24 +33,24 @@ using System.Windows.Forms;
 
 namespace LABS_Experiences.Forms
 {
-    public partial class GetFileIcon : LABSForm
-    {
-        public GetFileIcon()
-        {
-            InitializeComponent();
-        }
+	public partial class GetFileIcon : LABSForm
+	{
+		public GetFileIcon()
+		{
+			InitializeComponent();
+		}
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-            try
-            {
-                Icon icon = Icon.ExtractAssociatedIcon(textBox1.Text);
-                pictureBox2.Image = icon.ToBitmap();
-            }
-            catch
-            {
-                
-            }
-        }
-    }
+		private void textBox1_TextChanged(object sender, EventArgs e)
+		{
+			try
+			{
+				Icon icon = Icon.ExtractAssociatedIcon(textBox1.Text);
+				pictureBox2.Image = icon.ToBitmap();
+			}
+			catch
+			{
+
+			}
+		}
+	}
 }
