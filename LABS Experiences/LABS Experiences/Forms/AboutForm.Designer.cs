@@ -79,7 +79,7 @@ namespace LABS_Experiences.Forms
 			this.label2.Name = "label2";
 			this.label2.Size = new System.Drawing.Size(131, 19);
 			this.label2.TabIndex = 2;
-			this.label2.Text = "Version 1.11.0.2104";
+			this.label2.Text = "Version 1.12.0.2105";
 			// 
 			// label1
 			// 
