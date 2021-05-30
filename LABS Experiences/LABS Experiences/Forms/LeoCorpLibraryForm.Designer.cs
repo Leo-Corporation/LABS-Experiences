@@ -88,6 +88,7 @@ namespace LABS_Experiences.Forms
 			this.button30 = new System.Windows.Forms.Button();
 			this.button31 = new System.Windows.Forms.Button();
 			this.button32 = new System.Windows.Forms.Button();
+			this.button33 = new System.Windows.Forms.Button();
 			this.panel1.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
 			this.SuspendLayout();
@@ -101,7 +102,7 @@ namespace LABS_Experiences.Forms
 			this.panel1.Location = new System.Drawing.Point(0, 0);
 			this.panel1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
 			this.panel1.Name = "panel1";
-			this.panel1.Size = new System.Drawing.Size(964, 95);
+			this.panel1.Size = new System.Drawing.Size(1187, 95);
 			this.panel1.TabIndex = 1;
 			// 
 			// pictureBox1
@@ -649,12 +650,29 @@ namespace LABS_Experiences.Forms
 			this.button32.UseVisualStyleBackColor = false;
 			this.button32.Click += new System.EventHandler(this.button32_Click);
 			// 
+			// button33
+			// 
+			this.button33.BackColor = System.Drawing.Color.MediumSlateBlue;
+			this.button33.Cursor = System.Windows.Forms.Cursors.Hand;
+			this.button33.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.button33.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+			this.button33.ForeColor = System.Drawing.Color.White;
+			this.button33.Location = new System.Drawing.Point(942, 115);
+			this.button33.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+			this.button33.Name = "button33";
+			this.button33.Size = new System.Drawing.Size(220, 48);
+			this.button33.TabIndex = 29;
+			this.button33.Text = "UnSplit";
+			this.button33.UseVisualStyleBackColor = false;
+			this.button33.Click += new System.EventHandler(this.button33_Click);
+			// 
 			// LeoCorpLibraryForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.Color.White;
-			this.ClientSize = new System.Drawing.Size(964, 570);
+			this.ClientSize = new System.Drawing.Size(1187, 570);
+			this.Controls.Add(this.button33);
 			this.Controls.Add(this.button32);
 			this.Controls.Add(this.button31);
 			this.Controls.Add(this.button30);
@@ -740,5 +758,6 @@ namespace LABS_Experiences.Forms
         private System.Windows.Forms.Button button30;
         private System.Windows.Forms.Button button31;
 		private System.Windows.Forms.Button button32;
+		private System.Windows.Forms.Button button33;
 	}
 }

@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     "net5.0-windows7.0": {
-      "LeoCorpLibrary/3.5.0.2104": {
+      "LeoCorpLibrary/3.6.0.2105": {
         "type": "package",
         "compile": {
           "lib/net5.0-windows7.0/LeoCorpLibrary.dll": {}
@@ -17,15 +17,15 @@
     }
   },
   "libraries": {
-    "LeoCorpLibrary/3.5.0.2104": {
-      "sha512": "uwipeG4Du0HRuzmskCVdObXwr7v6ygZSKjp/rmnXx5HOUQYWAo5L1EsKWgji5yANmSQ4Ju1CkbcCtThfbJ5g2Q==",
+    "LeoCorpLibrary/3.6.0.2105": {
+      "sha512": "PMW/+n0YVZUKF4HQkaMhTJWbH2+MHGVz5IeoxODEXhxS2/hih6Ar0BU91sPA8SsVYJWQSmY90BC+oCqc7zyX7A==",
       "type": "package",
-      "path": "leocorplibrary/3.5.0.2104",
+      "path": "leocorplibrary/3.6.0.2105",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "icon.png",
-        "leocorplibrary.3.5.0.2104.nupkg.sha512",
+        "leocorplibrary.3.6.0.2105.nupkg.sha512",
         "leocorplibrary.nuspec",
         "lib/net472/LeoCorpLibrary.dll",
         "lib/net472/LeoCorpLibrary.xml",
@@ -38,7 +38,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0-windows7.0": [
-      "LeoCorpLibrary >= 3.5.0.2104"
+      "LeoCorpLibrary >= 3.6.0.2105"
     ]
   },
   "packageFolders": {
@@ -91,7 +91,7 @@
         "dependencies": {
           "LeoCorpLibrary": {
             "target": "Package",
-            "version": "[3.5.0.2104, )"
+            "version": "[3.6.0.2105, )"
           }
         },
         "imports": [
@@ -112,7 +112,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }

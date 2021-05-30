@@ -276,5 +276,13 @@ namespace LABS_Experiences.Forms
 			MessageBox.Show($"Trigonometry functions:\nExpected output:\n\nAdjacent: 5\nOpposed: 8.66\nHypotenuse: 10\n\n" +
                 $"Actual output:\n\nAdjacent: {adjacentSide}\nOpposed: {opposedSide}\nHypotenuse: {hypotenuse}");
 		}
-    }
+
+		private void button33_Click(object sender, EventArgs e)
+		{
+            string[] array = { "a", "b", "c", "d" };
+            string unSplit = array.UnSplit(";");
+
+			MessageBox.Show($"Array: [a, b, c, d]\nUnSplit:{unSplit}");
+		}
+	}
 }
