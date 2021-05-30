@@ -10,8 +10,8 @@
     <Product>LABS Experiences</Product>
     <Description>The place where all our experiments are gathered.</Description>
     <Copyright>Copyright ©  2021</Copyright>
-    <AssemblyVersion>1.11.0.2104</AssemblyVersion>
-    <FileVersion>1.11.0.2104</FileVersion>
+    <AssemblyVersion>1.12.0.2105</AssemblyVersion>
+    <FileVersion>1.12.0.2105</FileVersion>
     <UseWindowsForms>true</UseWindowsForms>
     <OutputPath>bin\$(Configuration)\</OutputPath>
   </PropertyGroup>
@@ -26,7 +26,7 @@
   </PropertyGroup>
   <PropertyGroup>
     <ApplicationManifest>app.manifest</ApplicationManifest>
-    <Version>1.11.0.2104</Version>
+    <Version>1.12.0.2105</Version>
     <RepositoryType>git</RepositoryType>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <Authors>Léo Corporation</Authors>
