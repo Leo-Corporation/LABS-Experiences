@@ -34,39 +34,39 @@ using System.Windows.Forms;
 
 namespace LABS_Experiences.Forms
 {
-    public partial class ProcessTimeOpened : LABSForm
-    {
-        int secondsRunned = 0;
-        public ProcessTimeOpened()
-        {
-            InitializeComponent();
-        }
+	public partial class ProcessTimeOpened : LABSForm
+	{
+		int secondsRunned = 0;
+		public ProcessTimeOpened()
+		{
+			InitializeComponent();
+		}
 
-        private void timer1_Tick(object sender, EventArgs e)
-        {
-            if (IsProcessRunning(textBox1.Text))
-            {
-                secondsRunned++;
-                label3.Text = $"Time Opened (s): {secondsRunned}";
-            }
-        }
+		private void timer1_Tick(object sender, EventArgs e)
+		{
+			if (IsProcessRunning(textBox1.Text))
+			{
+				secondsRunned++;
+				label3.Text = $"Time Opened (s): {secondsRunned}";
+			}
+		}
 
-        private void button5_Click(object sender, EventArgs e)
-        {
-            timer1.Start();
-        }
+		private void button5_Click(object sender, EventArgs e)
+		{
+			timer1.Start();
+		}
 
-        static bool IsProcessRunning(string procName)
-        {
-            Process[] pName = Process.GetProcessesByName(procName);
-            if (pName.Length == 0)
-            {
-                return false;
-            }
-            else
-            {
-                return true;
-            }
-        }
-    }
+		static bool IsProcessRunning(string procName)
+		{
+			Process[] pName = Process.GetProcessesByName(procName);
+			if (pName.Length == 0)
+			{
+				return false;
+			}
+			else
+			{
+				return true;
+			}
+		}
+	}
 }

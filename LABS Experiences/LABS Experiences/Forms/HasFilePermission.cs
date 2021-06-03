@@ -35,26 +35,26 @@ using System.Windows.Forms;
 
 namespace LABS_Experiences.Forms
 {
-    public partial class HasFilePermission : LABSForm
-    {
-        public HasFilePermission()
-        {
-            InitializeComponent();
-        }
+	public partial class HasFilePermission : LABSForm
+	{
+		public HasFilePermission()
+		{
+			InitializeComponent();
+		}
 
-        private void button5_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                Directory.CreateDirectory(textBox1.Text + @"\LABS");
-                MessageBox.Show("Directory created!");
-                Thread.Sleep(5000);
-                Directory.Delete(textBox1.Text + @"\LABS");
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
-        }
-    }
+		private void button5_Click(object sender, EventArgs e)
+		{
+			try
+			{
+				Directory.CreateDirectory(textBox1.Text + @"\LABS");
+				MessageBox.Show("Directory created!");
+				Thread.Sleep(5000);
+				Directory.Delete(textBox1.Text + @"\LABS");
+			}
+			catch (Exception ex)
+			{
+				MessageBox.Show(ex.Message);
+			}
+		}
+	}
 }

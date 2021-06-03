@@ -34,16 +34,16 @@ using System.Windows.Forms;
 
 namespace LABS_Experiences.Forms
 {
-    public partial class AboutForm : Form
-    {
-        public AboutForm()
-        {
-            InitializeComponent();
-        }
+	public partial class AboutForm : Form
+	{
+		public AboutForm()
+		{
+			InitializeComponent();
+		}
 
-        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            Process.Start("https://github.com/Leo-Corporation/LABS-Experiences"); // Ouvrir le GitHub
-        }
-    }
+		private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+		{
+			Process.Start("https://github.com/Leo-Corporation/LABS-Experiences"); // Ouvrir le GitHub
+		}
+	}
 }

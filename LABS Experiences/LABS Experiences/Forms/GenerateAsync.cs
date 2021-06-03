@@ -34,16 +34,16 @@ using System.Windows.Forms;
 
 namespace LABS_Experiences.Forms
 {
-    public partial class GenerateAsync : LABSForm
-    {
-        public GenerateAsync()
-        {
-            InitializeComponent();
-        }
+	public partial class GenerateAsync : LABSForm
+	{
+		public GenerateAsync()
+		{
+			InitializeComponent();
+		}
 
-        private async void button23_Click(object sender, EventArgs e)
-        {
-            textBox1.Text = await Password.GenerateAsync((int)numericUpDown1.Value, PasswordPresets.Complex);
-        }
-    }
+		private async void button23_Click(object sender, EventArgs e)
+		{
+			textBox1.Text = await Password.GenerateAsync((int)numericUpDown1.Value, PasswordPresets.Complex);
+		}
+	}
 }

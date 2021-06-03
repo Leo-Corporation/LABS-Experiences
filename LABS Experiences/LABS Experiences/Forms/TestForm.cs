@@ -33,11 +33,11 @@ using System.Windows.Forms;
 
 namespace LABS_Experiences.Forms
 {
-    public partial class TestForm : LABSForm
-    {
-        public TestForm()
-        {
-            InitializeComponent();
-        }
-    }
+	public partial class TestForm : LABSForm
+	{
+		public TestForm()
+		{
+			InitializeComponent();
+		}
+	}
 }

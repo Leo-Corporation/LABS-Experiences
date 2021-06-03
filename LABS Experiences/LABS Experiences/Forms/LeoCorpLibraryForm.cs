@@ -130,7 +130,7 @@ namespace LABS_Experiences.Forms
 		private void button17_Click(object sender, EventArgs e)
 		{
 			MessageBox.Show(Env.GetUnixTime().ToString());
-			
+
 			MessageBox.Show(Env.GetUnixTime(new DateTime(2020, 1, 1)).ToString());
 		}
 
@@ -161,7 +161,7 @@ namespace LABS_Experiences.Forms
 			string guid = GuidGenerator.Generate();
 			string guidLenght = GuidGenerator.Generate(10);
 			string guidFromString = GuidGenerator.Generate("Test");
-			string guidParameters = GuidGenerator.Generate("LABS",new GuidGeneratorParameters
+			string guidParameters = GuidGenerator.Generate("LABS", new GuidGeneratorParameters
 			{
 				WithHyphens = true,
 				Lenght = 10,
@@ -213,7 +213,7 @@ namespace LABS_Experiences.Forms
 			for (int i = 0; i < remove.Length; i++)
 			{
 				strRemove += remove[i] + " ";
-			}            
+			}
 			MessageBox.Show($"{div.ToString()}\n{number / 2}");
 			MessageBox.Show(number.IsEven().ToString());
 			MessageBox.Show(sentence.CountWords().ToString());

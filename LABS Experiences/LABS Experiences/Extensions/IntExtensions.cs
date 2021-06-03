@@ -29,11 +29,11 @@ using System.Threading.Tasks;
 
 namespace LABS_Experiences.Extensions
 {
-    public static class IntExtensions
-    {
-        public static int MultiplyBy(this int i, int multiple)
-        {
-            return i * multiple;
-        }
-    }
+	public static class IntExtensions
+	{
+		public static int MultiplyBy(this int i, int multiple)
+		{
+			return i * multiple;
+		}
+	}
 }

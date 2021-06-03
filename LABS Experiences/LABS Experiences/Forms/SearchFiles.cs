@@ -35,40 +35,40 @@ using System.Windows.Forms;
 
 namespace LABS_Experiences.Forms
 {
-    public partial class SearchFiles : LABSForm
-    {
-        public SearchFiles()
-        {
-            InitializeComponent();
-        }
+	public partial class SearchFiles : LABSForm
+	{
+		public SearchFiles()
+		{
+			InitializeComponent();
+		}
 
-        private void button23_Click(object sender, EventArgs e)
-        {
-            listBox1.Items.Clear();
-            //string res = SearchFolder("Name", textBox2.Text);
+		private void button23_Click(object sender, EventArgs e)
+		{
+			listBox1.Items.Clear();
+			//string res = SearchFolder("Name", textBox2.Text);
 
-            SearchFile(textBox1.Text, textBox2.Text);
-        }
+			SearchFile(textBox1.Text, textBox2.Text);
+		}
 
-        private string SearchFolder(string name, string path, SearchOption searchOption = SearchOption.AllDirectories)
-        {
-            string result = "";
-            int count = 0;
-            foreach (string folder in Directory.GetDirectories(path, name, searchOption))
-            {
-                result = folder;
-                count++;
-            }
+		private string SearchFolder(string name, string path, SearchOption searchOption = SearchOption.AllDirectories)
+		{
+			string result = "";
+			int count = 0;
+			foreach (string folder in Directory.GetDirectories(path, name, searchOption))
+			{
+				result = folder;
+				count++;
+			}
 
-            return result;
-        }
+			return result;
+		}
 
-        private void SearchFile(string fileName, string directory, SearchOption searchOption = SearchOption.AllDirectories)
-        {
-            foreach (string file in Directory.GetFiles(directory, fileName, searchOption))
-            {
-                listBox1.Items.Add(file);
-            }
-        }
-    }
+		private void SearchFile(string fileName, string directory, SearchOption searchOption = SearchOption.AllDirectories)
+		{
+			foreach (string file in Directory.GetFiles(directory, fileName, searchOption))
+			{
+				listBox1.Items.Add(file);
+			}
+		}
+	}
 }
