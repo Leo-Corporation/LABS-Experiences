@@ -49,7 +49,7 @@
           "dependencies": {
             "LeoCorpLibrary": {
               "target": "Package",
-              "version": "[3.6.0.2105, )"
+              "version": "[3.7.0.2106-pre1, )"
             }
           },
           "imports": [

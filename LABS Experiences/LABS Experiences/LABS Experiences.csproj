@@ -32,7 +32,7 @@
     <Authors>Léo Corporation</Authors>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="LeoCorpLibrary" Version="3.6.0.2105" />
+    <PackageReference Include="LeoCorpLibrary" Version="3.7.0.2106-pre1" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System.Data.DataSetExtensions" />
