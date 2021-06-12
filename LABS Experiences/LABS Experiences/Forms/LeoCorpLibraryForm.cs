@@ -91,7 +91,7 @@ namespace LABS_Experiences.Forms
 
 		private void button10_Click(object sender, EventArgs e)
 		{
-			MessageBox.Show(Maths.Pyramid.GetLenghtBase(100, 10).ToString());
+			MessageBox.Show(Maths.Pyramid.GetLengthBase(100, 10).ToString());
 		}
 
 		private void button11_Click(object sender, EventArgs e)
@@ -159,15 +159,15 @@ namespace LABS_Experiences.Forms
 		private void button21_Click(object sender, EventArgs e)
 		{
 			string guid = GuidGenerator.Generate();
-			string guidLenght = GuidGenerator.Generate(10);
+			string guidLength = GuidGenerator.Generate(10);
 			string guidFromString = GuidGenerator.Generate("Test");
 			string guidParameters = GuidGenerator.Generate("LABS", new GuidGeneratorParameters
 			{
 				WithHyphens = true,
-				Lenght = 10,
+				Length = 10,
 				WithBraces = true
 			}); ;
-			MessageBox.Show($"Guid: {guid}{Environment.NewLine}Guid Lenght: {guidLenght}{ Environment.NewLine}Guid From String: {guidFromString}{Environment.NewLine}Guid Parameters: {guidParameters}");
+			MessageBox.Show($"Guid: {guid}{Environment.NewLine}Guid Length: {guidLength}{ Environment.NewLine}Guid From String: {guidFromString}{Environment.NewLine}Guid Parameters: {guidParameters}");
 		}
 
 		private void button22_Click(object sender, EventArgs e)

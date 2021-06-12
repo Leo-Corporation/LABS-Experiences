@@ -295,7 +295,7 @@ namespace LABS_Experiences.Forms
 			this.button10.Name = "button10";
 			this.button10.Size = new System.Drawing.Size(220, 48);
 			this.button10.TabIndex = 7;
-			this.button10.Text = "GetLenghtPyramid";
+			this.button10.Text = "GetLengthPyramid";
 			this.button10.UseVisualStyleBackColor = false;
 			this.button10.Click += new System.EventHandler(this.button10_Click);
 			// 
