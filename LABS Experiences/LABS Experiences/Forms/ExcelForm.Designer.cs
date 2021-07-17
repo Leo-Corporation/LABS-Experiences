@@ -88,7 +88,7 @@ namespace LABS_Experiences.Forms
 			this.ClientSize = new System.Drawing.Size(800, 450);
 			this.Controls.Add(this.textBox1);
 			this.Controls.Add(this.button34);
-			this.Description = "Excel experimental stuff.";
+			this.Description = "Excel experimental stuff. (Doesn\'t work)";
 			this.Name = "ExcelForm";
 			this.Text = "Excel - LABS Experiences";
 			this.Title = "Excel";
