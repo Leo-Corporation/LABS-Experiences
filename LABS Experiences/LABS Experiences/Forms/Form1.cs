@@ -131,5 +131,10 @@ namespace LABS_Experiences
 
 			MessageBox.Show($"Your screen DPI: ({DpiX}x{DpiY}).");
 		}
+
+		private void button13_Click(object sender, EventArgs e)
+		{
+			new ExcelForm().Show(); // Show window
+		}
 	}
 }
