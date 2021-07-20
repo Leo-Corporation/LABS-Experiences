@@ -249,7 +249,7 @@ namespace LABS_Experiences
 			this.button6.Name = "button6";
 			this.button6.Size = new System.Drawing.Size(220, 62);
 			this.button6.TabIndex = 10;
-			this.button6.Text = "ProcessTimeOpen";
+			this.button6.Text = "Process";
 			this.button6.UseVisualStyleBackColor = false;
 			this.button6.Click += new System.EventHandler(this.button6_Click);
 			// 

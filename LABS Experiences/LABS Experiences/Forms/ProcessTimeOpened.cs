@@ -68,5 +68,10 @@ namespace LABS_Experiences.Forms
 				return true;
 			}
 		}
+
+		private void button1_Click(object sender, EventArgs e)
+		{
+			Process.Start(textBox1.Text, textBox2.Text);
+		}
 	}
 }
