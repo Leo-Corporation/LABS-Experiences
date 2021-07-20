@@ -30,7 +30,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-//using Excel = Microsoft.Office.Interop.Excel;
+using ClosedXML.Excel;
 
 namespace LABS_Experiences.Forms
 {
@@ -43,31 +43,13 @@ namespace LABS_Experiences.Forms
 
 		private void button34_Click(object sender, EventArgs e)
 		{
-			//Excel.Application application = new();
-			//string filePath = textBox1.Text;
-
-			//if (application == null)
-			//{
-			//	MessageBox.Show("Excel is not installed on this computer!");
-			//	return;
-			//}
-			//object misValue = System.Reflection.Missing.Value;
-
-			//Excel.Workbook workbook = application.Workbooks.Add(misValue);
-			//Excel.Worksheet worksheet = (Excel.Worksheet)workbook.Worksheets[1];
-
-			//worksheet.Cells[1, 1] = "Hello, ";
-			//worksheet.Cells[2, 1] = "World!";
-
-			//workbook.SaveAs(filePath, Excel.XlFileFormat.xlOpenXMLWorkbook, misValue, misValue, misValue, misValue, Excel.XlSaveAsAccessMode.xlExclusive, misValue, misValue, misValue, misValue, misValue);
-			//workbook.Close(true, misValue, misValue);
-			//application.Quit();
-
-			//System.Runtime.InteropServices.Marshal.ReleaseComObject(worksheet);
-			//System.Runtime.InteropServices.Marshal.ReleaseComObject(workbook);
-			//System.Runtime.InteropServices.Marshal.ReleaseComObject(application);
-
-			//MessageBox.Show("Excel file created!");
+			using (var workbook = new XLWorkbook())
+			{
+				var worksheet = workbook.Worksheets.Add("LABS Experiences");
+				worksheet.Cell(1, 1).Value = "Hello, "; // A1
+				worksheet.Cell(2, 1).Value = "World!"; // A2
+				workbook.SaveAs("LABS Excel.xlsx"); // Save
+			}
 		}
 	}
 }

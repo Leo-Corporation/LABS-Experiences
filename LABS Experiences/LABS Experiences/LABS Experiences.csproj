@@ -32,6 +32,7 @@
     <Authors>Léo Corporation</Authors>
   </PropertyGroup>
   <ItemGroup>
+    <PackageReference Include="ClosedXML" Version="0.95.4" />
     <PackageReference Include="LeoCorpLibrary" Version="3.8.0.2107" />
   </ItemGroup>
   <ItemGroup>
