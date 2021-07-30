@@ -5,7 +5,7 @@
   },
   "projects": {
     "H:\\LABS-Experiences\\LABS Experiences\\LABS Experiences\\LABS Experiences.csproj": {
-      "version": "1.12.0.2105",
+      "version": "1.13.0.2107",
       "restore": {
         "projectUniqueName": "H:\\LABS-Experiences\\LABS Experiences\\LABS Experiences\\LABS Experiences.csproj",
         "projectName": "LABS Experiences",
@@ -74,7 +74,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
