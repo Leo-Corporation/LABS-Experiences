@@ -73,5 +73,10 @@ namespace LABS_Experiences.Forms
 		{
 			Process.Start(textBox1.Text, textBox2.Text);
 		}
+
+		private void button2_Click(object sender, EventArgs e)
+		{
+			Process.Start("explorer.exe", $@"shell:appsFolder\{textBox4.Text}!{textBox3.Text}");
+		}
 	}
 }
