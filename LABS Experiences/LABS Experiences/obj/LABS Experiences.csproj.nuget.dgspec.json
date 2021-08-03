@@ -53,7 +53,7 @@
             },
             "LeoCorpLibrary": {
               "target": "Package",
-              "version": "[3.8.0.2107, )"
+              "version": "[3.9.0.2108-rc1, )"
             }
           },
           "imports": [

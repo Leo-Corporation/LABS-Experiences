@@ -39,7 +39,7 @@
           "lib/netstandard2.0/ExcelNumberFormat.dll": {}
         }
       },
-      "LeoCorpLibrary/3.8.0.2107": {
+      "LeoCorpLibrary/3.9.0.2108-rc1": {
         "type": "package",
         "compile": {
           "lib/net5.0-windows7.0/LeoCorpLibrary.dll": {}
@@ -1372,15 +1372,15 @@
         "lib/netstandard2.0/ExcelNumberFormat.xml"
       ]
     },
-    "LeoCorpLibrary/3.8.0.2107": {
-      "sha512": "ZiXImzZVm0r+w57kX/6r/2zUIlBIrt9VhRQCAjkwUiaksQZXfMuFw3kSP0ad1fpRAA5Yj7/0I6+sp8QbS/o62g==",
+    "LeoCorpLibrary/3.9.0.2108-rc1": {
+      "sha512": "VoizLP/2ZrGjXKsY8v+gBa/iz+B3CjXbup+c4n2P4nFINvdHZyM8X6P9FvRaphInSQwQ4OU0IMi2HteqMc10ZA==",
       "type": "package",
-      "path": "leocorplibrary/3.8.0.2107",
+      "path": "leocorplibrary/3.9.0.2108-rc1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "icon.png",
-        "leocorplibrary.3.8.0.2107.nupkg.sha512",
+        "leocorplibrary.3.9.0.2108-rc1.nupkg.sha512",
         "leocorplibrary.nuspec",
         "lib/net472/LeoCorpLibrary.dll",
         "lib/net472/LeoCorpLibrary.xml",
@@ -4804,7 +4804,7 @@
   "projectFileDependencyGroups": {
     "net5.0-windows7.0": [
       "ClosedXML >= 0.95.4",
-      "LeoCorpLibrary >= 3.8.0.2107"
+      "LeoCorpLibrary >= 3.9.0.2108-rc1"
     ]
   },
   "packageFolders": {
@@ -4861,7 +4861,7 @@
           },
           "LeoCorpLibrary": {
             "target": "Package",
-            "version": "[3.8.0.2107, )"
+            "version": "[3.9.0.2108-rc1, )"
           }
         },
         "imports": [

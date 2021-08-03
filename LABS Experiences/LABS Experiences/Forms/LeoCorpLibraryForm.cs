@@ -297,5 +297,11 @@ namespace LABS_Experiences.Forms
 			}
 			MessageBox.Show($"Split:\n\n{txt}");
 		}
+
+		private void button35_Click(object sender, EventArgs e)
+		{
+			// Launch Minecraft UWP
+			Env.LaunchUWPApp("Microsoft.MinecraftUWP_8wekyb3d8bbwe", "App"); // Launch
+		}
 	}
 }
