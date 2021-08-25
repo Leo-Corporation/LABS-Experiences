@@ -30,6 +30,8 @@
     <RepositoryType>git</RepositoryType>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <Authors>Léo Corporation</Authors>
+    <SignAssembly>false</SignAssembly>
+    <AssemblyOriginatorKeyFile>Cert.pfx</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="ClosedXML" Version="0.95.4" />

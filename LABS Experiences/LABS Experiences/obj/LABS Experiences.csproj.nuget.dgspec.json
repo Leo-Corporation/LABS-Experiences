@@ -1,21 +1,22 @@
 {
   "format": 1,
   "restore": {
-    "H:\\LABS-Experiences\\LABS Experiences\\LABS Experiences\\LABS Experiences.csproj": {}
+    "C:\\Users\\Léo Peyronnet\\source\\repos\\LABS-Experiences\\LABS Experiences\\LABS Experiences\\LABS Experiences.csproj": {}
   },
   "projects": {
-    "H:\\LABS-Experiences\\LABS Experiences\\LABS Experiences\\LABS Experiences.csproj": {
+    "C:\\Users\\Léo Peyronnet\\source\\repos\\LABS-Experiences\\LABS Experiences\\LABS Experiences\\LABS Experiences.csproj": {
       "version": "1.13.0.2107",
       "restore": {
-        "projectUniqueName": "H:\\LABS-Experiences\\LABS Experiences\\LABS Experiences\\LABS Experiences.csproj",
+        "projectUniqueName": "C:\\Users\\Léo Peyronnet\\source\\repos\\LABS-Experiences\\LABS Experiences\\LABS Experiences\\LABS Experiences.csproj",
         "projectName": "LABS Experiences",
-        "projectPath": "H:\\LABS-Experiences\\LABS Experiences\\LABS Experiences\\LABS Experiences.csproj",
+        "projectPath": "C:\\Users\\Léo Peyronnet\\source\\repos\\LABS-Experiences\\LABS Experiences\\LABS Experiences\\LABS Experiences.csproj",
         "packagesPath": "C:\\Users\\Léo Peyronnet\\.nuget\\packages\\",
-        "outputPath": "H:\\LABS-Experiences\\LABS Experiences\\LABS Experiences\\obj\\",
+        "outputPath": "C:\\Users\\Léo Peyronnet\\source\\repos\\LABS-Experiences\\LABS Experiences\\LABS Experiences\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "I:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\Léo Peyronnet\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +29,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.pkg.github.com/Leo-Corporation/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0-windows7.0": {
@@ -53,7 +53,7 @@
             },
             "LeoCorpLibrary": {
               "target": "Package",
-              "version": "[3.9.0.2108-rc1, )"
+              "version": "[3.9.0.2108, )"
             }
           },
           "imports": [
@@ -74,7 +74,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
         }
       }
     }
