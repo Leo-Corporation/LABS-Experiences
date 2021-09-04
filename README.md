@@ -9,7 +9,7 @@
     <img src=".github/images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">LABS-Experiences</h3>
+  <h1 align="center">LABS-Experiences</h1>
 
   <p align="center">
     Where all LABS' experiences are gathered.
