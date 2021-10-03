@@ -308,5 +308,12 @@ namespace LABS_Experiences.Forms
 		{
 			MessageBox.Show($"10 miles in km:\n\nExpected Output: 16.09344km\nOutput: {UnitsConversions.MilesToKm(10)}km");
 		}
+
+		private void button37_Click(object sender, EventArgs e)
+		{
+			MessageBox.Show($"https://leocorporation.dev/ \nValid? : {Helpers.IsUrlValid("https://leocorporation.dev/")}\n" +
+				$"Protocol : {Helpers.GetUrlProtocol("https://leocorporation.dev/")}\n" +
+				$"HTTPS? : {Helpers.IsUrlHttps("https://leocorporation.dev/")}");
+		}
 	}
 }
