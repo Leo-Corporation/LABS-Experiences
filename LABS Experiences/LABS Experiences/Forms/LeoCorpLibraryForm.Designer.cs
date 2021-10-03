@@ -754,6 +754,7 @@ namespace LABS_Experiences.Forms
 			this.button38.TabIndex = 34;
 			this.button38.Text = "IsInteger";
 			this.button38.UseVisualStyleBackColor = false;
+			this.button38.Click += new System.EventHandler(this.button38_Click);
 			// 
 			// LeoCorpLibraryForm
 			// 

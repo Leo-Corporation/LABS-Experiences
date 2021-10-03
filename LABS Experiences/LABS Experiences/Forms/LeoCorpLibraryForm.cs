@@ -315,5 +315,13 @@ namespace LABS_Experiences.Forms
 				$"Protocol : {Helpers.GetUrlProtocol("https://leocorporation.dev/")}\n" +
 				$"HTTPS? : {Helpers.IsUrlHttps("https://leocorporation.dev/")}");
 		}
+
+		private void button38_Click(object sender, EventArgs e)
+		{
+			MessageBox.Show($"Is integer?\n10.5 - {Maths.IsInteger(10.5)}\n" +
+				$"45 - {Maths.IsInteger(45)}\n" +
+				$"4.48 - {Maths.IsInteger(4.48)}\n" +
+				$"03 - {Maths.IsInteger(03)}\n");
+		}
 	}
 }
