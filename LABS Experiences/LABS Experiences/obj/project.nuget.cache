@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "uMY2xdo1o6TAJT0OqIyLaKY3ZvsUWzNgy006gaXJBc5MNhLt/cBfE0sqNMsjtEmdhIb5bxwoPwTTqtWmYyi9cQ==",
+  "dgSpecHash": "5wp25Ub22+zniQq9d80l5lCqAlMHp6VozJ5jsd6nyZdDwL+gXGBiQW6+afAnneftBR1xr0r/Yjt4ZbFN5an+IA==",
   "success": true,
   "projectFilePath": "H:\\LABS-Experiences\\LABS Experiences\\LABS Experiences\\LABS Experiences.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Léo Peyronnet\\.nuget\\packages\\closedxml\\0.95.4\\closedxml.0.95.4.nupkg.sha512",
     "C:\\Users\\Léo Peyronnet\\.nuget\\packages\\documentformat.openxml\\2.7.2\\documentformat.openxml.2.7.2.nupkg.sha512",
     "C:\\Users\\Léo Peyronnet\\.nuget\\packages\\excelnumberformat\\1.0.10\\excelnumberformat.1.0.10.nupkg.sha512",
-    "C:\\Users\\Léo Peyronnet\\.nuget\\packages\\leocorplibrary\\3.11.0.2110-rc1\\leocorplibrary.3.11.0.2110-rc1.nupkg.sha512",
+    "C:\\Users\\Léo Peyronnet\\.nuget\\packages\\leocorplibrary\\3.11.0.2110\\leocorplibrary.3.11.0.2110.nupkg.sha512",
     "C:\\Users\\Léo Peyronnet\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Léo Peyronnet\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
     "C:\\Users\\Léo Peyronnet\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",

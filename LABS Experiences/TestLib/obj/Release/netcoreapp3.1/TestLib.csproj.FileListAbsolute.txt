@@ -16,3 +16,4 @@ H:\LABS-Experiences\LABS Experiences\TestLib\obj\Release\netcoreapp3.1\TestLib.c
 H:\LABS-Experiences\LABS Experiences\TestLib\obj\Release\netcoreapp3.1\TestLib.dll
 H:\LABS-Experiences\LABS Experiences\TestLib\obj\Release\netcoreapp3.1\TestLib.pdb
 H:\LABS-Experiences\LABS Experiences\TestLib\obj\Release\netcoreapp3.1\TestLib.csproj.AssemblyReference.cache
+H:\LABS-Experiences\LABS Experiences\TestLib\obj\Release\netcoreapp3.1\TestLib.GeneratedMSBuildEditorConfig.editorconfig

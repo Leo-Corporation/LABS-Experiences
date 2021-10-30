@@ -39,7 +39,7 @@
           "lib/netstandard2.0/ExcelNumberFormat.dll": {}
         }
       },
-      "LeoCorpLibrary/3.11.0.2110-rc1": {
+      "LeoCorpLibrary/3.11.0.2110": {
         "type": "package",
         "compile": {
           "lib/net5.0-windows7.0/LeoCorpLibrary.dll": {}
@@ -1372,14 +1372,15 @@
         "lib/netstandard2.0/ExcelNumberFormat.xml"
       ]
     },
-    "LeoCorpLibrary/3.11.0.2110-rc1": {
-      "sha512": "9WpGOFoEVxUzo8/9Q8a1+qqcvtTVGc27MklTLGEUWuh/ezXI9XJ6RlB6U9wlTLDvHXVHA7OEBtuKguHT7koTMw==",
+    "LeoCorpLibrary/3.11.0.2110": {
+      "sha512": "w0VcRx1xwVEgzUHgQZ2jjTjZN7R2q6K4JmRbnmwM6LrcXnWT8E/JkSAD88l1VH9uMViK57x9zDtgackrR7JZww==",
       "type": "package",
-      "path": "leocorplibrary/3.11.0.2110-rc1",
+      "path": "leocorplibrary/3.11.0.2110",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "icon.png",
-        "leocorplibrary.3.11.0.2110-rc1.nupkg.sha512",
+        "leocorplibrary.3.11.0.2110.nupkg.sha512",
         "leocorplibrary.nuspec",
         "lib/net472/LeoCorpLibrary.dll",
         "lib/net472/LeoCorpLibrary.xml",
@@ -4803,7 +4804,7 @@
   "projectFileDependencyGroups": {
     "net5.0-windows7.0": [
       "ClosedXML >= 0.95.4",
-      "LeoCorpLibrary >= 3.11.0.2110-rc1"
+      "LeoCorpLibrary >= 3.11.0.2110"
     ]
   },
   "packageFolders": {
@@ -4812,7 +4813,7 @@
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
-    "version": "1.14.0.2108",
+    "version": "1.15.0.2110",
     "restore": {
       "projectUniqueName": "H:\\LABS-Experiences\\LABS Experiences\\LABS Experiences\\LABS Experiences.csproj",
       "projectName": "LABS Experiences",
@@ -4860,7 +4861,7 @@
           },
           "LeoCorpLibrary": {
             "target": "Package",
-            "version": "[3.11.0.2110-rc1, )"
+            "version": "[3.11.0.2110, )"
           }
         },
         "imports": [
@@ -4881,7 +4882,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }
