@@ -39,7 +39,7 @@
           "lib/netstandard2.0/ExcelNumberFormat.dll": {}
         }
       },
-      "LeoCorpLibrary/3.11.0.2110": {
+      "LeoCorpLibrary/4.0.0.2111-rc1": {
         "type": "package",
         "compile": {
           "lib/net5.0-windows7.0/LeoCorpLibrary.dll": {}
@@ -1372,20 +1372,22 @@
         "lib/netstandard2.0/ExcelNumberFormat.xml"
       ]
     },
-    "LeoCorpLibrary/3.11.0.2110": {
-      "sha512": "w0VcRx1xwVEgzUHgQZ2jjTjZN7R2q6K4JmRbnmwM6LrcXnWT8E/JkSAD88l1VH9uMViK57x9zDtgackrR7JZww==",
+    "LeoCorpLibrary/4.0.0.2111-rc1": {
+      "sha512": "M3gKpkidC52Z1DwOmFheCGZ2zt4XFpZp24ejuapeO4tVnleDi3sqiScGlOdqZjtpd065n/LQSxEgb4s1817H/A==",
       "type": "package",
-      "path": "leocorplibrary/3.11.0.2110",
+      "path": "leocorplibrary/4.0.0.2111-rc1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "icon.png",
-        "leocorplibrary.3.11.0.2110.nupkg.sha512",
+        "leocorplibrary.4.0.0.2111-rc1.nupkg.sha512",
         "leocorplibrary.nuspec",
-        "lib/net472/LeoCorpLibrary.dll",
-        "lib/net472/LeoCorpLibrary.xml",
+        "lib/net45/LeoCorpLibrary.dll",
+        "lib/net45/LeoCorpLibrary.xml",
         "lib/net5.0-windows7.0/LeoCorpLibrary.dll",
         "lib/net5.0-windows7.0/LeoCorpLibrary.xml",
+        "lib/net6.0-windows7.0/LeoCorpLibrary.dll",
+        "lib/net6.0-windows7.0/LeoCorpLibrary.xml",
         "lib/netcoreapp3.1/LeoCorpLibrary.dll",
         "lib/netcoreapp3.1/LeoCorpLibrary.xml"
       ]
@@ -4804,7 +4806,7 @@
   "projectFileDependencyGroups": {
     "net5.0-windows7.0": [
       "ClosedXML >= 0.95.4",
-      "LeoCorpLibrary >= 3.11.0.2110"
+      "LeoCorpLibrary >= 4.0.0.2111-rc1"
     ]
   },
   "packageFolders": {
@@ -4861,7 +4863,7 @@
           },
           "LeoCorpLibrary": {
             "target": "Package",
-            "version": "[3.11.0.2110, )"
+            "version": "[4.0.0.2111-rc1, )"
           }
         },
         "imports": [
@@ -4874,6 +4876,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[5.0.12, 5.0.12]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
@@ -4882,7 +4890,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
