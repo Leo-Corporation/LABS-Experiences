@@ -22,54 +22,47 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE. 
 */
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
 using System.Net;
-using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace LABS_Experiences.Forms
+namespace LABS_Experiences.Forms;
+
+public partial class TextDownloader : LABSForm
 {
-	public partial class TextDownloader : LABSForm
-	{
-		public TextDownloader()
-		{
-			InitializeComponent();
-		}
+    public TextDownloader()
+    {
+        InitializeComponent();
+    }
 
-		private void button2_Click(object sender, EventArgs e)
-		{
-			/*Task<string> task = new Task<string>(DownloadString);
-            task.Start();
-            label3.Text = await task;*/
-			Thread thread = new Thread(DownloadStringVoid);
-			thread.Start();
-		}
+    private void button2_Click(object sender, EventArgs e)
+    {
+        /*Task<string> task = new Task<string>(DownloadString);
+        task.Start();
+        label3.Text = await task;*/
+        Thread thread = new(DownloadStringVoid);
+        thread.Start();
+    }
 
-		private string DownloadString()
-		{
-			string res = "";
-			Task.Run(() =>
-			{
-				Thread.Sleep(2000);
-				res = new WebClient().DownloadString("https://raw.githubusercontent.com/Leo-Corporation/LeoCorp-Docs/master/Liens/Update%20System/Educ'Maths%204.0/Dev/Download.txt");
-			});
-			return res;
-		}
+    private string DownloadString()
+    {
+        string res = "";
+        Task.Run(() =>
+        {
+            Thread.Sleep(2000);
+            res = new WebClient().DownloadString("https://raw.githubusercontent.com/Leo-Corporation/LeoCorp-Docs/master/Liens/Update%20System/Educ'Maths%204.0/Dev/Download.txt");
+        });
+        return res;
+    }
 
-		private void DownloadStringVoid()
-		{
-			Thread.Sleep(2000);
-			Invoke(new MethodInvoker(delegate ()
-			{
-				label3.Text = new WebClient().DownloadString("https://raw.githubusercontent.com/Leo-Corporation/LeoCorp-Docs/master/Liens/Update%20System/Educ'Maths%204.0/Dev/Download.txt");
-			}));
+    private void DownloadStringVoid()
+    {
+        Thread.Sleep(2000);
+        Invoke(new MethodInvoker(delegate ()
+        {
+            label3.Text = new WebClient().DownloadString("https://raw.githubusercontent.com/Leo-Corporation/LeoCorp-Docs/master/Liens/Update%20System/Educ'Maths%204.0/Dev/Download.txt");
+        }));
 
-		}
-	}
+    }
 }

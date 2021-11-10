@@ -23,27 +23,18 @@ SOFTWARE.
 */
 using LeoCorpLibrary;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 
-namespace LABS_Experiences.Forms
+namespace LABS_Experiences.Forms;
+
+public partial class GenerateAsync : LABSForm
 {
-	public partial class GenerateAsync : LABSForm
-	{
-		public GenerateAsync()
-		{
-			InitializeComponent();
-		}
+    public GenerateAsync()
+    {
+        InitializeComponent();
+    }
 
-		private async void button23_Click(object sender, EventArgs e)
-		{
-			textBox1.Text = await Password.GenerateAsync((int)numericUpDown1.Value, PasswordPresets.Complex);
-		}
-	}
+    private async void button23_Click(object sender, EventArgs e)
+    {
+        textBox1.Text = await Password.GenerateAsync((int)numericUpDown1.Value, PasswordPresets.Complex);
+    }
 }

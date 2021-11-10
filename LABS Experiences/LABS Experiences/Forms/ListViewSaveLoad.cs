@@ -22,60 +22,49 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE. 
 */
 using LeoCorpLibrary;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Xml.Serialization;
-using System.IO;
 
-namespace LABS_Experiences.Forms
+namespace LABS_Experiences.Forms;
+
+public partial class ListViewSaveLoad : Form
 {
-	public partial class ListViewSaveLoad : Form
-	{
-		public ListViewSaveLoad()
-		{
-			InitializeComponent();
-		}
+    public ListViewSaveLoad()
+    {
+        InitializeComponent();
+    }
 
-		private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-		{
-			Save.ListViewContentCustom(listView1, Application.StartupPath + "/test.txt");
-		}
+    private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+    {
+        Save.ListViewContentCustom(listView1, Application.StartupPath + "/test.txt");
+    }
 
-		private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-		{
-			LeoCorpLibrary.Load.ListViewContentCustom(listView1, Application.StartupPath + "/test.txt");
-		}
+    private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+    {
+        LeoCorpLibrary.Load.ListViewContentCustom(listView1, Application.StartupPath + "/test.txt");
+    }
 
-		private void linkLabel3_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-		{
-			listView1.Items.Clear();
-		}
+    private void linkLabel3_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+    {
+        listView1.Items.Clear();
+    }
 
-		private void linkLabel5_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-		{
-			Save.ListViewContentXML(listView1, Application.StartupPath + "/test.xml");
-		}
+    private void linkLabel5_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+    {
+        Save.ListViewContentXML(listView1, Application.StartupPath + "/test.xml");
+    }
 
-		private void linkLabel4_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-		{
-			LeoCorpLibrary.Load.ListViewContentXML(listView1, Application.StartupPath + "/test.xml");
-		}
+    private void linkLabel4_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+    {
+        LeoCorpLibrary.Load.ListViewContentXML(listView1, Application.StartupPath + "/test.xml");
+    }
 
-		private void linkLabel7_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-		{
-			Save.ListViewContentJSON(listView1, Application.StartupPath + "/test.json");
-		}
+    private void linkLabel7_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+    {
+        Save.ListViewContentJSON(listView1, Application.StartupPath + "/test.json");
+    }
 
-		private void linkLabel6_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-		{
-			LeoCorpLibrary.Load.ListViewContentJSON(listView1, Application.StartupPath + "/test.json");
-		}
-	}
+    private void linkLabel6_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+    {
+        LeoCorpLibrary.Load.ListViewContentJSON(listView1, Application.StartupPath + "/test.json");
+    }
 }

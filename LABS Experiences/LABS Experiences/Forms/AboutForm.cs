@@ -23,30 +23,22 @@ SOFTWARE.
 */
 using LABS_Experiences.Classes;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Diagnostics;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace LABS_Experiences.Forms
-{
-	public partial class AboutForm : Form
-	{
-		public AboutForm()
-		{
-			InitializeComponent();
-			label2.Text = $"Version {Global.Version}";
-			label3.Text = $".NET {Environment.Version.Major}.{Environment.Version.Minor}";
-		}
+namespace LABS_Experiences.Forms;
 
-		private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-		{
-			Process.Start("https://github.com/Leo-Corporation/LABS-Experiences"); // Ouvrir le GitHub
-		}
-	}
+public partial class AboutForm : Form
+{
+    public AboutForm()
+    {
+        InitializeComponent();
+        label2.Text = $"Version {Global.Version}";
+        label3.Text = $".NET {Environment.Version.Major}.{Environment.Version.Minor}";
+    }
+
+    private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+    {
+        Process.Start("https://github.com/Leo-Corporation/LABS-Experiences"); // Ouvrir le GitHub
+    }
 }

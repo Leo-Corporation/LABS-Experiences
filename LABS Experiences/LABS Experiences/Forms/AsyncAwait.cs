@@ -23,75 +23,67 @@ SOFTWARE.
 */
 using LeoCorpLibrary;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
 using System.Net;
-using System.Text;
-using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace LABS_Experiences.Forms
+namespace LABS_Experiences.Forms;
+
+public partial class AsyncAwait : LABSForm
 {
-	public partial class AsyncAwait : LABSForm
-	{
-		public AsyncAwait()
-		{
-			InitializeComponent();
-		}
+    public AsyncAwait()
+    {
+        InitializeComponent();
+    }
 
-		private void button2_Click(object sender, EventArgs e)
-		{
-			new TextDownloader().Show();
-		}
+    private void button2_Click(object sender, EventArgs e)
+    {
+        new TextDownloader().Show();
+    }
 
-		private void button1_Click(object sender, EventArgs e)
-		{
-			new GetLastVersionAsync().Show();
-		}
+    private void button1_Click(object sender, EventArgs e)
+    {
+        new GetLastVersionAsync().Show();
+    }
 
-		private async void button3_Click(object sender, EventArgs e)
-		{
-			bool res = await IsInternetAvailable();
-			MessageBox.Show(res.ToString());
-		}
+    private async void button3_Click(object sender, EventArgs e)
+    {
+        bool res = await IsInternetAvailable();
+        MessageBox.Show(res.ToString());
+    }
 
-		internal Task<bool> IsInternetAvailable()
-		{
-			Task<bool> task = new Task<bool>(() => Internet("a"));
-			task.Start();
-			return task;
-		}
+    internal Task<bool> IsInternetAvailable()
+    {
+        Task<bool> task = new(() => Internet("a"));
+        task.Start();
+        return task;
+    }
 
-		private bool Internet(string a)
-		{
-			try
-			{
-				using (var client = new WebClient()) // Navigateur Internet
-				using (var stream = client.OpenRead("https://www.bing.com")) // Ouvrir bing.com
-				{
-					return true; // Si la page s'ouvre = connexion OK
-				}
-			}
-			catch
-			{
-				return false; // Si la page ne s'ouvre pas = connexion down
-			}
-		}
+    private bool Internet(string a)
+    {
+        try
+        {
+            using (var client = new WebClient()) // Navigateur Internet
+            using (var stream = client.OpenRead("https://www.bing.com")) // Ouvrir bing.com
+            {
+                return true; // Si la page s'ouvre = connexion OK
+            }
+        }
+        catch
+        {
+            return false; // Si la page ne s'ouvre pas = connexion down
+        }
+    }
 
-		private async void button4_Click(object sender, EventArgs e)
-		{
-			MessageBox.Show(await GeneratePassword(10000, "a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,1,2,3,4,5,6,7,8,9,0", ","));
-		}
+    private async void button4_Click(object sender, EventArgs e)
+    {
+        MessageBox.Show(await GeneratePassword(10000, "a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,1,2,3,4,5,6,7,8,9,0", ","));
+    }
 
-		private Task<string> GeneratePassword(int lenght, string chars, string separator)
-		{
-			Task<string> task = new Task<string>(() => Password.Generate(lenght, chars, separator));
-			task.Start();
-			return task;
-		}
-	}
+    private Task<string> GeneratePassword(int lenght, string chars, string separator)
+    {
+        Task<string> task = new(() => Password.Generate(lenght, chars, separator));
+        task.Start();
+        return task;
+    }
 }

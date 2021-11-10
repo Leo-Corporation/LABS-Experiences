@@ -21,19 +21,13 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE. 
 */
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace LABS_Experiences.Extensions
+namespace LABS_Experiences.Extensions;
+
+public static class IntExtensions
 {
-	public static class IntExtensions
-	{
-		public static int MultiplyBy(this int i, int multiple)
-		{
-			return i * multiple;
-		}
-	}
+    public static int MultiplyBy(this int i, int multiple)
+    {
+        return i * multiple;
+    }
 }

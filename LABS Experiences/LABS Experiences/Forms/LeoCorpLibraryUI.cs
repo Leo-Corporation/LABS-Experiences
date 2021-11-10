@@ -24,57 +24,49 @@ SOFTWARE.
 using LeoCorpLibrary;
 using LeoCorpLibrary.UI;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace LABS_Experiences.Forms
+namespace LABS_Experiences.Forms;
+
+public partial class LeoCorpLibraryUI : LABSForm
 {
-	public partial class LeoCorpLibraryUI : LABSForm
-	{
-		public LeoCorpLibraryUI()
-		{
-			InitializeComponent();
-			timer1.Start();
-		}
+    public LeoCorpLibraryUI()
+    {
+        InitializeComponent();
+        timer1.Start();
+    }
 
-		private void button3_Click(object sender, EventArgs e)
-		{
-			WinFormsHelpers.CenterControlOnForm(label3, this, ControlAlignement.Horizontal);
+    private void button3_Click(object sender, EventArgs e)
+    {
+        WinFormsHelpers.CenterControlOnForm(label3, this, ControlAlignement.Horizontal);
 
-		}
+    }
 
-		private void button2_Click(object sender, EventArgs e)
-		{
-			WinFormsHelpers.CenterControlOnForm(label3, this, ControlAlignement.Vertical);
-		}
+    private void button2_Click(object sender, EventArgs e)
+    {
+        WinFormsHelpers.CenterControlOnForm(label3, this, ControlAlignement.Vertical);
+    }
 
-		private void button1_Click(object sender, EventArgs e)
-		{
-			WinFormsHelpers.CenterControlOnForm(label3, this);
-		}
+    private void button1_Click(object sender, EventArgs e)
+    {
+        WinFormsHelpers.CenterControlOnForm(label3, this);
+    }
 
-		private void button11_Click(object sender, EventArgs e)
-		{
-			WinFormsHelpers.CenterFormOnScreen(this);
-		}
+    private void button11_Click(object sender, EventArgs e)
+    {
+        WinFormsHelpers.CenterFormOnScreen(this);
+    }
 
-		private void timer1_Tick(object sender, EventArgs e)
-		{
-			label4.Text = $"Mouse position: X: {Env.GetMouseCursorPosition().X}; Y: {Env.GetMouseCursorPosition().Y}";
-		}
+    private void timer1_Tick(object sender, EventArgs e)
+    {
+        label4.Text = $"Mouse position: X: {Env.GetMouseCursorPosition().X}; Y: {Env.GetMouseCursorPosition().Y}";
+    }
 
-		private void button4_Click(object sender, EventArgs e)
-		{
-			double dpi = ScreenHelpers.GetScreenDPIFromWinForm(this);
-			double scale = ScreenHelpers.GetScreenScalingFromWinForm(this);
+    private void button4_Click(object sender, EventArgs e)
+    {
+        double dpi = ScreenHelpers.GetScreenDPIFromWinForm(this);
+        double scale = ScreenHelpers.GetScreenScalingFromWinForm(this);
 
-			MessageBox.Show($"DPI: {dpi}\nScale: {scale}%");
-		}
-	}
+        MessageBox.Show($"DPI: {dpi}\nScale: {scale}%");
+    }
 }

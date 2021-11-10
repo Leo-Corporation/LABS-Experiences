@@ -21,16 +21,10 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE. 
 */
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace LABS_Experiences.Classes
+namespace LABS_Experiences.Classes;
+
+internal static class Global
 {
-    internal static class Global
-    {
-        public static string Version => "1.15.0.2110";
-    }
+    public static string Version => "1.15.0.2110";
 }

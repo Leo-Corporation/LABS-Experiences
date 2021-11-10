@@ -21,35 +21,26 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE. 
 */
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 using ClosedXML.Excel;
+using System;
 
-namespace LABS_Experiences.Forms
+namespace LABS_Experiences.Forms;
+
+public partial class ExcelForm : LABSForm
 {
-	public partial class ExcelForm : LABSForm
-	{
-		public ExcelForm()
-		{
-			InitializeComponent();
-		}
+    public ExcelForm()
+    {
+        InitializeComponent();
+    }
 
-		private void button34_Click(object sender, EventArgs e)
-		{
-			using (var workbook = new XLWorkbook())
-			{
-				var worksheet = workbook.Worksheets.Add("LABS Experiences");
-				worksheet.Cell(1, 1).Value = "Hello, "; // A1
-				worksheet.Cell(2, 1).Value = "World!"; // A2
-				workbook.SaveAs("LABS Excel.xlsx"); // Save
-			}
-		}
-	}
+    private void button34_Click(object sender, EventArgs e)
+    {
+        using (var workbook = new XLWorkbook())
+        {
+            var worksheet = workbook.Worksheets.Add("LABS Experiences");
+            worksheet.Cell(1, 1).Value = "Hello, "; // A1
+            worksheet.Cell(2, 1).Value = "World!"; // A2
+            workbook.SaveAs("LABS Excel.xlsx"); // Save
+        }
+    }
 }

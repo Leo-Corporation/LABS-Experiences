@@ -24,304 +24,297 @@ SOFTWARE.
 using LeoCorpLibrary;
 using LeoCorpLibrary.Extensions;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
 using System.IO;
 using System.Linq;
 using System.Security.Cryptography;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace LABS_Experiences.Forms
+namespace LABS_Experiences.Forms;
+
+public partial class LeoCorpLibraryForm : Form
 {
-	public partial class LeoCorpLibraryForm : Form
-	{
-		public LeoCorpLibraryForm()
-		{
-			InitializeComponent();
-		}
+    public LeoCorpLibraryForm()
+    {
+        InitializeComponent();
+    }
 
-		private void button1_Click(object sender, EventArgs e)
-		{
-			MessageBox.Show(Env.GetTotalDriveSpace(@"C:\", UnitType.Gigabyte).ToString()); // Obtenir l'espace total du lecteur
-		}
+    private void button1_Click(object sender, EventArgs e)
+    {
+        MessageBox.Show(Env.GetTotalDriveSpace(@"C:\", UnitType.Gigabyte).ToString()); // Obtenir l'espace total du lecteur
+    }
 
-		private void button2_Click(object sender, EventArgs e)
-		{
-			MessageBox.Show(Env.GetDriveAvailableFreeSpace(@"C:\", UnitType.Gigabyte).ToString()); // Obtenir l'espace disponible du lecteur
-		}
+    private void button2_Click(object sender, EventArgs e)
+    {
+        MessageBox.Show(Env.GetDriveAvailableFreeSpace(@"C:\", UnitType.Gigabyte).ToString()); // Obtenir l'espace disponible du lecteur
+    }
 
-		private void button3_Click(object sender, EventArgs e)
-		{
-			MessageBox.Show(Env.GetOccupiedDriveSpace(@"C:\", UnitType.Gigabyte).ToString()); // Obtenir l'espace occupé du lecteur
-		}
+    private void button3_Click(object sender, EventArgs e)
+    {
+        MessageBox.Show(Env.GetOccupiedDriveSpace(@"C:\", UnitType.Gigabyte).ToString()); // Obtenir l'espace occupé du lecteur
+    }
 
-		private void button4_Click(object sender, EventArgs e)
-		{
-			new ListViewSaveLoad().Show();
-		}
+    private void button4_Click(object sender, EventArgs e)
+    {
+        new ListViewSaveLoad().Show();
+    }
 
-		private void button5_Click(object sender, EventArgs e)
-		{
-			MessageBox.Show(Maths.Cube.GetVolume(2, 2).ToString());
-		}
+    private void button5_Click(object sender, EventArgs e)
+    {
+        MessageBox.Show(Maths.Cube.GetVolume(2, 2).ToString());
+    }
 
-		private void button6_Click(object sender, EventArgs e)
-		{
-			MessageBox.Show(Maths.Cylinder.GetVolume(4, 5).ToString());
-		}
+    private void button6_Click(object sender, EventArgs e)
+    {
+        MessageBox.Show(Maths.Cylinder.GetVolume(4, 5).ToString());
+    }
 
-		private void button7_Click(object sender, EventArgs e)
-		{
-			MessageBox.Show(Maths.Pyramid.GetVolume(5, 6, 7).ToString());
-		}
+    private void button7_Click(object sender, EventArgs e)
+    {
+        MessageBox.Show(Maths.Pyramid.GetVolume(5, 6, 7).ToString());
+    }
 
-		private void button8_Click(object sender, EventArgs e)
-		{
-			MessageBox.Show(Maths.Pyramid.GetHeight(10, 10, 100).ToString());
-		}
+    private void button8_Click(object sender, EventArgs e)
+    {
+        MessageBox.Show(Maths.Pyramid.GetHeight(10, 10, 100).ToString());
+    }
 
-		private void button9_Click(object sender, EventArgs e)
-		{
-			MessageBox.Show(Maths.Pyramid.GetWidthBase(100, 10).ToString());
-		}
+    private void button9_Click(object sender, EventArgs e)
+    {
+        MessageBox.Show(Maths.Pyramid.GetWidthBase(100, 10).ToString());
+    }
 
-		private void button10_Click(object sender, EventArgs e)
-		{
-			MessageBox.Show(Maths.Pyramid.GetLengthBase(100, 10).ToString());
-		}
+    private void button10_Click(object sender, EventArgs e)
+    {
+        MessageBox.Show(Maths.Pyramid.GetLengthBase(100, 10).ToString());
+    }
 
-		private void button11_Click(object sender, EventArgs e)
-		{
-			MessageBox.Show(Maths.Cube.GetEdge(100).ToString());
-		}
+    private void button11_Click(object sender, EventArgs e)
+    {
+        MessageBox.Show(Maths.Cube.GetEdge(100).ToString());
+    }
 
-		private void button12_Click(object sender, EventArgs e)
-		{
-			MessageBox.Show(Maths.Cylinder.GetHeight(1000, 3).ToString());
-		}
+    private void button12_Click(object sender, EventArgs e)
+    {
+        MessageBox.Show(Maths.Cylinder.GetHeight(1000, 3).ToString());
+    }
 
-		private void button13_Click(object sender, EventArgs e)
-		{
-			MessageBox.Show(Maths.Cylinder.GetBaseArea(10).ToString());
-		}
+    private void button13_Click(object sender, EventArgs e)
+    {
+        MessageBox.Show(Maths.Cylinder.GetBaseArea(10).ToString());
+    }
 
-		private void button14_Click(object sender, EventArgs e)
-		{
-			MessageBox.Show(Env.GetWindowsVersion().ToString());
-		}
+    private void button14_Click(object sender, EventArgs e)
+    {
+        MessageBox.Show(Env.GetWindowsVersion().ToString());
+    }
 
-		private void button15_Click(object sender, EventArgs e)
-		{
-			Env.ExecuteAsAdmin(@"C:\Windows\System32\cmd.exe");
-		}
+    private void button15_Click(object sender, EventArgs e)
+    {
+        Env.ExecuteAsAdmin(@"C:\Windows\System32\cmd.exe");
+    }
 
-		private async void button16_Click(object sender, EventArgs e)
-		{
-			bool av = await NetworkConnection.IsAvailableAsync();
-			bool av2 = await NetworkConnection.IsAvailableTestSiteAsync("https://leocorp.fr");
-			MessageBox.Show(av.ToString());
-			MessageBox.Show(av2.ToString());
-		}
+    private async void button16_Click(object sender, EventArgs e)
+    {
+        bool av = await NetworkConnection.IsAvailableAsync();
+        bool av2 = await NetworkConnection.IsAvailableTestSiteAsync("https://leocorp.fr");
+        MessageBox.Show(av.ToString());
+        MessageBox.Show(av2.ToString());
+    }
 
-		private void button17_Click(object sender, EventArgs e)
-		{
-			MessageBox.Show(Env.GetUnixTime().ToString());
+    private void button17_Click(object sender, EventArgs e)
+    {
+        MessageBox.Show(Env.GetUnixTime().ToString());
 
-			MessageBox.Show(Env.GetUnixTime(new DateTime(2020, 1, 1)).ToString());
-		}
+        MessageBox.Show(Env.GetUnixTime(new DateTime(2020, 1, 1)).ToString());
+    }
 
-		private async void button18_Click(object sender, EventArgs e)
-		{
-			MessageBox.Show(await LeoCorpLibrary.Update.GetLastVersionAsync("https://raw.githubusercontent.com/Leo-Corporation/LeoCorp-Docs/master/Liens/Update%20System/Educ'Maths%204.0/Dev/Version.txt"));
-		}
+    private async void button18_Click(object sender, EventArgs e)
+    {
+        MessageBox.Show(await LeoCorpLibrary.Update.GetLastVersionAsync("https://raw.githubusercontent.com/Leo-Corporation/LeoCorp-Docs/master/Liens/Update%20System/Educ'Maths%204.0/Dev/Version.txt"));
+    }
 
-		private void button19_Click(object sender, EventArgs e)
-		{
-			if (File.Exists(Application.StartupPath + @"\test.labs"))
-			{
-				MessageBox.Show(Env.CountFileCharacters(Application.StartupPath + @"\test.labs").ToString());
-			}
-		}
+    private void button19_Click(object sender, EventArgs e)
+    {
+        if (File.Exists(Application.StartupPath + @"\test.labs"))
+        {
+            MessageBox.Show(Env.CountFileCharacters(Application.StartupPath + @"\test.labs").ToString());
+        }
+    }
 
-		private async void button20_Click(object sender, EventArgs e)
-		{
-			if (File.Exists(Application.StartupPath + @"\test.labs"))
-			{
-				int a = await Env.CountFileCharactersAsync(Application.StartupPath + @"\test.labs");
-				MessageBox.Show(a.ToString());
-			}
-		}
+    private async void button20_Click(object sender, EventArgs e)
+    {
+        if (File.Exists(Application.StartupPath + @"\test.labs"))
+        {
+            int a = await Env.CountFileCharactersAsync(Application.StartupPath + @"\test.labs");
+            MessageBox.Show(a.ToString());
+        }
+    }
 
-		private void button21_Click(object sender, EventArgs e)
-		{
-			string guid = GuidGenerator.Generate();
-			string guidLength = GuidGenerator.Generate(10);
-			string guidFromString = GuidGenerator.Generate("Test");
-			string guidParameters = GuidGenerator.Generate("LABS", new GuidGeneratorParameters
-			{
-				WithHyphens = true,
-				Length = 10,
-				WithBraces = true
-			}); ;
-			MessageBox.Show($"Guid: {guid}{Environment.NewLine}Guid Length: {guidLength}{ Environment.NewLine}Guid From String: {guidFromString}{Environment.NewLine}Guid Parameters: {guidParameters}");
-		}
+    private void button21_Click(object sender, EventArgs e)
+    {
+        string guid = GuidGenerator.Generate();
+        string guidLength = GuidGenerator.Generate(10);
+        string guidFromString = GuidGenerator.Generate("Test");
+        string guidParameters = GuidGenerator.Generate("LABS", new GuidGeneratorParameters
+        {
+            WithHyphens = true,
+            Length = 10,
+            WithBraces = true
+        }); ;
+        MessageBox.Show($"Guid: {guid}{Environment.NewLine}Guid Length: {guidLength}{ Environment.NewLine}Guid From String: {guidFromString}{Environment.NewLine}Guid Parameters: {guidParameters}");
+    }
 
-		private void button22_Click(object sender, EventArgs e)
-		{
-			MessageBox.Show($"AppData path: {Env.GetAppDataPath()}");
-		}
+    private void button22_Click(object sender, EventArgs e)
+    {
+        MessageBox.Show($"AppData path: {Env.GetAppDataPath()}");
+    }
 
-		private void button23_Click(object sender, EventArgs e)
-		{
-			new GenerateAsync().Show();
-		}
+    private void button23_Click(object sender, EventArgs e)
+    {
+        new GenerateAsync().Show();
+    }
 
-		private void button24_Click(object sender, EventArgs e)
-		{
-			int number = 1;
-			double div = number.ToDouble() / 2;
-			string sentence = "Hello, this is a test sentence to see if the word counter in LeoCorpLibrary is working properly!!";
+    private void button24_Click(object sender, EventArgs e)
+    {
+        int number = 1;
+        double div = number.ToDouble() / 2;
+        string sentence = "Hello, this is a test sentence to see if the word counter in LeoCorpLibrary is working properly!!";
 
-			int[] numbers = { 1, 5, 6, 4, 8 };
-			int[] append = numbers.Append(10, 8, 9);
-			string strNumbers = "";
-			string strAppend = "";
-			for (int i = 0; i < numbers.Length; i++)
-			{
-				strNumbers += numbers[i] + " ";
-			}
+        int[] numbers = { 1, 5, 6, 4, 8 };
+        int[] append = numbers.Append(10, 8, 9);
+        string strNumbers = "";
+        string strAppend = "";
+        for (int i = 0; i < numbers.Length; i++)
+        {
+            strNumbers += numbers[i] + " ";
+        }
 
-			for (int i = 0; i < append.Length; i++)
-			{
-				strAppend += append[i] + " ";
-			}
+        for (int i = 0; i < append.Length; i++)
+        {
+            strAppend += append[i] + " ";
+        }
 
-			int[] numbers1 = { 1, 2, 5, 6, 7, 8 };
-			int[] remove = numbers1.RemoveItem(7, 2, 3);
-			string strNumbers1 = "";
-			string strRemove = "";
+        int[] numbers1 = { 1, 2, 5, 6, 7, 8 };
+        int[] remove = numbers1.RemoveItem(7, 2, 3);
+        string strNumbers1 = "";
+        string strRemove = "";
 
-			for (int i = 0; i < numbers1.Length; i++)
-			{
-				strNumbers1 += numbers1[i] + " ";
-			}
+        for (int i = 0; i < numbers1.Length; i++)
+        {
+            strNumbers1 += numbers1[i] + " ";
+        }
 
-			for (int i = 0; i < remove.Length; i++)
-			{
-				strRemove += remove[i] + " ";
-			}
-			MessageBox.Show($"{div.ToString()}\n{number / 2}");
-			MessageBox.Show(number.IsEven().ToString());
-			MessageBox.Show(sentence.CountWords().ToString());
-			MessageBox.Show($"Numbers: {strNumbers}\nAppend numbers: {strAppend}");
-			MessageBox.Show($"Numbers: {strNumbers1}\nRemove numbers: {strRemove}");
-		}
+        for (int i = 0; i < remove.Length; i++)
+        {
+            strRemove += remove[i] + " ";
+        }
+        MessageBox.Show($"{div.ToString()}\n{number / 2}");
+        MessageBox.Show(number.IsEven().ToString());
+        MessageBox.Show(sentence.CountWords().ToString());
+        MessageBox.Show($"Numbers: {strNumbers}\nAppend numbers: {strAppend}");
+        MessageBox.Show($"Numbers: {strNumbers1}\nRemove numbers: {strRemove}");
+    }
 
-		private void button25_Click(object sender, EventArgs e)
-		{
-			MessageBox.Show(Env.CurrentOperatingSystem.ToString());
-		}
+    private void button25_Click(object sender, EventArgs e)
+    {
+        MessageBox.Show(Env.CurrentOperatingSystem.ToString());
+    }
 
-		private void button26_Click(object sender, EventArgs e)
-		{
-			MessageBox.Show(Env.SystemDrive.Name);
-		}
+    private void button26_Click(object sender, EventArgs e)
+    {
+        MessageBox.Show(Env.SystemDrive.Name);
+    }
 
-		private void button27_Click(object sender, EventArgs e)
-		{
-			MessageBox.Show(Maths.Triangle.GetHypotenuse(7, 5).ToString());
-		}
+    private void button27_Click(object sender, EventArgs e)
+    {
+        MessageBox.Show(Maths.Triangle.GetHypotenuse(7, 5).ToString());
+    }
 
-		private void button28_Click(object sender, EventArgs e)
-		{
-			MessageBox.Show(Maths.Hexagon.GetArea(5).ToString()); // Get area
-		}
+    private void button28_Click(object sender, EventArgs e)
+    {
+        MessageBox.Show(Maths.Hexagon.GetArea(5).ToString()); // Get area
+    }
 
-		private void button29_Click(object sender, EventArgs e)
-		{
-			RSACryptoServiceProvider cryptoServiceProvider = new RSACryptoServiceProvider();
-			string str = "LeoCorpLibrary";
-			byte[] encrypt = Crypt.EncryptRSA(str, cryptoServiceProvider.ExportParameters(false));
-			byte[] decrypt = Crypt.DecryptRSA(encrypt, cryptoServiceProvider.ExportParameters(true));
+    private void button29_Click(object sender, EventArgs e)
+    {
+        RSACryptoServiceProvider cryptoServiceProvider = new();
+        string str = "LeoCorpLibrary";
+        byte[] encrypt = Crypt.EncryptRSA(str, cryptoServiceProvider.ExportParameters(false));
+        byte[] decrypt = Crypt.DecryptRSA(encrypt, cryptoServiceProvider.ExportParameters(true));
 
-			MessageBox.Show($"Raw: {str}\nEncrypted: {Crypt.ConvertBytesToString(encrypt)}\nDecrypted: {Crypt.ConvertBytesToString(decrypt)}");
-		}
+        MessageBox.Show($"Raw: {str}\nEncrypted: {Crypt.ConvertBytesToString(encrypt)}\nDecrypted: {Crypt.ConvertBytesToString(decrypt)}");
+    }
 
-		private void button30_Click(object sender, EventArgs e)
-		{
-			string str = "LeoCorpLibrary";
-			string encrypt = Crypt.EncryptAES(str, "key");
-			string decrypt = Crypt.DecryptAES(encrypt, "key");
+    private void button30_Click(object sender, EventArgs e)
+    {
+        string str = "LeoCorpLibrary";
+        string encrypt = Crypt.EncryptAES(str, "key");
+        string decrypt = Crypt.DecryptAES(encrypt, "key");
 
-			MessageBox.Show($"Raw: {str}\nEncrypted: {encrypt}\nDecrypted: {decrypt}");
-		}
+        MessageBox.Show($"Raw: {str}\nEncrypted: {encrypt}\nDecrypted: {decrypt}");
+    }
 
-		private void button31_Click(object sender, EventArgs e)
-		{
-			MessageBox.Show($"This is a test sentence! & This is an another sentence!\n" +
-				$"Is same punctuation? {"This is a test sentence!".IsEndingWithSamePunctuation("This is an another sentence!")}\n\n" +
-				$"This is also a test sentence. & This is a sentence!\n" +
-				$"Is same punctuation? {"This is also a test sentence.".IsEndingWithSamePunctuation("This is a sentence!", "!")}");
-		}
+    private void button31_Click(object sender, EventArgs e)
+    {
+        MessageBox.Show($"This is a test sentence! & This is an another sentence!\n" +
+            $"Is same punctuation? {"This is a test sentence!".IsEndingWithSamePunctuation("This is an another sentence!")}\n\n" +
+            $"This is also a test sentence. & This is a sentence!\n" +
+            $"Is same punctuation? {"This is also a test sentence.".IsEndingWithSamePunctuation("This is a sentence!", "!")}");
+    }
 
-		private void button32_Click(object sender, EventArgs e)
-		{
-			double opposedSide = Maths.Trigonometry.GetTriangleOpposedSideFromHypotenuse(1.05, 10);
-			double adjacentSide = Maths.Trigonometry.GetTriangleAdjacentSideFromOpposedSide(1.05, 8.66);
-			double hypotenuse = Maths.Trigonometry.GetTriangleHypotenuseFromAdjacentSide(1.05, 5);
-			MessageBox.Show($"Trigonometry functions:\nExpected output:\n\nAdjacent: 5\nOpposed: 8.66\nHypotenuse: 10\n\n" +
-				$"Actual output:\n\nAdjacent: {adjacentSide}\nOpposed: {opposedSide}\nHypotenuse: {hypotenuse}");
-		}
+    private void button32_Click(object sender, EventArgs e)
+    {
+        double opposedSide = Maths.Trigonometry.GetTriangleOpposedSideFromHypotenuse(1.05, 10);
+        double adjacentSide = Maths.Trigonometry.GetTriangleAdjacentSideFromOpposedSide(1.05, 8.66);
+        double hypotenuse = Maths.Trigonometry.GetTriangleHypotenuseFromAdjacentSide(1.05, 5);
+        MessageBox.Show($"Trigonometry functions:\nExpected output:\n\nAdjacent: 5\nOpposed: 8.66\nHypotenuse: 10\n\n" +
+            $"Actual output:\n\nAdjacent: {adjacentSide}\nOpposed: {opposedSide}\nHypotenuse: {hypotenuse}");
+    }
 
-		private void button33_Click(object sender, EventArgs e)
-		{
-			string[] array = { "a", "b", "c", "d" };
-			string unSplit = array.UnSplit(";");
+    private void button33_Click(object sender, EventArgs e)
+    {
+        string[] array = { "a", "b", "c", "d" };
+        string unSplit = array.UnSplit(";");
 
-			MessageBox.Show($"Array: [a, b, c, d]\nUnSplit:\n{unSplit}");
-		}
+        MessageBox.Show($"Array: [a, b, c, d]\nUnSplit:\n{unSplit}");
+    }
 
-		private void button34_Click(object sender, EventArgs e)
-		{
-			string text = "Hello,\nWorld!";
-			string[] lines = text.SplitLines();
+    private void button34_Click(object sender, EventArgs e)
+    {
+        string text = "Hello,\nWorld!";
+        string[] lines = text.SplitLines();
 
-			string txt = "";
-			for (int i = 0; i < lines.Length; i++)
-			{
-				txt += $"lines[{i}] = {lines[i]}\n";
-			}
-			MessageBox.Show($"Split:\n\n{txt}");
-		}
+        string txt = "";
+        for (int i = 0; i < lines.Length; i++)
+        {
+            txt += $"lines[{i}] = {lines[i]}\n";
+        }
+        MessageBox.Show($"Split:\n\n{txt}");
+    }
 
-		private void button35_Click(object sender, EventArgs e)
-		{
-			// Launch Minecraft UWP
-			Env.LaunchUWPApp("Microsoft.MinecraftUWP_8wekyb3d8bbwe", "App"); // Launch
-		}
+    private void button35_Click(object sender, EventArgs e)
+    {
+        // Launch Minecraft UWP
+        Env.LaunchUWPApp("Microsoft.MinecraftUWP_8wekyb3d8bbwe", "App"); // Launch
+    }
 
-		private void button36_Click(object sender, EventArgs e)
-		{
-			MessageBox.Show($"10 miles in km:\n\nExpected Output: 16.09344km\nOutput: {UnitsConversions.MilesToKm(10)}km");
-		}
+    private void button36_Click(object sender, EventArgs e)
+    {
+        MessageBox.Show($"10 miles in km:\n\nExpected Output: 16.09344km\nOutput: {UnitsConversions.MilesToKm(10)}km");
+    }
 
-		private void button37_Click(object sender, EventArgs e)
-		{
-			MessageBox.Show($"https://leocorporation.dev/ \nValid? : {Helpers.IsUrlValid("https://leocorporation.dev/")}\n" +
-				$"Protocol : {Helpers.GetUrlProtocol("https://leocorporation.dev/")}\n" +
-				$"HTTPS? : {Helpers.IsUrlHttps("https://leocorporation.dev/")}");
-		}
+    private void button37_Click(object sender, EventArgs e)
+    {
+        MessageBox.Show($"https://leocorporation.dev/ \nValid? : {Helpers.IsUrlValid("https://leocorporation.dev/")}\n" +
+            $"Protocol : {Helpers.GetUrlProtocol("https://leocorporation.dev/")}\n" +
+            $"HTTPS? : {Helpers.IsUrlHttps("https://leocorporation.dev/")}");
+    }
 
-		private void button38_Click(object sender, EventArgs e)
-		{
-			MessageBox.Show($"Is integer?\n10.5 - {Maths.IsInteger(10.5)}\n" +
-				$"45 - {Maths.IsInteger(45)}\n" +
-				$"4.48 - {Maths.IsInteger(4.48)}\n" +
-				$"03 - {Maths.IsInteger(03)}\n");
-		}
-	}
+    private void button38_Click(object sender, EventArgs e)
+    {
+        MessageBox.Show($"Is integer?\n10.5 - {Maths.IsInteger(10.5)}\n" +
+            $"45 - {Maths.IsInteger(45)}\n" +
+            $"4.48 - {Maths.IsInteger(4.48)}\n" +
+            $"03 - {Maths.IsInteger(03)}\n");
+    }
 }

@@ -22,39 +22,31 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE. 
 */
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
 using System.IO;
-using System.Linq;
-using System.Text;
 using System.Threading;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace LABS_Experiences.Forms
-{
-	public partial class HasFilePermission : LABSForm
-	{
-		public HasFilePermission()
-		{
-			InitializeComponent();
-		}
+namespace LABS_Experiences.Forms;
 
-		private void button5_Click(object sender, EventArgs e)
-		{
-			try
-			{
-				Directory.CreateDirectory(textBox1.Text + @"\LABS");
-				MessageBox.Show("Directory created!");
-				Thread.Sleep(5000);
-				Directory.Delete(textBox1.Text + @"\LABS");
-			}
-			catch (Exception ex)
-			{
-				MessageBox.Show(ex.Message);
-			}
-		}
-	}
+public partial class HasFilePermission : LABSForm
+{
+    public HasFilePermission()
+    {
+        InitializeComponent();
+    }
+
+    private void button5_Click(object sender, EventArgs e)
+    {
+        try
+        {
+            Directory.CreateDirectory(textBox1.Text + @"\LABS");
+            MessageBox.Show("Directory created!");
+            Thread.Sleep(5000);
+            Directory.Delete(textBox1.Text + @"\LABS");
+        }
+        catch (Exception ex)
+        {
+            MessageBox.Show(ex.Message);
+        }
+    }
 }
