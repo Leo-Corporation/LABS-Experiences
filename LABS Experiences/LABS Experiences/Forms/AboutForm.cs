@@ -41,6 +41,7 @@ namespace LABS_Experiences.Forms
 		{
 			InitializeComponent();
 			label2.Text = $"Version {Global.Version}";
+			label3.Text = $".NET {Environment.Version.Major}.{Environment.Version.Minor}";
 		}
 
 		private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
