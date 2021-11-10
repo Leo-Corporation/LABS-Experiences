@@ -3,7 +3,7 @@
     <ProjectGuid>{40AD7618-0B10-45BD-8C46-241331B68B21}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>LABS_Experiences</RootNamespace>
-    <TargetFramework>net5.0-windows</TargetFramework>
+    <TargetFramework>net6.0-windows</TargetFramework>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <AssemblyTitle>LABS Experiences</AssemblyTitle>
     <Company>Léo Corporation</Company>
@@ -35,7 +35,7 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="ClosedXML" Version="0.95.4" />
-    <PackageReference Include="LeoCorpLibrary" Version="4.0.0.2111-rc1" />
+    <PackageReference Include="LeoCorpLibrary" Version="4.0.0.2111" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
