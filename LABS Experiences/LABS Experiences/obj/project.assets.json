@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net5.0-windows7.0": {
+    "net6.0-windows7.0": {
       "ClosedXML/0.95.4": {
         "type": "package",
         "dependencies": {
@@ -39,13 +39,13 @@
           "lib/netstandard2.0/ExcelNumberFormat.dll": {}
         }
       },
-      "LeoCorpLibrary/4.0.0.2111-rc1": {
+      "LeoCorpLibrary/4.0.0.2111": {
         "type": "package",
         "compile": {
-          "lib/net5.0-windows7.0/LeoCorpLibrary.dll": {}
+          "lib/net6.0-windows7.0/LeoCorpLibrary.dll": {}
         },
         "runtime": {
-          "lib/net5.0-windows7.0/LeoCorpLibrary.dll": {}
+          "lib/net6.0-windows7.0/LeoCorpLibrary.dll": {}
         },
         "frameworkReferences": [
           "Microsoft.WindowsDesktop.App"
@@ -1372,15 +1372,15 @@
         "lib/netstandard2.0/ExcelNumberFormat.xml"
       ]
     },
-    "LeoCorpLibrary/4.0.0.2111-rc1": {
-      "sha512": "M3gKpkidC52Z1DwOmFheCGZ2zt4XFpZp24ejuapeO4tVnleDi3sqiScGlOdqZjtpd065n/LQSxEgb4s1817H/A==",
+    "LeoCorpLibrary/4.0.0.2111": {
+      "sha512": "EOZimK2/R+YjSJjlcvx2bnb/66bXncKK1BQN6GLlpxfbCdSz9uzswYWna3VaPTAGFlUaRODjcu+ZPdkY6kOlxQ==",
       "type": "package",
-      "path": "leocorplibrary/4.0.0.2111-rc1",
+      "path": "leocorplibrary/4.0.0.2111",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "icon.png",
-        "leocorplibrary.4.0.0.2111-rc1.nupkg.sha512",
+        "leocorplibrary.4.0.0.2111.nupkg.sha512",
         "leocorplibrary.nuspec",
         "lib/net45/LeoCorpLibrary.dll",
         "lib/net45/LeoCorpLibrary.xml",
@@ -4804,9 +4804,9 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net5.0-windows7.0": [
+    "net6.0-windows7.0": [
       "ClosedXML >= 0.95.4",
-      "LeoCorpLibrary >= 4.0.0.2111-rc1"
+      "LeoCorpLibrary >= 4.0.0.2111"
     ]
   },
   "packageFolders": {
@@ -4834,7 +4834,7 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net5.0-windows7.0"
+        "net6.0-windows7.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -4842,8 +4842,8 @@
         "https://nuget.pkg.github.com/Leo-Corporation/index.json": {}
       },
       "frameworks": {
-        "net5.0-windows7.0": {
-          "targetAlias": "net5.0-windows",
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
           "projectReferences": {}
         }
       },
@@ -4854,8 +4854,8 @@
       }
     },
     "frameworks": {
-      "net5.0-windows7.0": {
-        "targetAlias": "net5.0-windows",
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
         "dependencies": {
           "ClosedXML": {
             "target": "Package",
@@ -4863,7 +4863,7 @@
           },
           "LeoCorpLibrary": {
             "target": "Package",
-            "version": "[4.0.0.2111-rc1, )"
+            "version": "[4.0.0.2111, )"
           }
         },
         "imports": [
@@ -4876,12 +4876,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[5.0.12, 5.0.12]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
