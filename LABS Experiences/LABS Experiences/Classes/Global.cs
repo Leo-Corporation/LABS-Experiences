@@ -21,31 +21,16 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE. 
 */
-using LABS_Experiences.Classes;
 using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Diagnostics;
-using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Windows.Forms;
 
-namespace LABS_Experiences.Forms
+namespace LABS_Experiences.Classes
 {
-	public partial class AboutForm : Form
-	{
-		public AboutForm()
-		{
-			InitializeComponent();
-			label2.Text = $"Version {Global.Version}";
-		}
-
-		private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-		{
-			Process.Start("https://github.com/Leo-Corporation/LABS-Experiences"); // Ouvrir le GitHub
-		}
-	}
+    internal static class Global
+    {
+        public static string Version => "1.15.0.2110";
+    }
 }
