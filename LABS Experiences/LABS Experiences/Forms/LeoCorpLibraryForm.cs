@@ -315,6 +315,14 @@ public partial class LeoCorpLibraryForm : Form
         MessageBox.Show($"Is integer?\n10.5 - {Maths.IsInteger(10.5)}\n" +
             $"45 - {Maths.IsInteger(45)}\n" +
             $"4.48 - {Maths.IsInteger(4.48)}\n" +
-            $"03 - {Maths.IsInteger(03)}\n");
+            $"03 - {Maths.IsInteger(03)}\n\n" +
+            $"Opposite of 45.6: {Maths.GetOpposite(45.6)}\n" +
+            $"Factorial of 5: {Maths.Factorial(5)}");
     }
+
+	private void button39_Click(object sender, EventArgs e)
+	{
+		MessageBox.Show($"Current theme: {Env.SystemTheme}\n" +
+            $"Supports dark theme? {Env.IsDarkThemeAvailable}");
+	}
 }
