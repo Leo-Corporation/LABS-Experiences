@@ -95,6 +95,7 @@ namespace LABS_Experiences.Forms
 			this.button37 = new System.Windows.Forms.Button();
 			this.button38 = new System.Windows.Forms.Button();
 			this.button39 = new System.Windows.Forms.Button();
+			this.button40 = new System.Windows.Forms.Button();
 			this.panel1.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
 			this.SuspendLayout();
@@ -773,12 +774,29 @@ namespace LABS_Experiences.Forms
 			this.button39.UseVisualStyleBackColor = false;
 			this.button39.Click += new System.EventHandler(this.button39_Click);
 			// 
+			// button40
+			// 
+			this.button40.BackColor = System.Drawing.Color.MediumSlateBlue;
+			this.button40.Cursor = System.Windows.Forms.Cursors.Hand;
+			this.button40.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.button40.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+			this.button40.ForeColor = System.Drawing.Color.White;
+			this.button40.Location = new System.Drawing.Point(942, 503);
+			this.button40.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+			this.button40.Name = "button40";
+			this.button40.Size = new System.Drawing.Size(220, 48);
+			this.button40.TabIndex = 36;
+			this.button40.Text = "Time Units";
+			this.button40.UseVisualStyleBackColor = false;
+			this.button40.Click += new System.EventHandler(this.button40_Click);
+			// 
 			// LeoCorpLibraryForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.Color.White;
 			this.ClientSize = new System.Drawing.Size(1187, 570);
+			this.Controls.Add(this.button40);
 			this.Controls.Add(this.button39);
 			this.Controls.Add(this.button38);
 			this.Controls.Add(this.button37);
@@ -878,5 +896,6 @@ namespace LABS_Experiences.Forms
 		private System.Windows.Forms.Button button37;
 		private System.Windows.Forms.Button button38;
 		private System.Windows.Forms.Button button39;
+		private System.Windows.Forms.Button button40;
 	}
 }

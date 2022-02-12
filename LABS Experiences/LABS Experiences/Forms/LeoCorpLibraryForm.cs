@@ -325,4 +325,13 @@ public partial class LeoCorpLibraryForm : Form
 		MessageBox.Show($"Current theme: {Env.SystemTheme}\n" +
             $"Supports dark theme? {Env.IsDarkThemeAvailable}");
 	}
+
+	private void button40_Click(object sender, EventArgs e)
+	{
+        double t = 10; // Seconds
+        MessageBox.Show($"Initial {t} seconds\n\n" +
+            $"ToSeconds: {t.ToSeconds(TimeUnits.Seconds)}\n" +
+            $"ToMinutes: {t.ToMinutes(TimeUnits.Seconds)}\n" +
+            $"ToHours: {t.ToHours(TimeUnits.Seconds)}\n");
+	}
 }
