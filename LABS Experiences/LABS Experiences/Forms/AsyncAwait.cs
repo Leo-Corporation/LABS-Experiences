@@ -23,6 +23,7 @@ SOFTWARE.
 */
 using LeoCorpLibrary;
 using System;
+using System.IO;
 using System.Net;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -85,5 +86,21 @@ public partial class AsyncAwait : LABSForm
         Task<string> task = new(() => Password.Generate(lenght, chars, separator));
         task.Start();
         return task;
+    }
+
+	private async void button5_Click(object sender, EventArgs e)
+	{
+        await DownloadAsync(new("https://raw.githubusercontent.com/Leo-Corporation/LeoCorp-Docs/master/Liens/Update%20System/Datalya/Datalya.zip"), @"D:\Datalya.zip");
+	}
+
+    public static async Task DownloadAsync(Uri uri, string filePath)
+    {
+        using (var s = await new System.Net.Http.HttpClient().GetStreamAsync(uri))
+        {
+            using (var fs = new FileStream(filePath, FileMode.CreateNew))
+            {
+                await s.CopyToAsync(fs);
+            }
+        }
     }
 }
