@@ -22,6 +22,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE. 
 */
 using LeoCorpLibrary;
+using LeoCorpLibrary.Enums;
 using LeoCorpLibrary.UI;
 using System;
 using System.Windows.Forms;
@@ -44,7 +45,7 @@ public partial class LeoCorpLibraryUI : LABSForm
 
     private void button2_Click(object sender, EventArgs e)
     {
-        WinFormsHelpers.CenterControlOnForm(label3, this, ControlAlignement.Vertical);
+        WinFormsHelpers.CenterControlOnForm(label3, this,  ControlAlignement.Vertical);
     }
 
     private void button1_Click(object sender, EventArgs e)
