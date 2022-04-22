@@ -35,7 +35,7 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="ClosedXML" Version="0.95.4" />
-    <PackageReference Include="LeoCorpLibrary" Version="4.4.0.2203" />
+    <PackageReference Include="LeoCorpLibrary" Version="4.5.0.2204" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
