@@ -335,4 +335,31 @@ public partial class LeoCorpLibraryForm : Form
             $"ToMinutes: {t.ToMinutes(TimeUnits.Seconds)}\n" +
             $"ToHours: {t.ToHours(TimeUnits.Seconds)}\n");
 	}
+
+	private void button41_Click(object sender, EventArgs e)
+	{
+        MessageBox.Show($"Positive of -54: {Maths.GetPositive(-54)}\n" +
+            $"Negative of 54: {Maths.GetNegative(54)}\n");
+	}
+
+	private void button42_Click(object sender, EventArgs e)
+	{
+        var squares = Maths.GetResultsOf(x => x * x, 1 / 3d, 2, 3, 4);
+		var cubes = Maths.GetResultsOf(x => x * x * x, 1 / 3d, 2, 3, 4);
+
+        string txt = "";
+		for (int i = 0; i < squares.Length; i++)
+		{
+			txt += $"squares[{i}] = {squares[i]}\n";
+		}
+
+		for (int i = 0; i < cubes.Length; i++)
+		{
+			txt += $"cubes[{i}] = {cubes[i]}\n";
+		}
+
+		MessageBox.Show($"Squares of 1/3, 1, 2, 3, 4\n" +
+            $"Cubes of 1/3, 1, 2, 3, 4: \n" +
+			$"{txt}");
+	}
 }

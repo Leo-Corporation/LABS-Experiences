@@ -96,6 +96,8 @@ namespace LABS_Experiences.Forms
 			this.button38 = new System.Windows.Forms.Button();
 			this.button39 = new System.Windows.Forms.Button();
 			this.button40 = new System.Windows.Forms.Button();
+			this.button41 = new System.Windows.Forms.Button();
+			this.button42 = new System.Windows.Forms.Button();
 			this.panel1.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
 			this.SuspendLayout();
@@ -790,12 +792,46 @@ namespace LABS_Experiences.Forms
 			this.button40.UseVisualStyleBackColor = false;
 			this.button40.Click += new System.EventHandler(this.button40_Click);
 			// 
+			// button41
+			// 
+			this.button41.BackColor = System.Drawing.Color.MediumSlateBlue;
+			this.button41.Cursor = System.Windows.Forms.Cursors.Hand;
+			this.button41.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.button41.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+			this.button41.ForeColor = System.Drawing.Color.White;
+			this.button41.Location = new System.Drawing.Point(31, 563);
+			this.button41.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+			this.button41.Name = "button41";
+			this.button41.Size = new System.Drawing.Size(220, 48);
+			this.button41.TabIndex = 37;
+			this.button41.Text = "Positive/Negative";
+			this.button41.UseVisualStyleBackColor = false;
+			this.button41.Click += new System.EventHandler(this.button41_Click);
+			// 
+			// button42
+			// 
+			this.button42.BackColor = System.Drawing.Color.MediumSlateBlue;
+			this.button42.Cursor = System.Windows.Forms.Cursors.Hand;
+			this.button42.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.button42.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+			this.button42.ForeColor = System.Drawing.Color.White;
+			this.button42.Location = new System.Drawing.Point(259, 563);
+			this.button42.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+			this.button42.Name = "button42";
+			this.button42.Size = new System.Drawing.Size(220, 48);
+			this.button42.TabIndex = 38;
+			this.button42.Text = "Squares and Cubes of x";
+			this.button42.UseVisualStyleBackColor = false;
+			this.button42.Click += new System.EventHandler(this.button42_Click);
+			// 
 			// LeoCorpLibraryForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.Color.White;
-			this.ClientSize = new System.Drawing.Size(1187, 570);
+			this.ClientSize = new System.Drawing.Size(1187, 623);
+			this.Controls.Add(this.button42);
+			this.Controls.Add(this.button41);
 			this.Controls.Add(this.button40);
 			this.Controls.Add(this.button39);
 			this.Controls.Add(this.button38);
@@ -897,5 +933,7 @@ namespace LABS_Experiences.Forms
 		private System.Windows.Forms.Button button38;
 		private System.Windows.Forms.Button button39;
 		private System.Windows.Forms.Button button40;
+		private System.Windows.Forms.Button button41;
+		private System.Windows.Forms.Button button42;
 	}
 }
