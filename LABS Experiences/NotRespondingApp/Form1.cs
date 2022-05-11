@@ -37,8 +37,14 @@ public partial class Form1 : Form
 				a *= 419489;
 				a /= Math.PI;
 				var b = 132465 + 4894 - a * a * a;
+				PerformOverflow();
 			}
 		};
+	}
+
+	void PerformOverflow()
+	{
+		PerformOverflow();
 	}
 
 	System.Windows.Forms.Timer timer = new() { Interval = 1000 };
