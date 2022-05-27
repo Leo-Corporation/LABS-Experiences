@@ -51,40 +51,40 @@ namespace LABS_Experiences.Forms
         /// </summary>
         private void InitializeComponent()
         {
-			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GetLastVersionAsync));
-			this.button2 = new System.Windows.Forms.Button();
-			this.SuspendLayout();
-			// 
-			// button2
-			// 
-			this.button2.BackColor = System.Drawing.Color.MediumSlateBlue;
-			this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
-			this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.button2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.button2.ForeColor = System.Drawing.Color.White;
-			this.button2.Location = new System.Drawing.Point(127, 141);
-			this.button2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-			this.button2.Name = "button2";
-			this.button2.Size = new System.Drawing.Size(220, 48);
-			this.button2.TabIndex = 5;
-			this.button2.Text = "Execute";
-			this.button2.UseVisualStyleBackColor = false;
-			this.button2.Click += new System.EventHandler(this.button2_Click);
-			// 
-			// GetLastVersionAsync
-			// 
-			this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(475, 235);
-			this.Controls.Add(this.button2);
-			this.Description = "Test on the GetLastVersion method";
-			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-			this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-			this.Name = "GetLastVersionAsync";
-			this.Text = "GetLastVersionAsync - LABS Experiences";
-			this.Title = "GetLastVersionAsync";
-			this.Controls.SetChildIndex(this.button2, 0);
-			this.ResumeLayout(false);
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GetLastVersionAsync));
+            this.button2 = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
+            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button2.ForeColor = System.Drawing.Color.White;
+            this.button2.Location = new System.Drawing.Point(127, 141);
+            this.button2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(220, 48);
+            this.button2.TabIndex = 5;
+            this.button2.Text = "Execute";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // GetLastVersionAsync
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(475, 235);
+            this.Controls.Add(this.button2);
+            this.Description = "Test on the GetLastVersion method";
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.Name = "GetLastVersionAsync";
+            this.Text = "GetLastVersionAsync - LABS Experiences";
+            this.Title = "GetLastVersionAsync";
+            this.Controls.SetChildIndex(this.button2, 0);
+            this.ResumeLayout(false);
 
         }
 
