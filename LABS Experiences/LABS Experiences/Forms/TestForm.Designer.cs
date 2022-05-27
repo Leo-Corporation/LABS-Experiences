@@ -51,21 +51,21 @@ namespace LABS_Experiences.Forms
         /// </summary>
         private void InitializeComponent()
         {
-			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TestForm));
-			this.SuspendLayout();
-			// 
-			// TestForm
-			// 
-			this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(695, 519);
-			this.Description = "This is a test form";
-			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-			this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-			this.Name = "TestForm";
-			this.Text = "Test Form - LABS Experiences";
-			this.Title = "Test Form";
-			this.ResumeLayout(false);
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TestForm));
+            this.SuspendLayout();
+            // 
+            // TestForm
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(695, 519);
+            this.Description = "This is a test form";
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.Name = "TestForm";
+            this.Text = "Test Form | Labs Experiences";
+            this.Title = "Test Form";
+            this.ResumeLayout(false);
 
         }
 

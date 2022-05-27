@@ -136,7 +136,7 @@ namespace LABS_Experiences.Forms
 			this.MaximizeBox = false;
 			this.Name = "AboutForm";
 			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-			this.Text = "About - LABS Experiences";
+			this.Text = "About | Labs Experiences";
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
 			this.ResumeLayout(false);
 			this.PerformLayout();

@@ -94,7 +94,7 @@ namespace LABS_Experiences.Forms
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Name = "TextDownloader";
-            this.Text = "TextDownloader - LABS Experiences";
+            this.Text = "TextDownloader | Labs Experiences";
             this.Title = "TextDownloader";
             this.Controls.SetChildIndex(this.button2, 0);
             this.Controls.SetChildIndex(this.label3, 0);

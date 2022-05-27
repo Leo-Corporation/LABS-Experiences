@@ -81,7 +81,7 @@ namespace LABS_Experiences.Forms
             this.Description = "Excel experimental stuff.";
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "ExcelForm";
-            this.Text = "Excel - LABS Experiences";
+            this.Text = "Excel | Labs Experiences";
             this.Title = "Excel";
             this.Controls.SetChildIndex(this.button34, 0);
             this.ResumeLayout(false);

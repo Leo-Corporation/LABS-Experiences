@@ -106,9 +106,9 @@ namespace LABS_Experiences
 			this.label2.Location = new System.Drawing.Point(98, 58);
 			this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.label2.Name = "label2";
-			this.label2.Size = new System.Drawing.Size(422, 19);
+			this.label2.Size = new System.Drawing.Size(425, 19);
 			this.label2.TabIndex = 0;
-			this.label2.Text = "LABS Experience is the place where all our experiences are gathered.";
+			this.label2.Text = "Labs Experiences is the place where all our experiences are gathered.";
 			// 
 			// label1
 			// 
@@ -395,7 +395,7 @@ namespace LABS_Experiences
 			this.MaximizeBox = false;
 			this.Name = "Form1";
 			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-			this.Text = "Accueil - LABS Experiences";
+			this.Text = "Home | Labs Experiences";
 			this.Load += new System.EventHandler(this.Form1_Load);
 			this.panel1.ResumeLayout(false);
 			this.panel1.PerformLayout();
