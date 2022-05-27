@@ -105,6 +105,7 @@ namespace LABS_Experiences.Forms
 			this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(30)))));
 			this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
 			this.textBox1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+			this.textBox1.ForeColor = System.Drawing.Color.White;
 			this.textBox1.Location = new System.Drawing.Point(80, 102);
 			this.textBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
 			this.textBox1.Name = "textBox1";
@@ -154,6 +155,7 @@ namespace LABS_Experiences.Forms
 			this.textBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(30)))));
 			this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
 			this.textBox2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+			this.textBox2.ForeColor = System.Drawing.Color.White;
 			this.textBox2.Location = new System.Drawing.Point(80, 137);
 			this.textBox2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
 			this.textBox2.Name = "textBox2";
@@ -192,6 +194,7 @@ namespace LABS_Experiences.Forms
 			this.textBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(30)))));
 			this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
 			this.textBox3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+			this.textBox3.ForeColor = System.Drawing.Color.White;
 			this.textBox3.Location = new System.Drawing.Point(155, 226);
 			this.textBox3.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
 			this.textBox3.Name = "textBox3";
@@ -214,6 +217,7 @@ namespace LABS_Experiences.Forms
 			this.textBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(30)))));
 			this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
 			this.textBox4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+			this.textBox4.ForeColor = System.Drawing.Color.White;
 			this.textBox4.Location = new System.Drawing.Point(155, 191);
 			this.textBox4.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
 			this.textBox4.Name = "textBox4";

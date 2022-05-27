@@ -228,6 +228,7 @@ namespace LABS_Experiences.Forms
             this.columnHeader2,
             this.columnHeader3});
 			this.listView1.Dock = System.Windows.Forms.DockStyle.Fill;
+			this.listView1.ForeColor = System.Drawing.Color.White;
 			this.listView1.FullRowSelect = true;
 			this.listView1.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
             listViewItem1,

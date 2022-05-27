@@ -80,6 +80,7 @@ namespace LABS_Experiences.Forms
 			// 
 			this.listBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(20)))));
 			this.listBox1.Dock = System.Windows.Forms.DockStyle.Bottom;
+			this.listBox1.ForeColor = System.Drawing.Color.White;
 			this.listBox1.FormattingEnabled = true;
 			this.listBox1.ItemHeight = 15;
 			this.listBox1.Location = new System.Drawing.Point(0, 238);
@@ -92,6 +93,7 @@ namespace LABS_Experiences.Forms
 			// 
 			this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(30)))));
 			this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+			this.textBox1.ForeColor = System.Drawing.Color.White;
 			this.textBox1.Location = new System.Drawing.Point(97, 157);
 			this.textBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
 			this.textBox1.Name = "textBox1";
@@ -102,6 +104,7 @@ namespace LABS_Experiences.Forms
 			// 
 			this.textBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(30)))));
 			this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+			this.textBox2.ForeColor = System.Drawing.Color.White;
 			this.textBox2.Location = new System.Drawing.Point(97, 187);
 			this.textBox2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
 			this.textBox2.Name = "textBox2";

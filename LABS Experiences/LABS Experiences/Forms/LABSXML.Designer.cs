@@ -95,6 +95,7 @@ namespace LABS_Experiences.Forms
 			this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(20)))));
 			this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
 			this.textBox1.Dock = System.Windows.Forms.DockStyle.Bottom;
+			this.textBox1.ForeColor = System.Drawing.Color.White;
 			this.textBox1.Location = new System.Drawing.Point(0, 283);
 			this.textBox1.Margin = new System.Windows.Forms.Padding(2);
 			this.textBox1.Multiline = true;

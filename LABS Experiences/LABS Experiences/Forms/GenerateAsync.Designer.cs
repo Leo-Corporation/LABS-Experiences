@@ -91,6 +91,7 @@ namespace LABS_Experiences.Forms
 			this.numericUpDown1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(30)))));
 			this.numericUpDown1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
 			this.numericUpDown1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+			this.numericUpDown1.ForeColor = System.Drawing.Color.White;
 			this.numericUpDown1.Location = new System.Drawing.Point(241, 112);
 			this.numericUpDown1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
 			this.numericUpDown1.Maximum = new decimal(new int[] {

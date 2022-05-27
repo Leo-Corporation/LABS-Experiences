@@ -61,6 +61,7 @@ namespace LABS_Experiences.Forms
 			this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(30)))));
 			this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
 			this.textBox1.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+			this.textBox1.ForeColor = System.Drawing.Color.White;
 			this.textBox1.Location = new System.Drawing.Point(49, 144);
 			this.textBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
 			this.textBox1.Name = "textBox1";
