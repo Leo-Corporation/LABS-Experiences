@@ -53,6 +53,7 @@ namespace LABS_Experiences.Forms
         private void InitializeComponent()
         {
 			this.components = new System.ComponentModel.Container();
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LeoCorpLibraryUI));
 			this.button11 = new System.Windows.Forms.Button();
 			this.button1 = new System.Windows.Forms.Button();
 			this.button2 = new System.Windows.Forms.Button();
@@ -182,6 +183,7 @@ namespace LABS_Experiences.Forms
 			this.Controls.Add(this.button1);
 			this.Controls.Add(this.button11);
 			this.Description = "Test on LeoCorpLibrary\'s UI methods";
+			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
 			this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
 			this.Name = "LeoCorpLibraryUI";
 			this.Text = "LeoCorpLibrary.UI - LABS Experiences";

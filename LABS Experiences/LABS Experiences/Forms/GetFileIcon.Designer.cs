@@ -51,45 +51,50 @@ namespace LABS_Experiences.Forms
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            this.SuspendLayout();
-            // 
-            // textBox1
-            // 
-            this.textBox1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(34, 240);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(386, 29);
-            this.textBox1.TabIndex = 13;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Location = new System.Drawing.Point(177, 113);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(100, 100);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 14;
-            this.pictureBox2.TabStop = false;
-            // 
-            // GetFileIcon
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(455, 285);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.textBox1);
-            this.Description = "Allows you to get the icon a file";
-            this.Name = "GetFileIcon";
-            this.Text = "GetFileIcon - LABS Experiences";
-            this.Title = "GetFileIcon";
-            this.Controls.SetChildIndex(this.textBox1, 0);
-            this.Controls.SetChildIndex(this.pictureBox2, 0);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            this.ResumeLayout(false);
-            this.PerformLayout();
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GetFileIcon));
+			this.textBox1 = new System.Windows.Forms.TextBox();
+			this.pictureBox2 = new System.Windows.Forms.PictureBox();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+			this.SuspendLayout();
+			// 
+			// textBox1
+			// 
+			this.textBox1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+			this.textBox1.Location = new System.Drawing.Point(40, 277);
+			this.textBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+			this.textBox1.Name = "textBox1";
+			this.textBox1.Size = new System.Drawing.Size(450, 29);
+			this.textBox1.TabIndex = 13;
+			this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+			// 
+			// pictureBox2
+			// 
+			this.pictureBox2.Location = new System.Drawing.Point(206, 130);
+			this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+			this.pictureBox2.Name = "pictureBox2";
+			this.pictureBox2.Size = new System.Drawing.Size(117, 115);
+			this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+			this.pictureBox2.TabIndex = 14;
+			this.pictureBox2.TabStop = false;
+			// 
+			// GetFileIcon
+			// 
+			this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+			this.ClientSize = new System.Drawing.Size(531, 329);
+			this.Controls.Add(this.pictureBox2);
+			this.Controls.Add(this.textBox1);
+			this.Description = "Allows you to get the icon a file";
+			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+			this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+			this.Name = "GetFileIcon";
+			this.Text = "GetFileIcon - LABS Experiences";
+			this.Title = "GetFileIcon";
+			this.Controls.SetChildIndex(this.textBox1, 0);
+			this.Controls.SetChildIndex(this.pictureBox2, 0);
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+			this.ResumeLayout(false);
+			this.PerformLayout();
 
         }
 

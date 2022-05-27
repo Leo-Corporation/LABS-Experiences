@@ -51,6 +51,7 @@ namespace LABS_Experiences.Forms
         /// </summary>
         private void InitializeComponent()
         {
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GetLastVersionAsync));
 			this.button2 = new System.Windows.Forms.Button();
 			this.SuspendLayout();
 			// 
@@ -77,6 +78,7 @@ namespace LABS_Experiences.Forms
 			this.ClientSize = new System.Drawing.Size(475, 235);
 			this.Controls.Add(this.button2);
 			this.Description = "Test on the GetLastVersion method";
+			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
 			this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
 			this.Name = "GetLastVersionAsync";
 			this.Text = "GetLastVersionAsync - LABS Experiences";

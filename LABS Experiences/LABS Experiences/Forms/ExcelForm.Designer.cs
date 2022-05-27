@@ -51,6 +51,7 @@ namespace LABS_Experiences.Forms
 		/// </summary>
 		private void InitializeComponent()
 		{
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ExcelForm));
 			this.button34 = new System.Windows.Forms.Button();
 			this.SuspendLayout();
 			// 
@@ -78,6 +79,7 @@ namespace LABS_Experiences.Forms
 			this.ClientSize = new System.Drawing.Size(800, 450);
 			this.Controls.Add(this.button34);
 			this.Description = "Excel experimental stuff.";
+			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
 			this.Name = "ExcelForm";
 			this.Text = "Excel - LABS Experiences";
 			this.Title = "Excel";

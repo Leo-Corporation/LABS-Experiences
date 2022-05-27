@@ -52,6 +52,7 @@ namespace LABS_Experiences.Forms
         private void InitializeComponent()
         {
 			this.components = new System.ComponentModel.Container();
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ProcessTimeOpened));
 			this.label3 = new System.Windows.Forms.Label();
 			this.button5 = new System.Windows.Forms.Button();
 			this.timer1 = new System.Windows.Forms.Timer(this.components);
@@ -229,6 +230,7 @@ namespace LABS_Experiences.Forms
 			this.Controls.Add(this.button5);
 			this.Controls.Add(this.label3);
 			this.Description = "Tests on processes";
+			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
 			this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
 			this.Name = "ProcessTimeOpened";
 			this.Text = "Process - LABS Experiences";
