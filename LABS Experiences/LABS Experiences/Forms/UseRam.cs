@@ -39,13 +39,13 @@ public partial class UseRam : Form
     {
         counter++;
         label3.Text = string.Format("I count: {0}", counter.ToString());
-        if (pictureBox2.Image == Properties.Resources.Logo) // Si le logo est présent
+        if (pictureBox2.Image == Properties.Resources.LABS_Logo) // Si le logo est présent
         {
             pictureBox2.Image = null; // Pas d'image
         }
         else
         {
-            pictureBox2.Image = Properties.Resources.Logo; // Image
+            pictureBox2.Image = Properties.Resources.LABS_Logo; // Image
         }
     }
 

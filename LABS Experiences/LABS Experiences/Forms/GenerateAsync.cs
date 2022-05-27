@@ -38,4 +38,9 @@ public partial class GenerateAsync : LABSForm
     {
         textBox1.Text = await Password.GenerateAsync((int)numericUpDown1.Value, PasswordPresets.Complex);
     }
+
+	private void GenerateAsync_Load(object sender, EventArgs e)
+	{
+
+	}
 }
