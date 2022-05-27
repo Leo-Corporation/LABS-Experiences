@@ -26,5 +26,5 @@ namespace LABS_Experiences.Classes;
 
 internal static class Global
 {
-    public static string Version => "1.15.0.2110";
+    public static string Version => "2.0.0.2205";
 }
