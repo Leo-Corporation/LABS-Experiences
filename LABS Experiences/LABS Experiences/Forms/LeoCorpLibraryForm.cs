@@ -51,7 +51,7 @@ public partial class LeoCorpLibraryForm : Form
 
     private void button3_Click(object sender, EventArgs e)
     {
-        MessageBox.Show(Env.GetOccupiedDriveSpace(@"C:\", UnitType.Gigabyte).ToString()); // Obtenir l'espace occupé du lecteur
+        MessageBox.Show($"{Env.GetOccupiedDriveSpace(@"C:\", UnitType.Gigabyte)}\n{Env.GetOccupiedSpacePercentage(new(@"C:\"))}"); // Obtenir l'espace occupé du lecteur
     }
 
     private void button4_Click(object sender, EventArgs e)
@@ -361,5 +361,10 @@ public partial class LeoCorpLibraryForm : Form
 		MessageBox.Show($"Squares of 1/3, 1, 2, 3, 4\n" +
             $"Cubes of 1/3, 1, 2, 3, 4: \n" +
 			$"{txt}");
+	}
+
+	private void button43_Click(object sender, EventArgs e)
+	{
+		MessageBox.Show(Env.CurrentAppDirectory);
 	}
 }

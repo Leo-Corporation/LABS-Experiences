@@ -49,11 +49,11 @@
           "dependencies": {
             "ClosedXML": {
               "target": "Package",
-              "version": "[0.95.4, )"
+              "version": "[0.96.0, )"
             },
             "LeoCorpLibrary": {
               "target": "Package",
-              "version": "[4.6.0.2205, )"
+              "version": "[4.8.0.2207-rc1, )"
             }
           },
           "imports": [
@@ -74,7 +74,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
