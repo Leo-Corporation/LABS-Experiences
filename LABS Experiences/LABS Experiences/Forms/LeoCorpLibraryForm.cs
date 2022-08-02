@@ -367,4 +367,10 @@ public partial class LeoCorpLibraryForm : Form
 	{
 		MessageBox.Show(Env.CurrentAppDirectory);
 	}
+
+	private void button44_Click(object sender, EventArgs e)
+	{
+		MessageBox.Show($"Highest: {Env.GetDriveWithHighestFreeSpace().Name}, available space: {Env.GetDriveWithHighestFreeSpace().AvailableFreeSpace}\n" +
+			$"Lowest: {Env.GetDriveWithLowestFreeSpace().Name}, available space: {Env.GetDriveWithLowestFreeSpace().AvailableFreeSpace}");
+	}
 }

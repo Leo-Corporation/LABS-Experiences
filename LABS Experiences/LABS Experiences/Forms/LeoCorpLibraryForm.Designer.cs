@@ -99,6 +99,7 @@ namespace LABS_Experiences.Forms
 			this.button41 = new System.Windows.Forms.Button();
 			this.button42 = new System.Windows.Forms.Button();
 			this.button43 = new System.Windows.Forms.Button();
+			this.button44 = new System.Windows.Forms.Button();
 			this.panel1.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
 			this.SuspendLayout();
@@ -842,12 +843,29 @@ namespace LABS_Experiences.Forms
 			this.button43.UseVisualStyleBackColor = false;
 			this.button43.Click += new System.EventHandler(this.button43_Click);
 			// 
+			// button44
+			// 
+			this.button44.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
+			this.button44.Cursor = System.Windows.Forms.Cursors.Hand;
+			this.button44.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.button44.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+			this.button44.ForeColor = System.Drawing.Color.White;
+			this.button44.Location = new System.Drawing.Point(715, 563);
+			this.button44.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+			this.button44.Name = "button44";
+			this.button44.Size = new System.Drawing.Size(220, 48);
+			this.button44.TabIndex = 40;
+			this.button44.Text = "DriveFreeSpaceHigh/Low";
+			this.button44.UseVisualStyleBackColor = false;
+			this.button44.Click += new System.EventHandler(this.button44_Click);
+			// 
 			// LeoCorpLibraryForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(20)))));
 			this.ClientSize = new System.Drawing.Size(1187, 623);
+			this.Controls.Add(this.button44);
 			this.Controls.Add(this.button43);
 			this.Controls.Add(this.button42);
 			this.Controls.Add(this.button41);
@@ -955,5 +973,6 @@ namespace LABS_Experiences.Forms
         private System.Windows.Forms.Button button41;
         private System.Windows.Forms.Button button42;
 		private System.Windows.Forms.Button button43;
+		private System.Windows.Forms.Button button44;
 	}
 }
