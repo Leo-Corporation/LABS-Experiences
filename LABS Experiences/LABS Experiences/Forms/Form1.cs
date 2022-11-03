@@ -129,4 +129,9 @@ public partial class Form1 : Form
     {
         new ExcelForm().Show(); // Show window
     }
+
+    private void button14_Click(object sender, EventArgs e)
+    {
+        new PeyrSharpForm().Show();
+    }
 }

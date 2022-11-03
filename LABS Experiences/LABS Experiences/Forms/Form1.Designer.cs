@@ -72,6 +72,7 @@ namespace LABS_Experiences
 			this.button11 = new System.Windows.Forms.Button();
 			this.button12 = new System.Windows.Forms.Button();
 			this.button13 = new System.Windows.Forms.Button();
+			this.button14 = new System.Windows.Forms.Button();
 			this.panel1.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
 			this.SuspendLayout();
@@ -365,12 +366,29 @@ namespace LABS_Experiences
 			this.button13.UseVisualStyleBackColor = false;
 			this.button13.Click += new System.EventHandler(this.button13_Click);
 			// 
+			// button14
+			// 
+			this.button14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
+			this.button14.Cursor = System.Windows.Forms.Cursors.Hand;
+			this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.button14.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+			this.button14.ForeColor = System.Drawing.Color.White;
+			this.button14.Location = new System.Drawing.Point(276, 409);
+			this.button14.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+			this.button14.Name = "button14";
+			this.button14.Size = new System.Drawing.Size(220, 62);
+			this.button14.TabIndex = 18;
+			this.button14.Text = "PeyrSharp";
+			this.button14.UseVisualStyleBackColor = false;
+			this.button14.Click += new System.EventHandler(this.button14_Click);
+			// 
 			// Form1
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(20)))));
 			this.ClientSize = new System.Drawing.Size(776, 523);
+			this.Controls.Add(this.button14);
 			this.Controls.Add(this.button13);
 			this.Controls.Add(this.button12);
 			this.Controls.Add(this.button11);
@@ -427,6 +445,7 @@ namespace LABS_Experiences
         private System.Windows.Forms.Button button11;
         private System.Windows.Forms.Button button12;
         private System.Windows.Forms.Button button13;
-    }
+		private System.Windows.Forms.Button button14;
+	}
 }
 
