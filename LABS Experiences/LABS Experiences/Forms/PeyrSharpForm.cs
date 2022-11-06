@@ -52,22 +52,22 @@ public partial class PeyrSharpForm : LABSForm
 
 	private void button25_Click(object sender, EventArgs e)
 	{
-		MessageBox.Show(PeyrSharp.Env.System.CurrentOperatingSystem.ToString());
+		MessageBox.Show(Sys.CurrentOperatingSystem.ToString());
 	}
 
 	private void button14_Click(object sender, EventArgs e)
 	{
-		MessageBox.Show(PeyrSharp.Env.System.CurrentWindowsVersion.ToString());
+		MessageBox.Show(Sys.CurrentWindowsVersion.ToString());
 	}
 
 	private void button15_Click(object sender, EventArgs e)
 	{
-		PeyrSharp.Env.System.ExecuteAsAdmin(@"C:\Windows\System32\cmd.exe");
+		Sys.ExecuteAsAdmin(@"C:\Windows\System32\cmd.exe");
 	}
 
 	private void button17_Click(object sender, EventArgs e)
 	{
-		MessageBox.Show(PeyrSharp.Env.System.UnixTime.ToString());
+		MessageBox.Show(Sys.UnixTime.ToString());
 	}
 
 	private void button24_Click(object sender, EventArgs e)
