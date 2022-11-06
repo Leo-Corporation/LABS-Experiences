@@ -176,15 +176,15 @@
           "System.Xml.XDocument": "4.3.0"
         }
       },
-      "PeyrSharp/1.0.0.2211-pre5": {
+      "PeyrSharp/1.0.0.2211": {
         "type": "package",
         "dependencies": {
-          "PeyrSharp.Core": "1.0.0.2211-pre5",
-          "PeyrSharp.Enums": "1.0.0.2211-pre5",
-          "PeyrSharp.Env": "1.0.0.2211-pre5",
-          "PeyrSharp.Exceptions": "1.0.0.2211-pre5",
-          "PeyrSharp.Extensions": "1.0.0.2211-pre5",
-          "PeyrSharp.UiHelpers": "1.0.0.2211-pre5"
+          "PeyrSharp.Core": "1.0.0.2211",
+          "PeyrSharp.Enums": "1.0.0.2211",
+          "PeyrSharp.Env": "1.0.0.2211",
+          "PeyrSharp.Exceptions": "1.0.0.2211",
+          "PeyrSharp.Extensions": "1.0.0.2211",
+          "PeyrSharp.UiHelpers": "1.0.0.2211"
         },
         "compile": {
           "lib/net6.0-windows7.0/PeyrSharp.dll": {
@@ -197,11 +197,11 @@
           }
         }
       },
-      "PeyrSharp.Core/1.0.0.2211-pre5": {
+      "PeyrSharp.Core/1.0.0.2211": {
         "type": "package",
         "dependencies": {
-          "PeyrSharp.Enums": "1.0.0.2211-pre5",
-          "PeyrSharp.Exceptions": "1.0.0.2211-pre5"
+          "PeyrSharp.Enums": "1.0.0.2211",
+          "PeyrSharp.Exceptions": "1.0.0.2211"
         },
         "compile": {
           "lib/net6.0/PeyrSharp.Core.dll": {
@@ -214,7 +214,7 @@
           }
         }
       },
-      "PeyrSharp.Enums/1.0.0.2211-pre5": {
+      "PeyrSharp.Enums/1.0.0.2211": {
         "type": "package",
         "compile": {
           "lib/net6.0/PeyrSharp.Enums.dll": {
@@ -227,10 +227,10 @@
           }
         }
       },
-      "PeyrSharp.Env/1.0.0.2211-pre5": {
+      "PeyrSharp.Env/1.0.0.2211": {
         "type": "package",
         "dependencies": {
-          "PeyrSharp.Enums": "1.0.0.2211-pre5"
+          "PeyrSharp.Enums": "1.0.0.2211"
         },
         "compile": {
           "lib/net6.0/PeyrSharp.Env.dll": {
@@ -243,7 +243,7 @@
           }
         }
       },
-      "PeyrSharp.Exceptions/1.0.0.2211-pre5": {
+      "PeyrSharp.Exceptions/1.0.0.2211": {
         "type": "package",
         "compile": {
           "lib/net6.0/PeyrSharp.Exceptions.dll": {
@@ -256,10 +256,10 @@
           }
         }
       },
-      "PeyrSharp.Extensions/1.0.0.2211-pre5": {
+      "PeyrSharp.Extensions/1.0.0.2211": {
         "type": "package",
         "dependencies": {
-          "PeyrSharp.Enums": "1.0.0.2211-pre5"
+          "PeyrSharp.Enums": "1.0.0.2211"
         },
         "compile": {
           "lib/net6.0/PeyrSharp.Extensions.dll": {
@@ -272,10 +272,10 @@
           }
         }
       },
-      "PeyrSharp.UiHelpers/1.0.0.2211-pre5": {
+      "PeyrSharp.UiHelpers/1.0.0.2211": {
         "type": "package",
         "dependencies": {
-          "PeyrSharp.Enums": "1.0.0.2211-pre5"
+          "PeyrSharp.Enums": "1.0.0.2211"
         },
         "compile": {
           "lib/net6.0-windows7.0/PeyrSharp.UiHelpers.dll": {
@@ -1775,12 +1775,13 @@
         "netstandard.library.nuspec"
       ]
     },
-    "PeyrSharp/1.0.0.2211-pre5": {
-      "sha512": "R1YO7zmkAMkUkbFQghG66HzG+87HiIEp19OVnD+rpHjWSx+NU58aVpzIqwgMN9Hp8Ez74GmMktkwdu9KFoefaA==",
+    "PeyrSharp/1.0.0.2211": {
+      "sha512": "Ze2LIl0drWJhcd6Hg/uiFG7TWgtCk5Fhh+f4v/zMkOCa/mUMzq0cUDpIRxjfW2kVVaHAPYp/g1vZtyiCqRGgrQ==",
       "type": "package",
-      "path": "peyrsharp/1.0.0.2211-pre5",
+      "path": "peyrsharp/1.0.0.2211",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "NUGET_README.md",
         "lib/net5.0-windows7.0/PeyrSharp.dll",
         "lib/net5.0-windows7.0/PeyrSharp.xml",
@@ -1791,14 +1792,14 @@
         "lib/net6.0/PeyrSharp.dll",
         "lib/net6.0/PeyrSharp.xml",
         "logo.png",
-        "peyrsharp.1.0.0.2211-pre5.nupkg.sha512",
+        "peyrsharp.1.0.0.2211.nupkg.sha512",
         "peyrsharp.nuspec"
       ]
     },
-    "PeyrSharp.Core/1.0.0.2211-pre5": {
-      "sha512": "Tw32I9HBP6z2b88BhXKLL+VR0iycvB2ZEDc9hFN0LvWw0sSiQXF+gKCuh29ZZCP7iRiMrtb8LqWr4t1AwmzEqg==",
+    "PeyrSharp.Core/1.0.0.2211": {
+      "sha512": "ojfMz/lbfoxOBzx28O7wYpgH3qhhwo9OkME+UHTlpre7aNOEhtGg+2M3ouD7E4IQYl0pzfG195IhwJ/Fzf55Zw==",
       "type": "package",
-      "path": "peyrsharp.core/1.0.0.2211-pre5",
+      "path": "peyrsharp.core/1.0.0.2211",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1808,14 +1809,14 @@
         "lib/net6.0/PeyrSharp.Core.dll",
         "lib/net6.0/PeyrSharp.Core.xml",
         "logo.png",
-        "peyrsharp.core.1.0.0.2211-pre5.nupkg.sha512",
+        "peyrsharp.core.1.0.0.2211.nupkg.sha512",
         "peyrsharp.core.nuspec"
       ]
     },
-    "PeyrSharp.Enums/1.0.0.2211-pre5": {
-      "sha512": "QtQIV+cTEH7mFg9AOLh8uPKrb17I9NudfdZZBBbAFyLNWSDqV2KMJDFjP9r3E6S5L0Ht7+jYr9+eAqIHM37Miw==",
+    "PeyrSharp.Enums/1.0.0.2211": {
+      "sha512": "c2nZHPwYn61jIH1exe0O6twcQ9tKt/O9dTrnd+ckFo4/+hwAwl6Pf3KUiQ3ONvCkSD4YJbpp4r8Netkx3nlbeA==",
       "type": "package",
-      "path": "peyrsharp.enums/1.0.0.2211-pre5",
+      "path": "peyrsharp.enums/1.0.0.2211",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1825,14 +1826,14 @@
         "lib/net6.0/PeyrSharp.Enums.dll",
         "lib/net6.0/PeyrSharp.Enums.xml",
         "logo.png",
-        "peyrsharp.enums.1.0.0.2211-pre5.nupkg.sha512",
+        "peyrsharp.enums.1.0.0.2211.nupkg.sha512",
         "peyrsharp.enums.nuspec"
       ]
     },
-    "PeyrSharp.Env/1.0.0.2211-pre5": {
-      "sha512": "Qd/oetRlVteyMfxmXKVnnybmWQZamq9WYH0TVAjGOLc+nF0kmlrQHw9IZq/uBgaY7t+CPX3jfggiXeVTsu+zig==",
+    "PeyrSharp.Env/1.0.0.2211": {
+      "sha512": "RrXAAogPsmGNGnbg37WS+VWhPqYl+MsV0XYy5HAmSckKINDd/U5wTyIA/Da2+FfzgX2S3bjwVRGWMDWjBm+nnQ==",
       "type": "package",
-      "path": "peyrsharp.env/1.0.0.2211-pre5",
+      "path": "peyrsharp.env/1.0.0.2211",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1842,14 +1843,14 @@
         "lib/net6.0/PeyrSharp.Env.dll",
         "lib/net6.0/PeyrSharp.Env.xml",
         "logo.png",
-        "peyrsharp.env.1.0.0.2211-pre5.nupkg.sha512",
+        "peyrsharp.env.1.0.0.2211.nupkg.sha512",
         "peyrsharp.env.nuspec"
       ]
     },
-    "PeyrSharp.Exceptions/1.0.0.2211-pre5": {
-      "sha512": "BbY6qxjJ9pNONN7sWnwc7pXrL9jAHrtWAVtQt1q7iVjZB9VHr7H4Xt0DJnaiOUvOQMnZPlclBIx27KBQntOQGw==",
+    "PeyrSharp.Exceptions/1.0.0.2211": {
+      "sha512": "RzN2rpgZw/vLossa0HbG6vkHJrl6dQQyhV1xNFCgia11Yw41ddHRJynRfaLa/Y0vGeaKrwmFYd5uqSpPE5nZFw==",
       "type": "package",
-      "path": "peyrsharp.exceptions/1.0.0.2211-pre5",
+      "path": "peyrsharp.exceptions/1.0.0.2211",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1859,14 +1860,14 @@
         "lib/net6.0/PeyrSharp.Exceptions.dll",
         "lib/net6.0/PeyrSharp.Exceptions.xml",
         "logo.png",
-        "peyrsharp.exceptions.1.0.0.2211-pre5.nupkg.sha512",
+        "peyrsharp.exceptions.1.0.0.2211.nupkg.sha512",
         "peyrsharp.exceptions.nuspec"
       ]
     },
-    "PeyrSharp.Extensions/1.0.0.2211-pre5": {
-      "sha512": "Lyk65lXu6Ls1+tWoI8nHA90IakqduzcFElje9fcR6QwLFMAkhrF9f+mjtHruCabWEQwhph+sS7CtEFCU9+dIoA==",
+    "PeyrSharp.Extensions/1.0.0.2211": {
+      "sha512": "4v7b9AQ6cMftcp9/215HAmND/cSKqtvOb4JMNeq0X0S0klrqkpeonp6oliAFNU3qOKIY1pzd58RTP0CreZUROw==",
       "type": "package",
-      "path": "peyrsharp.extensions/1.0.0.2211-pre5",
+      "path": "peyrsharp.extensions/1.0.0.2211",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1876,14 +1877,14 @@
         "lib/net6.0/PeyrSharp.Extensions.dll",
         "lib/net6.0/PeyrSharp.Extensions.xml",
         "logo.png",
-        "peyrsharp.extensions.1.0.0.2211-pre5.nupkg.sha512",
+        "peyrsharp.extensions.1.0.0.2211.nupkg.sha512",
         "peyrsharp.extensions.nuspec"
       ]
     },
-    "PeyrSharp.UiHelpers/1.0.0.2211-pre5": {
-      "sha512": "jY9aR8uZvZDqWAq7fhd+iM5vHEB9SzvKmtbqt6oTzlUNSUAK5KQtqjNNP30WS3+bgvbtbZ3fvY6tF861s91L6A==",
+    "PeyrSharp.UiHelpers/1.0.0.2211": {
+      "sha512": "bqRjD4MoB3xv16V7LxymGcTcpDetQhXt/fkBnsgjTsA7fZNJ0qHqYekU3IALa+wPOJCoPoDDZuoRtSUEgxk+gQ==",
       "type": "package",
-      "path": "peyrsharp.uihelpers/1.0.0.2211-pre5",
+      "path": "peyrsharp.uihelpers/1.0.0.2211",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1893,7 +1894,7 @@
         "lib/net6.0-windows7.0/PeyrSharp.UiHelpers.dll",
         "lib/net6.0-windows7.0/PeyrSharp.UiHelpers.xml",
         "logo.png",
-        "peyrsharp.uihelpers.1.0.0.2211-pre5.nupkg.sha512",
+        "peyrsharp.uihelpers.1.0.0.2211.nupkg.sha512",
         "peyrsharp.uihelpers.nuspec"
       ]
     },
@@ -5188,7 +5189,7 @@
     "net6.0-windows7.0": [
       "ClosedXML >= 0.97.0",
       "LeoCorpLibrary >= 4.9.0.2208",
-      "PeyrSharp >= 1.0.0.2211-pre5"
+      "PeyrSharp >= 1.0.0.2211"
     ]
   },
   "packageFolders": {
@@ -5250,7 +5251,7 @@
           },
           "PeyrSharp": {
             "target": "Package",
-            "version": "[1.0.0.2211-pre5, )"
+            "version": "[1.0.0.2211, )"
           }
         },
         "imports": [
