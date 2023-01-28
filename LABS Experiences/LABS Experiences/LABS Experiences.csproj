@@ -34,7 +34,7 @@
     <AssemblyOriginatorKeyFile>Cert.pfx</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="ClosedXML" Version="0.97.0" />
+    <PackageReference Include="ClosedXML" Version="0.100.3" />
     <PackageReference Include="LeoCorpLibrary" Version="4.9.0.2208" />
     <PackageReference Include="PeyrSharp" Version="1.1.0.2212" />
   </ItemGroup>
