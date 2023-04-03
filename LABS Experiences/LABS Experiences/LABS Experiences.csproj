@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <ProjectGuid>{40AD7618-0B10-45BD-8C46-241331B68B21}</ProjectGuid>
     <OutputType>WinExe</OutputType>
@@ -36,7 +36,7 @@
   <ItemGroup>
     <PackageReference Include="ClosedXML" Version="0.100.3" />
     <PackageReference Include="LeoCorpLibrary" Version="4.9.0.2208" />
-    <PackageReference Include="PeyrSharp" Version="1.3.0.2302" />
+    <PackageReference Include="PeyrSharp" Version="1.5.0.2304" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
