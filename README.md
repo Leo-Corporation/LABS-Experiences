@@ -1,7 +1,7 @@
 ![GitHub contributors](https://img.shields.io/github/contributors/Leo-Corporation/LABS-Experiences)
 ![GitHub issues](https://img.shields.io/github/issues/Leo-Corporation/LABS-Experiences)
 ![GitHub](https://img.shields.io/github/license/Leo-Corporation/LABS-Experiences)
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/Leo-Corporation/LABS-Experiences/.NET%20CI) 
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/Leo-Corporation/LABS-Experiences/dotnetframework.yml) 
 ![Using PeyrSharp](https://img.shields.io/badge/using-PeyrSharp-DD00FF?logo=nuget)
 <br />
 <p align="center">
