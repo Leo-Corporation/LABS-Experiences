@@ -36,7 +36,7 @@
   <ItemGroup>
     <PackageReference Include="ClosedXML" Version="0.102.1" />
     <PackageReference Include="LeoCorpLibrary" Version="4.9.0.2208" />
-    <PackageReference Include="PeyrSharp" Version="1.10.0.2310" />
+    <PackageReference Include="PeyrSharp" Version="2.1.0.2312" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
